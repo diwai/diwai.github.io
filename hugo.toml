@@ -102,4 +102,4 @@ defaultContentLanguageInSubdir = false
 # (looks like "G-XXXXXXXXXX", from analytics.google.com → Admin → Data streams).
 # The tag is emitted only in production builds (`hugo`), never in `hugo server`.
 [services.googleAnalytics]
-  ID = "G-XXXXXXXXXX"
+  ID = "G-T3NE4EMELQ"
