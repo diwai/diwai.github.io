@@ -96,10 +96,3 @@ defaultContentLanguageInSubdir = false
 # Build settings
 [minify]
   disableXML = true
-
-# --- Analytics -------------------------------------------------
-# Google Analytics 4. Replace the ID below with your own Measurement ID
-# (looks like "G-XXXXXXXXXX", from analytics.google.com → Admin → Data streams).
-# The tag is emitted only in production builds (`hugo`), never in `hugo server`.
-[services.googleAnalytics]
-  ID = "G-T3NE4EMELQ"

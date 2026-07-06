@@ -31,27 +31,6 @@
   <meta name="description" content="{{ .Description | default .Site.Params.description }}">
   {{ hugo.Generator }}
 
-  <!-- Google Analytics (GA4), cookieless — emitted only in production builds (`hugo`), not in `hugo server`.
-       Consent Mode defaults every storage type to "denied" and never prompts, so GA4 runs without cookies
-       (no device storage → no cookie-consent banner needed), sending only anonymised aggregate pings. -->
-  {{ if and hugo.IsProduction (not hugo.IsServer) }}
-  {{- with site.Config.Services.GoogleAnalytics.ID }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      'ad_storage': 'denied',
-      'ad_user_data': 'denied',
-      'ad_personalization': 'denied',
-      'analytics_storage': 'denied'
-    });
-    gtag('js', new Date());
-    gtag('config', '{{ . }}');
-  </script>
-  {{- end }}
-  {{ end }}
-
   <!-- hreflang alternates for EN/JA -->
   {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">

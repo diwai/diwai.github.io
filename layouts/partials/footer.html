@@ -5,9 +5,6 @@
         <img src="{{ . }}" alt="The University of Osaka" loading="lazy">
       </a>
     {{ end }}
-    <div class="footer-meta">
-      <a class="footer-link" href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a>
-      <p class="copyright">© {{ now.Year }} {{ .Site.Params.copyrightName }}</p>
-    </div>
+    <p class="copyright">© {{ now.Year }} {{ .Site.Params.copyrightName }}</p>
   </div>
 </footer>
