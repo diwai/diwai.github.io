@@ -3,7 +3,7 @@
 #  Docs: https://gohugo.io/getting-started/configuration/
 # ============================================================
 
-baseURL = "https://daisukeiwai.org/"
+baseURL = "https://diwai.github.io/"
 title = "Daisuke Iwai"
 
 # personal site — no blog taxonomies
