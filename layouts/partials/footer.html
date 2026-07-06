@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    {{ with .Site.Params.footerLogo }}
+      <a href="{{ $.Site.Params.footerLogoUrl }}" class="footer-logo">
+        <img src="{{ . }}" alt="The University of Osaka" loading="lazy">
+      </a>
+    {{ end }}
+    <p class="copyright">© {{ now.Year }} {{ .Site.Params.copyrightName }}</p>
+  </div>
+</footer>

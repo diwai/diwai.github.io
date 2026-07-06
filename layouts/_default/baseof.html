@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+{{ partial "head.html" . }}
+<body>
+  <a class="skip-link" href="#main">{{ i18n "skipToContent" }}</a>
+  {{ partial "header.html" . }}
+  <main id="main" class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <button id="to-top" class="to-top" type="button" aria-label="Back to top" hidden>↑</button>
+  <script>
+    /* Remember the visitor's explicit language choice so the auto-redirect
+       on "/" respects it on later visits. */
+    (function () {
+      var box = document.querySelector('.lang-switch');
+      if (!box) return;
+      box.addEventListener('click', function (e) {
+        var a = e.target.closest('a');
+        if (!a) return;
+        var t = (a.textContent || '').trim().toLowerCase();
+        try { localStorage.setItem('preferredLang', t.indexOf('en') === 0 ? 'en' : 'ja'); } catch (_) {}
+      });
+    })();
+  </script>
+  <script>
+    (function () {
+      var b = document.getElementById('to-top');
+      if (!b) return;
+      function toggle() { b.hidden = window.scrollY < 400; }
+      window.addEventListener('scroll', toggle, { passive: true });
+      b.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+      toggle();
+    })();
+  </script>
+</body>
+</html>

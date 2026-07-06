@@ -1,0 +1,51 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{- if .IsHome }}
+  <script>
+    /* Static-site language routing: send visitors on the Japanese home ("/")
+       to "/en/" when their browser isn't set to Japanese. An explicit choice
+       made via the EN/JA switcher (stored below) always takes precedence, and
+       only "/" ever redirects — so there are no loops and deep links are kept. */
+    (function () {
+      try {
+        var p = location.pathname;
+        if (p !== '/' && p !== '/index.html') return;
+        var pref = localStorage.getItem('preferredLang');
+        if (pref === 'ja') return;
+        if (pref === 'en') { location.replace('/en/'); return; }
+        var langs = navigator.languages || [navigator.language || 'ja'];
+        if ((langs[0] || '').toLowerCase().indexOf('ja') !== 0) location.replace('/en/');
+      } catch (e) {}
+    })();
+  </script>
+  {{- end }}
+
+  {{- $title := .Title | default .Site.Title -}}
+  {{- if .IsHome -}}
+    <title>{{ .Site.Title }}</title>
+  {{- else -}}
+    <title>{{ $title }} · {{ .Site.Title }}</title>
+  {{- end }}
+  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  {{ hugo.Generator }}
+
+  <!-- Google Analytics (GA4) — emitted only in production builds (`hugo`), not in `hugo server` -->
+  {{ if and hugo.IsProduction (not hugo.IsServer) }}{{ template "_internal/google_analytics.html" . }}{{ end }}
+
+  <!-- hreflang alternates for EN/JA -->
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+
+  <!-- Font: Open Sans (matches daisukeiwai.org) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+  <link rel="icon" href="/images/favicon.jpg">
+</head>

@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relLangURL }}">Daisuke&nbsp;Iwai</a>
+
+    <nav class="nav" aria-label="{{ i18n "primaryNav" }}">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+        <a href="{{ .URL }}"{{ if $active }} class="is-active" aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="{{ i18n "language" }}">
+      {{ $p := . }}
+      {{ range .Site.Languages }}
+        {{ $lang := . }}
+        {{- $target := "" -}}
+        {{- if eq $lang.Lang $p.Site.Language.Lang -}}
+          {{- $target = $p.Permalink -}}
+        {{- else -}}
+          {{- with index (where $p.AllTranslations "Site.Language.Lang" $lang.Lang) 0 -}}
+            {{- $target = .Permalink -}}
+          {{- else -}}
+            {{- $target = ($lang.Lang | relLangURL) -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $active := eq $lang.Lang $p.Site.Language.Lang -}}
+        <a href="{{ $target }}" class="lang-opt{{ if $active }} is-active{{ end }}"{{ if $active }} aria-current="true"{{ end }}>{{ if eq $lang.Lang "en" }}EN{{ else }}JA{{ end }}</a>
+      {{ end }}
+    </div>
+  </div>
+</header>

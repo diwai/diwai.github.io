@@ -1,0 +1,1435 @@
+# 全業績データ（英文・和文を統合）。
+#   * ja_only を持たないセクション … 英語・日本語ページ両方に表示
+#   * ja_only: true のセクション   … 日本語ページのみに表示（和文業績）
+# 1件追加するには該当セクションの entries: の下に - cite: "..." と links: を足すだけ。
+sections:
+  - id: books
+    title_en: "Books"
+    title_ja: "著書"
+    entries:
+      - cite: "Iwai, D., Itoh, Y. (2026). Augmenting Reality with Shitsukan. In: Nishida, S., Nishino, K. (eds) Shitsukan—Understanding and Manipulating Material and Quality Perception. Springer, Singapore."
+        links:
+          - { icon: "📄", label: "Springer (open access)", url: "https://doi.org/10.1007/978-981-95-4762-3_11" }
+  - id: journal
+    title_en: "Journal Articles and Letters"
+    title_ja: "学術論文・レター"
+    entries:
+      - cite: "Takahiro Okamoto\\*, Masaki Takeuchi\\*, Masataka Sawayama, and **Daisuke Iwai**, “Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), Vol. 32, No. 5, pp. 3033-3043, 2026. (\\*equal contribution)"
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2026.3679111" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2603.11551" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/DEDGYcM5H84" }
+          - { icon: "📢", label: "Press release", url: "https://www.eurekalert.org/news-releases/1120467" }
+          - { icon: "🏆", label: "Best Paper Award (IEEE VR 2026)", url: "https://ieeevr.org/2026/awards/conference-awards/" }
+      - cite: "Kotaro Fujimura, Hiroki Kusuyama, Masaki Takeuchi, and **Daisuke Iwai**, “High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), Vol. 32, No. 5, pp. 4250-4259, 2026."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2026.3679878" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2603.11573" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/lILZRiP7yps" }
+          - { icon: "📢", label: "Press release", url: "https://www.eurekalert.org/news-releases/1121276" }
+          - { icon: "🎖️", label: "Honorable Mention for Best Paper (IEEE VR 2026)", url: "https://ieeevr.org/2026/awards/conference-awards/" }
+      - cite: "Yoshiaki Maeda and **Daisuke Iwai**, “Projector radiometric compensation using a 2D spectroradiometer,” Optics Express, Vol. 34, No. 9, pp. 15979-15993, 2026."
+        links:
+          - { icon: "📄", label: "Optica (open access)", url: "https://doi.org/10.1364/OE.596052" }
+      - cite: "Hiroki Kusuyama, Tomoya Nakamura, and **Daisuke Iwai**, “Shadowless projector using coded large-aperture Fresnel lens,” Optics Express, Vol. 34, No. 5, pp. 7791-7808, 2026."
+        links:
+          - { icon: "📄", label: "Optica (open access)", url: "https://doi.org/10.1364/OE.587813" }
+      - cite: "Masaki Takeuchi, Kowa Koida, and **Daisuke Iwai**, “Luminosity thresholds in projection mapping under environmental lighting,” Frontiers in Virtual Reality, Volume 6, Article 1649901, 2025."
+        links:
+          - { icon: "📄", label: "Frontiers (open access)", url: "https://doi.org/10.3389/frvir.2025.1649901" }
+      - cite: "Ryotaro Yoshida, Toshihiro Hara, Yusaku Takeda, Kenji Murase, **Daisuke Iwai**, and Kosuke Sato, “A Mixed Reality Car A-Pillar Design Support System Utilizing Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics, Vol. 31, No. 10, pp. 7674-7683, 2025."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2025.3554037" }
+      - cite: "Shiva Sinaei, **Daisuke Iwai**, Kosuke Sato, “Artificial Blur Effect for Optical See-through Near-Eye Displays,” IEEE Access, Vol. 13, pp. 140382-140391, 2025."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2025.3595907" }
+      - cite: "Hiroki Kusuyama, Yuta Kageyama, **Daisuke Iwai**, and Kosuke Sato, “A Multi-aperture Coaxial Projector Balancing Shadow Suppression and Deblurring,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 30, No. 11, pp. 7031-7041, 2024."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2024.3456170" }
+      - cite: "Yuta Kageyama, **Daisuke Iwai**, and Kosuke Sato, “Efficient Distortion-Free Neural Projector Deblurring in Dynamic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics, Vol. 30, No. 12, pp. 7544-7557, 2024."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2024.3354957" }
+      - cite: "**Daisuke Iwai**, “Projection Mapping Technologies: A Review of Current Trends and Future Directions,” Proceedings of the Japan Academy, Series B, Vol. 100, No. 3, pp. 234-251, 2024."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://doi.org/10.2183/pjab.100.012" }
+      - cite: "Masaki Takeuchi, Hiroki Kusuyama, **Daisuke Iwai**, and Kosuke Sato, “Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 30, No. 5, pp. 2151-2161, 2024."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2024.3372031" }
+          - { icon: "📄", label: "Preprint", url: "http://arxiv.org/abs/2403.02547" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/qEutemEzs10" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2024/20240315_1" }
+          - { icon: "🏆", label: "Best Paper Award (IEEE VR 2024)", url: "https://ieeevr.org/2024/awards/conference-awards/#conference-best" }
+          - { icon: "🏆", label: "第40回電気通信普及財団賞 (テレコムシステム技術賞) 奨励賞", url: "https://www.taf.or.jp/files/items/17/File/%E6%AD%B4%E4%BB%A3%E5%8F%97%E8%B3%9E%E8%80%85-%E3%83%86%E3%83%AC%E3%82%B3%E3%83%A0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%8A%80%E8%A1%93%E8%B3%9E.pdf" }
+      - cite: "Atsushi Maki, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Visually Manipulating Perceived Food Texture in Projection Mapping,” Transactions of the Virtual Reality Society of Japan, Vol. 29, No. 2, pp. 81-84, 2024."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://www.jstage.jst.go.jp/article/tvrsj/29/2/29_81/_article/-char/ja" }
+      - cite: "Yushi Sato, **Daisuke Iwai**, and Kosuke Sato, “Responsive-ExtendedHand: Adaptive Visuo-Haptic Feedback Recognizing Object Property with RGB-D Camera for Projected Extended Hand,” IEEE Access, Vol. 12, pp. 38247-38257, 2024."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2024.3375917" }
+      - cite: "Yushi Sato, **Daisuke Iwai**, and Kosuke Sato, “Sound Texture Feedback for a Projected Extended Hand Interface,” IEEE Access, Vol. 12, pp. 27673-27682, 2024."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2024.3367601" }
+      - cite: "Kenta Yamamoto, **Daisuke Iwai**, Ikuho Tani, and Kosuke Sato, “A Monocular Projector-Camera System using Modular Architecture,” IEEE Transactions on Visualization and Computer Graphics, Vol. 29, No. 12, pp. 5586-5592, 2023."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "http://doi.org/10.1109/TVCG.2022.3217266" }
+      - cite: "Shengze Zhong, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Topology Optimization with Text-Guided Stylization,” Structural and Multidisciplinary Optimization, Vol. 66, pp. 256:1-256:18, 2023."
+        links:
+          - { icon: "📄", label: "Springer (open access)", url: "https://link.springer.com/article/10.1007/s00158-023-03686-7" }
+          - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2310.15506" }
+      - cite: "Yotam Erel, **Daisuke Iwai**, and Amit H. Bermano, “Neural Projection Mapping Using Reflectance Fields,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 29, No. 11, pp. 4339-4349, 2023."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://yoterel.github.io/nepmap-project-page/" }
+          - { icon: "📄", label: "IEEE", url: "https://ieeexplore.ieee.org/document/10269043" }
+          - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2306.06595" }
+      - cite: "Shengze Zhong, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Estimation of Fused-Filament-Fabrication Structural Vibro-Acoustic Performance by Modal Impact Sound,” Computers & Graphics, Vol. 115, pp. 137-147, 2023."
+        links:
+          - { icon: "📄", label: "Elsevier (open access)", url: "https://doi.org/10.1016/j.cag.2023.07.010" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/52kqboOnmoQ" }
+      - cite: "Fumitaka Ueda, Yuta Kageyama, **Daisuke Iwai**, and Kosuke Sato, “Focal Surface Projection: Extending Projector Depth-of-Field Using a Phase-Only Spatial Light Modulator,” Journal of the Society for Information Display, Vol. 31, No. 11, pp. 651-656, 2023."
+        links:
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1002/jsid.1261" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2309.01984" }
+      - cite: "Kosuke Hiratani, **Daisuke Iwai**, Yuta Kageyama, Parinya Punpongsanon, Takefumi Hiraki, and Kosuke Sato “Shadowless Projection Mapping using Retrotransmissive Optics,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 29, No. 5, pp. 2280-2290, 2023."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2023.3247104" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/DMBSlLQp-c0" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/nlN_cbfe7tc" }
+          - { icon: "🎖️", label: "Best Paper Nominee (IEEE VR 2023)", url: "https://ieeevr.org/2023/awards/conference-awards/#conference-nominees" }
+      - cite: "Yamato Miyatake, Takefumi Hiraki, **Daisuke Iwai**, and Kosuke Sato, “HaptoMapping: Visuo-Haptic Augmented Reality by Embedding User-Imperceptible Tactile Display Control Signals in a Projected Image,” IEEE Transactions on Visualization and Computer Graphics, Vol. 29, No. 4, pp. 2005-2019, 2023."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2021.3136214" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/6Ch1j9zUWoU" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/tXWdNuWWpKM" }
+      - cite: "Shengze Zhong, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “NSTO: Neural Synthesizing Topology Optimization for Modulated Structure Generation,” Computer Graphics Forum (Proceedings of Pacific Graphics), Vol. 41, No. 7, pp. 553-566, 2022."
+        links:
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.14700" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2303.11757" }
+      - cite: "Hiroshi Kawase, Yuki Kitajima, and **Daisuke Iwai**, “3D model of the geometric nest structure, the”mystery circle,” constructed by pufferfish,” Scientific Data, Vol. 9, Article No. 368, 2022."
+        links:
+          - { icon: "📄", label: "Nature (open access)", url: "https://doi.org/10.1038/s41597-022-01466-4" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2022/20220704_2" }
+      - cite: "Yuta Kageyama, **Daisuke Iwai**, and Kosuke Sato, “Online Projector Deblurring Using a Convolutional Neural Network,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 28, No. 5, pp. 2223-2233, 2022."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://kagechan5.github.io/#/Projects" }
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/TVCG.2022.3150465" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/MSCj2IIZevw" }
+          - { icon: "🎖️", label: "Best Journal Paper Honorable Mention (IEEE VR 2022)", url: "https://ieeevr.org/2022/" }
+      - cite: "Sorashi Kimura, **Daisuke Iwai**, Parinya Punpongsanon, and Kosuke Sato, “Multifocal Stereoscopic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 27, No. 11, pp. 4256-4266, 2021."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2021.3106486" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2110.07726" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/I8DGTQnxm38" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/eqaYdPdU5WM" }
+          - { icon: "🏆", label: "Best Journal Paper (IEEE ISMAR 2021)", url: "https://ismar21.org/program/awards/" }
+      - cite: "Masatoki Sugimoto, **Daisuke Iwai**, Koki Ishida, Parinya Punpongsanon, and Kosuke Sato, “Directionally Decomposing Structured Light for Projector Calibration,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 27, No. 11, pp. 4161-4170, 2021."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2021.3106511" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2110.03924" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/TD5G2Qc7BEM" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/4tUG3HwCyic" }
+      - cite: "Motoki Miyoshi, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “SoftPrint: Investigating Haptic Softness Perception of 3D Printed Soft Object in FDM 3D Printers,” Journal of Imaging Science and Technology, Vol. 65, No. 4, pp. 40406-1-40406-8, 2021."
+        links:
+          - { icon: "📄", label: "IS&T", url: "https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.4.040406" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/4fm4p1b6kmwkkk6/JIST_2021_SoftPrint_miyoshi_preprint.pdf?dl=0" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/jR5x79BUXTE" }
+      - cite: "Kohei Morita, Takefumi Hiraki, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Head Orientation Control of Projection Area for Projected Virtual Hand Interface on Wheelchair,” SICE Journal of Control, Measurement, and System Integration (JCMSI), Vol. 14, No. 1, pp. 223-232, 2021."
+        links:
+          - { icon: "📄", label: "Taylor & Francis (open access)", url: "https://doi.org/10.1080/18824889.2021.1964785" }
+      - cite: "Tatsuyuki Ueda, **Daisuke Iwai**, and Kosuke Sato, “IlluminatedZoom: Spatially Varying Magnified Vision Using Periodically Zooming Eyeglasses and a High-speed Projector,” Optics Express, Vol. 29, No. 11, pp. 16377-16395, 2021."
+        links:
+          - { icon: "📄", label: "Optica (open access)", url: "https://doi.org/10.1364/OE.427616" }
+      - cite: "Kazuyuki Niki, Megumi Yahara, Michiya Inagaki, Nana Takahashi, Akira Watanabe, Takeshi Okuda, Mikiko Ueda, **Daisuke Iwai**, Kosuke Sato, and Toshinori Ito, “Immersive Virtual Reality Reminiscence Reduces Anxiety in the Late Elderly without Causing Serious Side Effects: A Single-center, Pilot, and Randomized Crossover Study,” Frontiers in Human Neuroscience, Volume 14, Article 598161, 2021."
+        links:
+          - { icon: "📄", label: "Frontiers (open access)", url: "https://doi.org/10.3389/fnhum.2020.598161" }
+      - cite: "Yuta Itoh, Tobias Langlotz, Stefanie Zollmann, **Daisuke Iwai**, Kiyoshi Kiyokawa, and Toshiyuki Amano, “Computational Phase-Modulated Eyeglasses,” IEEE Transactions on Visualization and Computer Graphics, Vol. 27, No. 3, pp. 1916-1928, 2021."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://www.ar.c.titech.ac.jp/projects/computational-phase-modulated-eyeglasses" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2019.2947038" }
+          - { icon: "📄", label: "Preprint", url: "https://drive.google.com/a/ar.c.titech.ac.jp/file/d/1yo-opRSoBgl0rZoPq18ZOu7Gn8P0G3Hh/view?usp=sharing" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/EsyyeLJrpRg" }
+      - cite: "Yushi Sato, Takefumi Hiraki, Naruki Tanabe, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Modifying Texture Perception with Pseudo-Haptic Feedback for a Projected Virtual Hand Interface,” IEEE Access, Vol. 8, pp. 120473-120488, 2020."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2020.3006440" }
+      - cite: "Yuta Kageyama, Mariko Is ogawa, **Daisuke Iwai**, and Kosuke Sato, “ProDebNet: Projector Deblurring using a Convolutional Neural Network,” Optics Express, Vol. 28, No. 14, pp. 20391-20403, 2020."
+        links:
+          - { icon: "📄", label: "Project", url: "https://kagechan5.github.io/#/Projects" }
+          - { icon: "📄", label: "Optica (open access)", url: "https://doi.org/10.1364/OE.396159" }
+      - cite: "Daiki Tone, **Daisuke Iwai**, Shinsaku Hiura, and Kosuke Sato, “FibAR: Embedding Optical Fibers in 3D Printed Objects for Active Markers in Dynamic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 26, No. 5, pp. 2030-2040, 2020."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2020.2973444" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2002.02159" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/NGafcVO2euM" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/jIOaaNpd3-4" }
+          - { icon: "🎖️", label: "Best Paper Nominee (IEEE VR 2020)", url: "http://ieeevr.org/2020/awards/conference.html" }
+      - cite: "Tatsuyuki Ueda, **Daisuke Iwai**, Takefumi Hiraki, and Kosuke Sato, “IlluminatedFocus: Vision Augmentation using Spatial Defocusing via Focal Sweep Eyeglasses and High-Speed Projection,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 26, No. 5, pp. 2051-2061, 2020."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2020.2973496" }
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2002.02167" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/NQntt8X1Xh0" }
+          - { icon: "📺", label: "Talk", url: "https://youtu.be/QVeycpDcstc" }
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “FleXeen: Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality,” IEEE Transactions on Visualization and Computer Graphics, Vol. 26, No. 2, pp. 1433-1439, 2020."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/flexeen/flexeen.html" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2871044" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/whxjixy6d11kiuw/TVCG_2018_FleXeen_punpongsanon.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/pdsGVWs2BqU" }
+      - cite: "Mariko Isogawa, Dan Mikami, Kosuke Takahashi, **Daisuke Iwai**, Kosuke Sato, and Hideaki Kimata, “Which is the better inpainted image? Training data generation without any manual operations,” International Journal of Computer Vision (IJCV), Vol 127, No. 11, pp. 1751-1766, 2019."
+        links:
+          - { icon: "📄", label: "Springer (open access)", url: "https://link.springer.com/article/10.1007/s11263-018-1132-0" }
+      - cite: "**Daisuke Iwai**\\*, Hidetoshi Izawa\\*, Kenji Kashima\\*, Tatsuyuki Ueda, and Kosuke Sato, “Speeded-Up Focus Control of Electrically Tunable Lens by Sparse Optimization,” Scientific Reports, Vol. 9, Article No. 12365, 2019. (\\*equal contribution)"
+        links:
+          - { icon: "📄", label: "Nature (open access)", url: "https://doi.org/10.1038/s41598-019-48900-z" }
+      - cite: "Yuta Itoh, Tobias Langlotz, **Daisuke Iwai**, Toshiyuki Amano, and Kiyoshi Kiyokawa, “Light Attenuation Display: Subtractive See-Through Near-Eye Display via Spatial Color Filtering,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 25, No. 5, pp. 1951-1960, 2019."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://www.ar.c.titech.ac.jp/projects/light-attenuation-display" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2019.2899229" }
+          - { icon: "📄", label: "Preprint", url: "https://drive.google.com/a/ar.c.titech.ac.jp/file/d/1_1K5DJHQSWZrfGgrxRKAdYGccpKbIoEf/view?usp=sharing" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/iPAFqj49i4E" }
+          - { icon: "🎖️", label: "Best Paper Nominee (IEEE VR 2019)", url: "https://ieeevr.org/2019/awards/conference_awards.html" }
+      - cite: "**Daisuke Iwai**, Mei Aoki, and Kosuke Sato, “Non-Contact Thermo-Visual Augmentation by IR-RGB Projection,” IEEE Transactions on Visualization and Computer Graphics, Vol. 25, No. 4, pp. 1707-1716, 2019."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2820121" }
+      - cite: "Anselm Grundhöfer\\* and **Daisuke Iwai**\\*, “Recent Advances in Projection Mapping Algorithms, Hardware and Applications,” Computer Graphics Forum, Vol. 37, No. 2, pp. 653-675, 2018. (\\*equal contribution)"
+        links:
+          - { icon: "🌐", label: "Project", url: "https://studios.disneyresearch.com/2018/04/16/recent-advances-in-projection-mapping-algorithmshardware-and-applications/" }
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.13387" }
+          - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/03/Recent-advances-in-prjection.pdf" }
+      - cite: "Mariko Isogawa, Dan Mikami, **Daisuke Iwai**, Hideaki Kimata, and Kosuke Sato, “Mask Optimization for Image Inpainting,” IEEE Access, Vol. 6, pp. 69728-69741, 2018."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2018.2877401" }
+      - cite: "Nagisa Okutani, Takuro Takezawa, **Daisuke Iwai**, and Kosuke Sato, “Stereoscopic Capture in Projection Mapping,” IEEE Access, Vol. 6, pp. 65894-65900, 2018."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2018.2875905" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/CXkmXbtjv1o" }
+      - cite: "Ryo Mizuuchi, Hiroshi Kawase, Hirofumi Shin, **Daisuke Iwai**, Shigeru Kondo, “Simple Rules for Construction of A Geometric Nest Structure by Pufferfish,” Scientific Reports, Vol. 8, Article No. 12366, 2018."
+        links:
+          - { icon: "📄", label: "Nature (open access)", url: "https://doi.org/10.1038/s41598-018-30857-0" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2018/20180830_1" }
+      - cite: "Petar Pjanic, Simon Willi, **Daisuke Iwai**, and Anselm Grundhöfer, “Seamless Multi-Projection Revisited,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 24, No. 11, pp. 2963-2973, 2018."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://la.disneyresearch.com/publication/seamless-multi-projection-revisited/" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2868597" }
+          - { icon: "📄", label: "Preprint", url: "https://la.disneyresearch.com/wp-content/uploads/color_uniformity_2.pdf" }
+      - cite: "Toshio Kanamori, **Daisuke Iwai**, and Kosuke Sato, “Pseudo-Shape Sensation by Stereoscopic Projection Mapping,” IEEE Access, Vol. 6, pp. 40649-40655, 2018."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2018.2858268" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/3zgb1FQwhPk" }
+      - cite: "Kai Wang, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Stabilizing Graphically Extended Hand for Hand Tremors,” IEEE Access, Vol. 6, No. 1, pp. 28838-28847, 2018."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2018.2840101" }
+      - cite: "Takumi Hamasaki, Yuta Itoh, Yuichi Hiroi, **Daisuke Iwai**, and Maki Sugimoto, “HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 24, No. 4, pp. 1457-1466, 2018."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://www.ar.c.titech.ac.jp/projects/hysar" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2793659" }
+          - { icon: "📄", label: "Preprint", url: "https://drive.google.com/file/d/13YoAZ98HY1yreM2Xk-a6OQ9q_uQF5YH5/view?usp=sharing" }
+      - cite: "Hirotaka Asayama, **Daisuke Iwai**, and Kosuke Sato, “Fabricating Diminishable Visual Markers for Geometric Registration in Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics, Vol. 24, No. 2, pp. 1091-1102, 2018."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2017.2657634" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/qFvrtnmnmYk" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2015/20151013_1" }
+      - cite: "**Daisuke Iwai**, Ryo Matsukage, Sota Aoyama, Tsuyoshi Kikukawa, and Kosuke Sato, “Geometrically Consistent Projection-based Tabletop Sharing for Remote Collaboration,” IEEE Access, Vol. 6, pp. 6293-6302, 2018."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2017.2781699" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/AR1WqG2mqlE" }
+      - cite: "Jun Tsukamoto, **Daisuke Iwai**, and Kenji Kashima, “Distributed Optimization Framework for Shadow Removal in Multi-Projection Systems,” Computer Graphics Forum, Vol. 36, No. 8, pp. 369-379, 2017."
+        links:
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.13085" }
+      - cite: "Yuki Kitajima, **Daisuke Iwai**, and Kosuke Sato, “Simultaneous Projection and Positioning of Laser Projector Pixels,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 23, No. 11, pp. 2419-2429, 2017."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2017.2734478" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/3U2il3Gh4Xw" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2017/20170925_1" }
+      - cite: "Hiroshi Kawase, Ryo Mizuuchi, Hirofumi Shin, Yuki Kitajima, Koh Hosoda, Masahiro Shimizu, **Daisuke Iwai**, and Shigeru Kondo, “Discovery of an Earliest-Stage”Mystery Circle” and Development of the Structure Constructed by Pufferfish, Torquigener albomaculosus (Pisces: Tetraodontidae),” Fishes, 2(3):14, 2017."
+        links:
+          - { icon: "📄", label: "MDPI (open access)", url: "http://www.mdpi.com/2410-3888/2/3/14" }
+      - cite: "Kai Wang, **Daisuke Iwai**, and Kosuke Sato, “Supporting Trembling Hand Typing Using Optical See-Through Mixed Reality,” IEEE Access, Vol. 5, pp. 10700-10708, 2017."
+        links:
+          - { icon: "📄", label: "IEEE (open access)", url: "https://doi.org/10.1109/ACCESS.2017.2711058" }
+          - { icon: "🏆", label: "IEEE Access Best Multimedia Contest Part 1 Winner", url: "https://youtu.be/lPx0nsRnUbU" }
+      - cite: "Parinya Punpongsanon, Emilie Guy, **Daisuke Iwai**, Kosuke Sato, and Tamy Boubekeur, “Extended LazyNav: Virtual 3D Ground Navigation for Large Displays and Head-Mounted Displays,” IEEE Transactions on Visualization and Computer Graphics, Vol. 23, No. 8, pp. 1952-1963, 2017."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2016.2586071" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/l3r9snie2kguohg/TVCG_2017_ExtendedLazyNav_punpongsanon.pdf?dl=0" }
+      - cite: "Amit H. Bermano, Markus Billeter, **Daisuke Iwai**, and Anselm Grundhöfer, “Makeup Lamps: Live Augmentation of Human Faces via Projection,” Computer Graphics Forum (Proc. Eurographics), Vol. 36, No. 2, pp. 311-323, 2017."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://studios.disneyresearch.com/2017/04/24/makeup-lamps-live-augmentation-of-human-faces-via-projection/" }
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.13128" }
+          - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/03/Makeup-Lamps-Live-Augmentation-of-Human-Faces-via-Projection-1.pdf" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/Ilgu3aFCphs" }
+      - cite: "Yuta Itoh, Toshiyuki Amano, **Daisuke Iwai**, and Gudrun Klinker, “Gaussian Light Field: Estimation of Viewpoint-Dependent Blur for Optical See-Through Head-Mounted Displays,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 22, No. 11, pp. 2368-2376, 2016."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2016.2593779" }
+          - { icon: "📄", label: "Preprint", url: "http://campar.in.tum.de/pub/itoh2016ismar/itoh2016ismar.pdf" }
+          - { icon: "🎖️", label: "Best Paper Runner Up Award (IEEE ISMAR 2016)", url: "https://ismar.net/past_symposiums/#:~:text=J%20Edward%20Swan-,Awards,-Long%20Lasting%20Impact" }
+      - cite: "Shoichi Takeda, **Daisuke Iwai**, and Kosuke Sato, “Inter-reflection Compensation of Immersive Projection Display by Spatio-Temporal Screen Reflectance Modulation,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Virtual Reality 2016), Vol. 22, No. 4, pp. 1424-1431, 2016."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2016.2518136" }
+      - cite: "Kai Wang, Noriko Takemura, **Daisuke Iwai**, and Kosuke Sato, “A Typing Assist System Considering Involuntary Hand Tremor,” Transactions of the Virtual Reality Society of Japan, Vol. 21, No. 2, pp. 227-233, 2016."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://www.jstage.jst.go.jp/article/tvrsj/21/2/21_227/_article" }
+          - { icon: "🏆", label: "日本バーチャルリアリティ学会論文賞", url: "https://vrsj.org/awards/best_papers/#paper19" }
+      - cite: "Anselm Grundhöfer and **Daisuke Iwai**, “Robust, Error-Tolerant Photometric Projector Compensation,” IEEE Transactions on Image Processing, Vol. 24, No. 12, pp. 5086–5099, 2015."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://studios.disneyresearch.com/2015/09/14/robust-error-tolerant-photometric-projector-compensation/" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TIP.2015.2478388" }
+          - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/03/Robust-Error-Tolerant-Photometric-Projector-Compensation.pdf" }
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 21, No. 11, pp. 1279-1288, 2015."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/softar/" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2459792" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/7b6k739wvicul64/TVCG_2015_SoftAR_punpongsanon.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/dVAa5oM4jF4" }
+      - cite: "Jun Tsukamoto, **Daisuke Iwai**, and Kenji Kashima, “Radiometric Compensation for Cooperative Distributed Multi-Projection System through 2-DOF Distributed Control,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 21, No. 11, pp. 1221-1229, 2015."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2459905" }
+      - cite: "**Daisuke Iwai**, Shoichiro Mihara, and Kosuke Sato, “Extended Depth-of-Field Projector by Fast Focal Sweep Projection,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Virtual Reality 2015), Vol. 21, No. 4, pp. 462-470, 2015."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2391861" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/GWo2XmIFC0c" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2015/20150323_1" }
+          - { icon: "🏆", label: "Best Paper Award (IEEE VR 2015)", url: "http://ieeevr.org/2015/" }
+          - { icon: "🏆", label: "第31回電気通信普及財団賞 (テレコムシステム技術賞) 入賞", url: "https://www.taf.or.jp/files/items/17/File/%E6%AD%B4%E4%BB%A3%E5%8F%97%E8%B3%9E%E8%80%85-%E3%83%86%E3%83%AC%E3%82%B3%E3%83%A0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%8A%80%E8%A1%93%E8%B3%9E.pdf" }
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Visualization of Tangential Deformation of Nonrigid Surface by Deformation Estimation Using Infrared Texture,” Virtual Reality, Vol. 19, No. 1, pp. 45-56, 2015."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/deforme/index.html" }
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-014-0256-y" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/i3U93QTfzlg" }
+      - cite: "**Daisuke Iwai**, Kei Kodama, and Kosuke Sato, “Reducing Motion Blur Artifact of Foveal Projection for Dynamic Focus-Plus-Context Display,” IEEE Transactions on Circuits and Systems for Video Technology, Vol. 25, No. 4, pp. 547-556, 2015."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/deforme/index.html" }
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-014-0256-y" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/i3U93QTfzlg" }
+      - cite: "**Daisuke Iwai**, Momoyo Nagase, and Kosuke Sato, “Shadow Removal of Projected Imagery by Occluder Shape Measurement in a Multiple Overlapping Projection System,” Virtual Reality, Vol. 18, No. 4, pp. 245-254, 2014."
+        links:
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-014-0250-4" }
+      - cite: "Shoichiro Mihara, **Daisuke Iwai**, and Kosuke Sato, “Artifact Reduction in Radiometric Compensation of Projector-Camera Systems for Steep Reflectance Variations,” IEEE Transactions on Circuits and Systems for Video Technology, Vol. 24, No. 9, pp. 1631-1638, 2014."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TCSVT.2014.2309832" }
+      - cite: "Hsin-Ni Ho, **Daisuke Iwai**, Yuki Yoshikawa, Junji Watanabe, and Shin’ya Nishida, “Combining colour and temperature: A blue object is more likely to be judged as warm than a red object,” Scientific Reports, Vol. 4, Article No. 5527, 2014."
+        links:
+          - { icon: "📄", label: "Springer Nature (open access)", url: "https://dx.doi.org/10.1038/srep05527" }
+          - { icon: "✨", label: "注目のハイライト (Nature Japan)", url: "http://www.natureasia.com/ja-jp/research/highlight/9346" }
+          - { icon: "✨", label: "Scientific Reports おすすめコンテンツ (Nature Japan)", url: "http://www.natureasia.com/ja-jp/srep/abstracts/55189" }
+      - cite: "**Daisuke Iwai**, Shoichi Takeda, Naoto Hino, and Kosuke Sato, “Projection Screen Reflectance Control for High Contrast Display using Photochromic Compounds and UV LEDs,” Optics Express, Vol. 22, No. 11, pp. 13492-13506, 2014."
+        links:
+          - { icon: "📄", label: "Optica (open access)", url: "https://doi.org/10.1364/OE.22.013492" }
+      - cite: "Mariko Isogawa, **Daisuke Iwai**, and Kosuke Sato, “Making Graphical Information Visible in Real Shadows on Interactive Tabletops,” IEEE Transactions on Visualization and Computer Graphics, Vol. 20, No. 9, pp. 1293-1302, 2014. (presented at ISMAR 2014)"
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2014.2316002" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/CMGIdcsDqz4" }
+      - cite: "Amit Bermano, Philipp Brüschweiler, Anselm Grundhöfer, **Daisuke Iwai**, Bernd Bickel, and Markus Gross, “Augmenting Physical Avatars Using Projector Based Illumination,” ACM Transactions on Graphics (Proceedings of SIGGRAPH ASIA), vol. 32, no. 6, Article 189, 10 pages, 2013."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://studios.disneyresearch.com/2013/11/01/augmenting-physical-avatars-using-projector-based-illumination/" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/2508363.2508416" }
+          - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/04/Augmenting-Physical-Avatars-Using-Projector-Based-Illumination.pdf" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/O1qV6glZkOQ" }
+      - cite: "**Daisuke Iwai**, Tatsunori Yabiki, and Kosuke Sato, “View Management of Projected Labels on Non-Planar and Textured Surfaces,” IEEE Transactions on Visualization and Computer Graphics, vol. 19, no. 8, pp. 1415-1424, 2013. (presented at ISMAR 2013)"
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2012.321" }
+      - cite: "Li Chang, **Daisuke Iwai**, and Kosuke Sato, “Recognizing the ID of Modulated LED Tube Lights by Using Camera Motion Blur,” IEEJ Transactions on Electrical and Electronic Engineering, Vol. 7, No. S1, pp. S96-S104, 2012."
+        links:
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1002/tee.21811" }
+      - cite: "Nana Hamaguchi, Keiko Yamamoto, **Daisuke Iwai**, and Kosuke Sato, “Estimation of Subjective Difficulty and Psychological Stress by Ambient Sensing of Desk Panel Vibrations,” SICE Journal of Control, Measurement, and System Integration (JCMSI), Vol. 5, No. 1, pp. 2-7, 2012."
+        links:
+          - { icon: "📄", label: "Taylor & Francis (open access)", url: "https://doi.org/10.9746/jcmsi.5.2" }
+      - cite: "Momoyo Nagase, **Daisuke Iwai**, and Kosuke Sato, “Dynamic Defocus and Occlusion Compensation of Projected Imagery by Model-Based Optimal Projector Selection in Multi-projection Environment,” Virtual Reality, Vol. 15, No. 2, pp. 119-132, 2011."
+        links:
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-010-0168-4" }
+      - cite: "**Daisuke Iwai**, Toro Felipe, Noriko Nagata, and Seiji Inokuchi, “Identification of Motion Features Affecting Perceived Rhythmic Sense of Virtual Characters through Comparison of Latin American and Japanese Dances,” The Journal of The Institute of Image Information and Television Engineers, Vol. 65, No. 2, pp. 203-210, 2011."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://doi.org/10.3169/itej.65.203" }
+      - cite: "**Daisuke Iwai** and Kosuke Sato, “Document Search Support by Making Physical Documents Transparent in Projection-Based Mixed Reality,” Virtual Reality, Vol. 15, No. 2, pp. 147-160, 2011."
+        links:
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-010-0159-5" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/fuTzfmV6yb0" }
+      - cite: "**Daisuke Iwai** and Kosuke Sato, “Optical Superimposition of Infrared Thermography through Video Projection,” Infrared Physics & Technology, Vol. 53, No. 3, pp. 162-172, 2010."
+        links:
+          - { icon: "📄", label: "Elsevier", url: "https://doi.org/10.1016/j.infrared.2009.11.001" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/O9DrvyPr6Zs" }
+      - cite: "**Daisuke Iwai** and Kosuke Sato, “CrossOverlayDesktop: Dynamic Overlay of Desktop Graphics between Co-located Computers for Multi- User Interaction,” IEICE Transactions on Information and Systems, Vol. E92-D, No. 12, pp. 2445-2453, 2009."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://doi.org/10.1587/transinf.E92.D.2445" }
+      - cite: "Oliver Bimber and **Daisuke Iwai**, “Superimposing Dynamic Range,” ACM Transactions on Graphics (Proceedings of SIGGRAPH ASIA), Vol. 27, No. 5, pp. 150:1-150:8, 2008."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1409060.1409103" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/SS_ELjbDTOo" }
+      - cite: "Oliver Bimber, **Daisuke Iwai**, Gordon Wetzstein and Anselm Grundhöfer, “The Visual Computing of Projector-Camera Systems,” Computer Graphics Forum, Vol. 27, No. 8, pp. 2219-2245, 2008."
+        links:
+          - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/j.1467-8659.2008.01175.x" }
+  - id: conference
+    title_en: "Conference Papers"
+    title_ja: "国際会議論文"
+    entries:
+      - cite: "Takumi Kawano, Kohei Miura, **Daisuke Iwai**, “Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras,” CVPR 2026 (oral)"
+        links:
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2604.24024" }
+      - cite: "Hiroki Kusuyama, Tomoya Nakamura, **Daisuke Iwai**, “Coded aperture optimization for mitigating aberration in large-format Fresnel lens towards shadowless projection mapping,” Proc. SPIE 13821, Optical Architectures for Displays and Sensing in Augmented, Virtual, and Mixed Reality (AR, VR, MR) VII, 1382106 (4 pages) (5 March 2026)"
+        links: []
+      - cite: "Masaki Takeuchi, Kohei Miura, **Daisuke Iwai**, “Effects of view-dependent highlights and specular intensity on gloss perception in projection mapping,” Proc. SPIE 13821, Optical Architectures for Displays and Sensing in Augmented, Virtual, and Mixed Reality (AR, VR, MR) VII, 1382107 (2 pages) (5 March 2026)"
+        links: []
+      - cite: "Thanapong Sommart, **Daisuke Iwai**, “Online optimization of contrast and brightness of target images for radiometric compensation in projection mapping,” Proc. SPIE 13821, Optical Architectures for Displays and Sensing in Augmented, Virtual, and Mixed Reality (AR, VR, MR) VII, 1382108 (5 pages) (5 March 2026)"
+        links: []
+      - cite: "Kohei Miura, **Daisuke Iwai**, “Exploring thermal contact potentials for hand–object interaction refinement,” Proc. SPIE 13821, Optical Architectures for Displays and Sensing in Augmented, Virtual, and Mixed Reality (AR, VR, MR) VII, 1382109 (7 pages) (5 March 2026)"
+        links: []
+      - cite: "Dustin Grünwald, Yusuke Imoto, Isabella Mika Taninaka, Kosuke Sato, and **Daisuke Iwai**, “ProTrans: Projecting In-Place Translations for Printed Text,” In Proceedings of International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments (ICAT-EGVE), 2025."
+        links:
+          - { icon: "📄", label: "Publisher (open access)", url: "https://doi.org/10.2312/egve.20251352" }
+      - cite: "Yotam Erel, Or Kozlovsky-Mordenfeld, **Daisuke Iwai**, Kosuke Sato, and Amit H. Bermano, “Casper DPM: Cascaded Perceptual Dynamic Projection Mapping onto Hands,” In Proceedings of ACM SIGGRAPH Asia 2024 Conference Papers, Article No. 137, pp. 1-10, 2024."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://yoterel.github.io/casper-project-page/" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3680528.3687624" }
+          - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2409.04397" }
+      - cite: "Yushi Sato, **Daisuke Iwai**, and Kosuke Sato, “Pseudo Tactile Feedback for Extended Hand Users,” In Proceedings of the International Display Workshops (IDW), pp. 920-922, 2024."
+        links: []
+      - cite: "Yamato Miyatake, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “interiqr: Unobtrusive Edible Tags using Food 3D Printing,” In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), Article No. 84, pp. 1-11, 2022."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/foodcode/" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3526113.3545669" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/0v4rypppd5t4pc8/UIST_2022_Interiqr_Miyatake.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/vAMmxEroSzs" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2022/20221017_2" }
+      - cite: "Ryotaro Yoshida, Toshihiro Hara, Yusaku Takeda, Kenji Murase, **Daisuke Iwai**, and Kosuke Sato, “Automobile Interior Design Support Using Projection Mapping onto Full-Scale Physical Mockup and Driving Simulator,” In Proceedings of the International Display Workshops (IDW), pp. 658-661, 2021."
+        links:
+          - { icon: "📄", label: "Publisher (open access)", url: "https://confit.atlas.jp/guide/event-img/idw2021/PRJ4-03/public/pdf_archive?type=in" }
+      - cite: "**Daisuke Iwai**, “Is Projection Mapping Natural? Towards Physical World Augmentation Consistent with Light Field Context,” In Proceedings of the International Display Workshops (IDW), pp. 964-967, 2021."
+        links:
+          - { icon: "📄", label: "Publisher (open access)", url: "https://confit.atlas.jp/guide/event-img/idw2021/INP1-01/public/pdf_archive?type=in" }
+      - cite: "Motoki Miyoshi, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Investigation of Soft Display using Digital Fabrication and Phase-change Material,” In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech), pp. 513-514, 2021."
+        links: []
+      - cite: "Haruka Terai, **Daisuke Iwai**, and Kosuke Sato, “Projector Pixel Redirection Using Phase-Only Spatial Light Modulator,” In Proceedings of the International Display Workshops (IDW), pp. 663-665, 2020."
+        links:
+          - { icon: "📄", label: "Publisher (open access)", url: "https://confit.atlas.jp/guide/event-img/idw2020/PRJ4-04/public/pdf_archive?type=in" }
+      - cite: "Kenta Yamamoto, **Daisuke Iwai**, and Kosuke Sato, “A Projector-Camera System Using Hybrid Pixels with Projection and Capturing Capabilities,” In Proceedings of the International Display Workshops (IDW), pp. 655-658, 2020."
+        links:
+          - { icon: "📄", label: "Publisher (open access)", url: "https://confit.atlas.jp/guide/event-img/idw2020/PRJ4-02/public/pdf_archive?type=in" }
+      - cite: "Liyuan Duan, Haruka Matsukura, Parinya Punpongsanon, Takefumi Hiraki, **Daisuke Iwai**, and Kosuke Sato, “Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 585-586, 2020."
+        links:
+          - { icon: "🏆", label: "Bronze Prize Excellent Student Paper Award (IEEE GCCE 2020)", url: "http://www.ieee-gcce.org/2020/" }
+      - cite: "Yamato Miyatake, Takefumi Hiraki, Tomosuke Maeda, **Daisuke Iwai**, and Kosuke Sato, “Visuo-Haptic Display by Embedding Imperceptible Spatial Haptic Information into Projected Images,” Haptics: Science, Technology, Applications (Proceedings of the 12th International Conference on Human Haptic Sensing and Touch Enabled Computer Applications - EuroHaptics 2020), Lecture Notes in Computer Science, Vol. 12272, pp. 226–234, 2020."
+        links: []
+      - cite: "Kohei Morita, Takefumi Hiraki, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Extension of Projection Area using Head Orientation in Projected Virtual Hand Interface for Wheelchair Users,” In Proceedings of Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE), pp. 421-426, 2020."
+        links: []
+      - cite: "Ying-Ju Lin, Parinya Punpongsanon, Xin Wen, **Daisuke Iwai**, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “FoodFab: Creating Food Perception Tricks using Food 3D Printing,” In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), pp. 294:1-294:13, 2020."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://hcie.csail.mit.edu/research/foodfab/foodfab.html" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3313831.3376421" }
+          - { icon: "📄", label: "Preprint", url: "https://hcie.csail.mit.edu/research/foodfab/CHI_2020_FoodFab.pdf" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/kBojJIUhHS8" }
+          - { icon: "🏆", label: "Asian CHI Symposium 2020 Best Presentation Award (Showcase)", url: "https://asian-chi.github.io/2020/awards/" }
+      - cite: "Tinglin Duan, Parinya Punpongsanon, Sheng Jia, **Daisuke Iwai**, Kosuke Sato, and Konstantinos N. Plataniotis, “Remote Environment Exploration with Drone Agent and Haptic Force Feedback,” In Proceedings of IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), pp. 167-170, 2019."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/flyinghand/aivr/index.html" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/AIVR46125.2019.00034" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/9hegg0bcp3zptpn/AIVR_2019_Drone_francis.pdf?dl=0" }
+      - cite: "Takumi Kaminokado, **Daisuke Iwai**, and Kosuke Sato, “Augmented Environment Mapping for Appearance Editing of Glossy Surfaces,” In Proc. IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 65-75, 2019."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR.2019.00-26" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/L5V_Oa3PycI" }
+      - cite: "Sorashi Kimura, Tatsuyuki Ueda, **Daisuke Iwai**, and Kosuke Sato, “Alleviating Vergence-Accommodation Conflict in Stereoscopic Projection by Time-Multiplexed Projection with Focal Sweep,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 175-176, 2019."
+        links: []
+      - cite: "Masatoki Sugimoto, **Daisuke Iwai**, and Kosuke Sato, “Projector Calibration Using a Pinhole Mask Plate,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 147-148, 2019."
+        links: []
+      - cite: "Michiya Inagaki, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Application of Compressed Sensing to Measurement of Methane Gas Distribution,” In Proceedings of SICE Annual Conference, pp. 1553-1556, 2019."
+        links: []
+      - cite: "**Daisuke Iwai**, “Laser Projector in Augmented Reality,” In Proceedings of Laser Display and Lighting Conference (LDC), LDC-2-03 (2 pages), 2019."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_LDC19.pdf" }
+      - cite: "**Daisuke Iwai**, “Computational Imaging in Projection Mapping,” Lecture Notes in Computer Science (Proceedings of International Workshop on Computational Color Imaging), Vol. 11418, pp. 14-25, 2019."
+        links: []
+      - cite: "Takuro Takezawa, **Daisuke Iwai**, Kosuke Sato, Toshihiro Hara, Yusuke Takeda, and Kenji Murase, “Material Surface Reproduction and Perceptual Deformation with Projection Mapping for Car Interior Design,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 251-258, 2019."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/VR.2019.8797923" }
+      - cite: "**Daisuke Iwai**, “Latest Research Trends on Computational Projection Mapping,” In Proceedings of International Display Workshops (IDW), pp. 1211-1213, 2018."
+        links:
+      - cite: "Tinglin Duan, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition,” In Proceedings of ACM SIGGRAPH ASIA 2018 Technical Brief, pp. 28:1-28:4, 2018."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/flyinghand/flyinghand.html" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3283254.3283258" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/4gfnmzv0t2x005r/SA_2018_FlyingHand_francis.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/c_y5MIAgVI8" }
+      - cite: "**Daisuke Iwai**, “Computational Projection Display for AR/VR,” In IMID 2017 Digest (International Meeting on Information Display), p. 92, 2017."
+        links:
+      - cite: "Yuta Ueda, Yuki Asai, Ryuichi Enomoto, Kai Wang, **Daisuke Iwai**, and Kosuke Sato, “Body Cyberization by Spatial Augmented Reality for Reaching Unreachable World,” In Proceedings of Augmented Human 2017, in Proceedings of the 8th Augmented Human International Conference, pp. 19:1-19:9, 2017."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3041164.3041188" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/fYwK7d_cUO8" }
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2016/20160229_1" }
+      - cite: "**Daisuke Iwai**, “Projection Mapping Technologies for AR,” In Proceedings of International Display Workshops (IDW), pp. 1076-1078, 2016."
+        links:
+          - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/1704.02897" }
+      - cite: "Sota Aoyama, **Daisuke Iwai**, and Kosuke Sato, “Altering resistive force perception by modulating velocity of dot pattern projected onto hand,” In Proceedings of the 2016 workshop on Multimodal Virtual and Augmented Reality (MVAR), Article No. 7 (4 pages), 2016."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3001959.3001967" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/ja7Pm70mI40" }
+      - cite: "Hitomi Yoshiyama, **Daisuke Iwai**, and Kosuke Sato, “Generating High Brightness Video Using Intermittent Illuminations for Dark Area Surveying”, Applied Computing & Information Technology, Volume 619 of the series Studies in Computational Intelligence, pp. 179-191, 2016."
+        links: []
+      - cite: "Emilie Guy, Parinya Punpongsanon, **Daisuke Iwai**, Kosuke Sato, and Tamy Boubekeur, “LazyNav: 3D Ground Navigation with Non-Critical Body Parts,” In Proceedings of IEEE Symposium on 3D User Interfaces (3DUI), pp. 43-50, 2015."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/3DUI.2015.7131725" }
+          - { icon: "📄", label: "Preprint", url: "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/LazyNav.pdf" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/hL5mQcCFU9I" }
+          - { icon: "🏆", label: "Best Paper Award (IEEE 3DUI 2015)", url: "http://3dui.org/" }
+      - cite: "Marina Takeuchi, Mariko Isogawa, **Daisuke Iwai**, and Kosuke Sato, “Weak Perspective Shadow Interface for Seated User’s Pointing on Large Wall Display,” In Proceedings of IEEE/SICE International Symposium on System Integration (SII), pp. 316-321, 2014."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SII.2014.7028057" }
+      - cite: "Yoshito Hosomizo, **Daisuke Iwai**, and Kosuke Sato, “A Flying Projector Stabilizing Image Fluctuation,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 31-32, 2014."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/GCCE.2014.7031234" }
+          - { icon: "🏆", label: "3rd Prize Student Paper Award (IEEE GCCE 2014)", url: "http://www.ieee-gcce.org/2014/" }
+      - cite: "Ryo Wataya, **Daisuke Iwai**, and Kosuke Sato, “Community Detection in Real Communication Using Body Sway and Voice Information with Ambient Sensing Chair,” In Proceedings of IEEE/SICE International Symposium on System Integration (SII), pp. 466-471, 2013."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SII.2013.6776752" }
+      - cite: "Akifumi Tanaka, **Daisuke Iwai**, and Kosuke Sato, “Minimization of Image Quality Degradation in Multi-projection Mapping,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 8-9, 2013."
+        links:
+          - { icon: "🏆", label: "Outstanding Student Paper Award (IEEE GCCE 2013)", url: "http://www.ieee-gcce.org/2013/awards.html" }
+      - cite: "Kohei Okahara, Shuhei Ogawa, **Daisuke Iwai**, and Kosuke Sato, “Camera Based Hand Recognition for the Graphically Extended Hand,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 120-121, 2013."
+        links: []
+      - cite: "Yuki Yoshikawa, **Daisuke Iwai**, and Kosuke Sato, “A Study of Thermal Sensation with Visuo-Thermal Projection Interfaces,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 118-119, 2013."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/GCCE.2013.6664767" }
+      - cite: "Shoichiro Mihara, **Daisuke Iwai**, and Kosuke Sato, “Error Minimization of Radiometric Compensation for Subpixel Reflectance Variation,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 449-450, 2013."
+        links: []
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
+        links:
+          - { icon: "🏆", label: "Best Presentation Award (KJMR 2013)", url: "http://ypcex.naist.jp/kjmr2013/" }
+      - cite: "Takayuki Sasaki, Sei Ikeda, **Daisuke Iwai**, and Kosuke Sato, “Rough Scale Estimation in SLAM for Desktop Environments,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
+        links: []
+      - cite: "Shuhei Ogawa, Kohei Okahara, **Daisuke Iwai** and Kosuke Sato, “A Reachable User Interface by the Graphically Extended Hand,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 215-216, 2012."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/GCCE.2012.6379583" }
+      - cite: "Ryo Wataya, **Daisuke Iwai** and Kosuke Sato, “Ambient Sensing Chairs for Audience Emotion Recognition by Finding Synchrony of Body Sway,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 29-33, 2012."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/GCCE.2012.6379609" }
+          - { icon: "🏆", label: "3rd Prize Student Paper Award (IEEE GCCE 2012)", url: "http://www.ieee-gcce.org/2012/" }
+      - cite: "Chang Li, **Daisuke Iwai** and Kosuke Sato, “An ID and Position Recognition Method employing Camera Motion Blur for Modulated LED Tube Lights,” In Proceedings of IAPR Conference on Machine Vision Applications, pp. 562-565, 2011."
+        links: []
+      - cite: "Kazuhiro Matsushita, **Daisuke Iwai**, and Kosuke Sato, “Interactive Bookshelf Surface for In Situ Book Searching and Storing Support,” In Proceedings of Augmented Human International Conference, pp. 2:1-2:8, 2011."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1959826.1959828" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/1mEgfD1ccHg" }
+      - cite: "Nana Hamaguchi, Keiko Yamamoto, **Daisuke Iwai**, Kosuke Sato, “Subjective Difficulty Estimation for Interactive Learning by Sensing Vibration Sound on Desk Panel,” Lecture Notes in Computer Science, Springer, Volume 6439, pp. 138-147, 2010 (In Proc. of International Joint Conference on Ambient Intelligence (AmI))."
+        links:
+          - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/978-3-642-16917-5_14" }
+      - cite: "Hirofumi Nakai, **Daisuke Iwai** and Kosuke Sato, “3D Shape Measurement by Sweeping Hand-held Light Striping Range Finder,” In Proceedings of CIPA Symposium, OS2-3, 2009."
+        links: []
+      - cite: "Hirofumi Nakai, **Daisuke Iwai** and Kosuke Sato, “3D Shape Measurement Using Fixed Camera and Handheld Laser Scanner,” In Proceedings of SICE Annual Conference 2008, pp. 1536-1539, 2008."
+        links: []
+      - cite: "Naoki Sugita, **Daisuke Iwai** and Kosuke Sato, “Touch Sensing by Image Analysis of Fingernail,” In Proceedings of SICE Annual Conference 2008, pp. 1520-1525, 2008."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SICE.2008.4654901" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/ocSv48e7Vcc" }
+      - cite: "Oliver Bimber, **Daisuke Iwai**, Gordon Wetzstein and Anselm Grundhöfer, “The Visual Computing of Projector-Camera Systems,” EUROGRAPHICS State-of-the-Art Reports (STARs), pp. 23-46, 2007."
+        links: []
+      - cite: "**Daisuke Iwai** and Kosuke Sato,“Limpid Desk: See-Through Access to Disorderly Desktop in Projection-Based Mixed Reality,” In Proceedings of ACM Virtual Reality Software and Technology (VRST’06), pp. 112-115, 2006."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1180495.1180519" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/fuTzfmV6yb0" }
+      - cite: "Huichuan Xu, **Daisuke Iwai**, Shinsaku Hiura and Kosuke Sato, “User Interface by Virtual Shadow Projection,” In Proceedings of SICE-ICCAS 2006, SA14-1, A0897, 2006."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SICE.2006.314974" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/RU0F-EuQrPo" }
+      - cite: "**Daisuke Iwai**, Sawako Hanatani, Chinatsu Horii and Kosuke Sato, “Limpid Desk: Transparentizing Documents on Real Desk in Projection-Based Mixed Reality,” In Proceedings of IEEE VR 2006 Workshop Emerging Display Technologies (EDT’06), pp. 30-31, 2006."
+        links: []
+      - cite: "Noriko Nagata, **Daisuke Iwai**, Sanae H. Wake and Seiji Inokuchi, “Non-verbal Mapping between Sound and Color - Mapping Derived from Colored Hearing Synesthetes and Its Applications -,” Lecture Notes in Computer Science, Volume 3711, Springer, pp. 401-412, 2005. (In Proceedings of International Conference on Entertainment Computing (ICEC’05))"
+        links: []
+      - cite: "**Daisuke Iwai** and Kosuke Sato, “Heat Sensation in Image Creation with Thermal Vision,” In Proceedings of ACM SIGCHI International Conference on Advances in Computer Entertainment Technology (ACE’05), pp. 213-216, 2005."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1178477.1178510" }
+          - { icon: "📄", label: "Preprint", url: "https://drive.google.com/file/d/1oO5oard7twGTW8UqB5ohqBtKao5hJr-h/view?usp=share_link" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/jaSkErqKoG4" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/ZFjclf7DXmA" }
+      - cite: "Noriko Nagata, Kazutaka Okumoto, **Daisuke Iwai**, Felipe Toro and Seiji Inokuchi, “Analysis and Synthesis of Latin Dance using Motion Capture Data,” Lecture Notes in Computer Science, Volume 3333, Springer, pp. 39-44, 2004. (In Proceedings of Pacific Rim Conference on Multimedia (PCM’04))"
+        links: []
+      - cite: "**Daisuke Iwai**, Noriko Nagata, Sanae H. Wake and Seiji Inokuchi, “Approach to Non-verbal Mapping between Sound and Color,” In Proceedings of SICE Annual Conference 2002, pp. 34-39, 2002."
+        links: []
+  - id: non-archival
+    title_en: "Non-Archival Publications"
+    title_ja: "デモ・ポスター・その他"
+    entries:
+      - cite: "Yuto Takeuchi and **Daisuke Iwai**, “Multimodal Integration of Visual Masking and Phantom Sensation for 3D Object Interaction in Hand Projection,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 569-573, 2026."
+        links:
+          - { icon: "🎖️", label: "Best Paper Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2026)", url: "https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA" }
+      - cite: "Tatsuya Yamamoto, **Daisuke Iwai**, and Kosuke Sato, “An Embrace-Type VR System for Older Adults,” Adjunct Proceedings of IEEE International Symposium on Mixed and Augmented Reality, pp. 795-796, 2025."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00192" }
+      - cite: "Ao Ishikawa, Yushi Sato, Kosuke Sato, and **Daisuke Iwai**, “Influence of a Visual Cue and Agency on the Ventriloquism Effect for a Projected Extended Hand,” Adjunct Proceedings of IEEE International Symposium on Mixed and Augmented Reality, pp. 751-752, 2025."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00170" }
+      - cite: "Haruto Konishi, Kosuke Sato, and **Daisuke Iwai**, “Avatar Manipulation via Image-Based Recognition of Hand and Finger Pressing Motion on a Deformable Dome Surface,” Adjunct Proceedings of IEEE International Symposium on Mixed and Augmented Reality, pp. 747-748, 2025."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00168" }
+      - cite: "Shiva Sinaei, Chuanjun Zheng, Kaan Akşit, and **Daisuke Iwai**, “Efficient Proxy Raytracer for Optical Systems using Implicit Neural Representations,” In Proceedings of ACM SIGGRAPH 2025 Posters, Article No. 67, 1-2, 2025."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3721250.3742994" }
+      - cite: "Shun Hanai, Yuto Takeuchi, Yushi Sato, Yoshihiro Okamoto, **Daisuke Iwai**, and Kosuke Sato, “Haptic Augmentation by a Wrist Mounted Device with Laser Speckle Vibration Sensing and Hand Projection,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 802-806, 2025."
+        links:
+          - { icon: "🎖️", label: "Best Paper Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2025)", url: "https://sites.google.com/vogue.cs.titech.ac.jp/vr-hsa/vr-hsa-2025" }
+      - cite: "Atsushi Maki, **Daisuke Iwai**, and Kosuke Sato, “A Model-based Motion Amplifying Projection for Food Elasticity Manipulation,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 798-801, 2025."
+        links:
+          - { icon: "🎖️", label: "Best Presentation Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2025)", url: "https://sites.google.com/vogue.cs.titech.ac.jp/vr-hsa/vr-hsa-2025" }
+      - cite: "Yushi Sato, **Daisuke Iwai**, and Kosuke Sato, “Shadow Effects for Representing Hovering-and-Contact States of a Projected Hand in Spatial Augmented Reality,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 790-794, 2025."
+        links: []
+      - cite: "**Daisuke Iwai**, “Projection Mapping Technologies for Seamless Spatial Augmentation,” Laser Display and Lighting Conference, LDC5-3, 2025."
+        links: []
+      - cite: "Ikuho Tani, **Daisuke Iwai**, and Kosuke Sato, “High Spatial Resolution Projection Mapping for Visually Consistent Reproduction of Physical Surfaces,” In Proceedings of ACM SIGGRAPH Asia 2024 Posters, Article No. 36, 1-2, 2024."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3681756.3697942" }
+      - cite: "Hayase Nishi, **Daisuke Iwai**, and Kosuke Sato, “3D Texture Representation in Projection Mapping onto a Surface with Micro-Vibration,” In Proceedings of ACM SIGGRAPH Asia 2024 Posters, Article No. 101, 1-2, 2024."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3681756.3697944" }
+      - cite: "Takahiro Okamoto, **Daisuke Iwai**, and Kosuke Sato, “Multidirectional Superimposed Projection for Delay-free Shadow Suppression on 3D Objects,” In Proceedings of ACM SIGGRAPH Asia 2024 Posters, Article No. 102, 1-2, 2024."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3681756.3697948" }
+      - cite: "Kohei Miura, **Daisuke Iwai**, and Kosuke Sato, “3D Reconstruction of a Soft Object Surface and Contact Areas in Hand-Object Interactions,” In Proceedings of ACM SIGGRAPH Asia 2024 Posters, Article No. 66, 1-2, 2024."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3681756.3697895" }
+      - cite: "Yotam Erel, Or Kozlovsky-Mordenfeld, Hiroki Kusuyama, Kohei Miura, **Daisuke Iwai**, Kosuke Sato, and Amit H. Bermano, “Casper DPM: Cascaded Perceptual Dynamic Projection Mapping onto Hands,” In Proceedings of ACM SIGGRAPH Asia 2024 Emerging Technologies, Article No. 4, 1-2, 2024."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://yoterel.github.io/casper-project-page/" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3681755.3688952" }
+          - { icon: "🏆", label: "Best Student Demo in Show Award (ACM SIGGRAPH ASIA 2024 Emerging Technologies)", url: "/ja/publications/" }
+      - cite: "Kazushi Kinjo, **Daisuke Iwai**, and Kosuke Sato, “A High-Dynamic-Range Mesh Screen VR Display by Combining Frontal Projection and Retinal Projection,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 629-630, 2023."
+        links:
+          - { icon: "🎖️", label: "Best Poster Honorable Mention (IEEE VR 2023)", url: "https://ieeevr.org/2023/awards/conference-awards/#poster-honorable" }
+      - cite: "Isabella Mika Taninaka, **Daisuke Iwai**, Kosuke Sato, and Parinya Punpongsanon, “Development of Training Systems using Spatial Augmented Hand,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 679-680, 2023."
+        links: []
+      - cite: "Yoshiaki Makita, **Daisuke Iwai**, and Kosuke Sato, “Optical See-through Scope for Observing the Global Component of a Scene,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 677-678, 2023."
+        links: []
+      - cite: "Masaki Takeuchi, **Daisuke Iwai**, and Kosuke Sato, “Projection Mapping in the Light: A Preliminary Attempt to Substitute Projectors for Room Lights,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 653-654, 2023."
+        links: []
+      - cite: "Parinya Punpongsanon, Yamato Miyatake, **Daisuke Iwai**, and Kosuke Sato, “Demonstration of interiqr: Unobtrusive Edible Tags using Food 3D Printing,” In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology, pp. 108:1-108:3, 2022."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://dl.acm.org/doi/abs/10.1145/3526114.3558630" }
+      - cite: "Akira Watanabe, Takuya Uchida, **Daisuke Iwai**, and Kosuke Sato, “Hovering and Contact Representation of Laser Contour-Based Hand with Swinging Tablet PC for Distant Communication,” In Proceedings of International Conference on Tangible, Embedded, and Embodied Interaction (TEI), pp. 62:1-62:7, 2022."
+        links: []
+      - cite: "Kento Honda, Haruka Matsukura, **Daisuke Iwai**, Hiroshi Ishida, and Kosuke Sato, “Human Olfactory Interface for Odor Modulation Utilizing Gas Adsorption and Desorption: Evaluation of Separation Performance of Odorous Substances in Adsorption Process,” Human-Computer-Interaction – INTERACT 2021 (Proceedings of the 18th IFIP Conference on Human-Computer Interaction), Lecture Notes in Computer Science, Vol. 12936, pp. 431-435, 2021."
+        links: []
+      - cite: "Yamato Miyatake, Takefumi Hiraki, Tomosuke Maeda, **Daisuke Iwai**, and Kosuke Sato, “HaptoMapping: Visuo-Haptic AR System using Projection-based Control of Wearable Haptic Devices,” In Proceedings of ACM SIGGRAPH Asia 2020 Emerging Technologies, pp. 7:1-7:2, 2020."
+        links: []
+      - cite: "Parinya Punpongsanon, Ying-Ju Lin, Xin Wen, **Daisuke Iwai**, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “Demonstration of FoodFab: Creating Food Perceptual Illusions using Food 3D Printing,” Extended Abstracts of ACM CHI Conference on Human Factors in Computing Systems (CHI) 2020, INT016, pp. 016:1-016:4, 2020."
+        links: []
+      - cite: "Tatsuyuki Ueda, **Daisuke Iwai**, and Kosuke Sato, “IlluminatedFocus: Vision Augmentation using Spatial Defocusing,” In Proceedings of ACM SIGGRAPH Asia Emerging Technologies, pp. 21-22, 2019."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3355049.3360530" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/NQntt8X1Xh0" }
+      - cite: "Yuta Kageyama, Mariko Isogawa, **Daisuke Iwai**, and Kosuke Sato, “Generative Adversarial Network based Image Blur Compensation for Projection-Based Mixed Reality,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 231-232, 2019."
+        links: []
+      - cite: "Motoki Miyoshi, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Preliminary Study on Surface Texture to Manipulate Perceived Softness of 3D Printed Objects,” In Proceedings of International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments (ICAT-EVGE), pp 17-18, 2019."
+        links: []
+      - cite: "Yushi Sato, Naruki Tanabe, Kohei Morita, Takefumi Hiraki, Parinya Punpongsanon, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Pseudo-Haptic Feedback in a Projected Virtual Hand for Tactile Perception of Textures,” In Proceedings of IEEE World Haptics Conference (Work-in-progress), WP1P.09, 2019."
+        links: []
+      - cite: "Yushi Sato, Naruki Tanabe, Kohei Morita, Takefumi Hiraki, Parinya Punpongsanon, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Pseudo-Haptic Feedback in a Projected Virtual Hand for Tactile Perception of Textures,” In Proceedings of IEEE World Haptics Conference (Hands-on Demos), DM2.09, 2019."
+        links: []
+      - cite: "Naruki Tanabe, Yushi Sato, Kohei Morita, Michiya Inagaki, Yuichi Fujino, Parinya Punpongsanon, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “fARFEEL: Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 1355-1356, 2019."
+        links: []
+      - cite: "Kosuke Hiratani, **Daisuke Iwai**, Parinya Punpongsanon, and Kosuke Sato, “Shadowless Projector: Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 1309-1310, 2019."
+        links:
+          - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2018/20181114_3" }
+          - { icon: "🎖️", label: "Best Research Demonstration Runner-up (IEEE VR 2019)", url: "http://ieeevr.org/2019/awards/conference_awards.html" }
+      - cite: "Yuichi Fujino, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Odor Modulation by Warming/Cooling Nose Based on Cross-modal Effect,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 929-930, 2019."
+        links: []
+      - cite: "Takatoshi Sato, **Daisuke Iwai**, and Kosuke Sato, “Flexible FOV and Shadow Removal in Mobile Projection System Using Multiple Pan Projectors,” In Proceedings of International Display Workshops (IDW), pp. 1225-1227, 2018."
+        links: []
+      - cite: "Naruki Tanabe, Yuki Asai, Ryuichi Enomoto, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Haptic Feedback to Non-Manipulating Hand in Manipulating Virtual Hand,” In Companion Proceedings of IEEE Haptics Symposium 2018, p. 125, 2018."
+        links: []
+      - cite: "Takumi Kawahara, **Daisuke Iwai**, and Kosuke Sato, “Dynamic Path Planning of Flying Projector Considering Collision Avoidance with Observer and Bright Projection,” In Proceedings of ACM International Conference on Intelligent User Interfaces (ACM IUI) Companion, pp. 62:1-62:2, 2018."
+        links: []
+      - cite: "Kazune Hagino, **Daisuke Iwai**, and Kosuke Sato, “Place Management of Electrodes for Embedding Capacitive Multi-touch Sensor on 3D Printed Surfaces,” In Proceedings of ACM Symposium on Computational Fabrication, pp. 15:1-15:2, 2017."
+        links: []
+      - cite: "Ryutaro Mine, **Daisuke Iwai**, Shinsaku Hiura, and Kosuke Sato, “Shape Optimization of Fabricated Transparent Layer for Pixel Density Uniformalization in Non-planar Rear Projection,” In Proceedings of ACM Symposium on Computational Fabrication, pp. 16:1-16:2, 2017."
+        links: []
+      - cite: "Ryo Shirono, **Daisuke Iwai**, and Kosuke Sato, “Ambient Image Sensing Using Saccadic Suppression,” In Proceedings of ASIAGRAPH 2017, pp. 43-44, 2017."
+        links: []
+      - cite: "Yuichi Hiroi, Yuta Itoh, Takumi Hamasaki, **Daisuke Iwai**, and Maki Sugimoto, “HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection,” In Proceedings of IEEE Virtual Reality, pp. 209-210, 2017."
+        links: []
+      - cite: "Yuki Asai, Yuta Ueda, Ryuichi Enomoto, **Daisuke Iwai**, and Kosuke Sato, “ExtendedHand on Wheelchair,” In Adjunct Proceedings of ACM Symposium on User Interface Software and Technology, pp. 147-148, 2016."
+        links: []
+      - cite: "Markus Billeter, Gerhard Röthlin, Jan Wezel, **Daisuke Iwai**, and Anselm Grundhöfer, “A LED-Based IR/RGB End-to-End Latency Measurement Device,” In Adjunct Proceedings of IEEE International Symposium on Mixed Reality and Augmented Reality, pp. 184-188, 2016."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://la.disneyresearch.com/publication/a-led-based-irrgb-end-to-end-latency-measurement-device/" }
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR-Adjunct.2016.0072" }
+          - { icon: "📄", label: "Preprint", url: "https://la.disneyresearch.com/wp-content/uploads/A-LED-Based-IRRGB-End-to-End-Latency-Measurement-Device-Paper.pdf" }
+      - cite: "Jun Tsukamoto, **Daisuke Iwai**, Kenji Kashima, “Distributed Optimization for Shadow Removal in Spatial Augmented Reality,” In Adjunct Proceedings of IEEE International Symposium on Mixed Reality and Augmented Reality, pp. 147-148, 2016."
+        links: []
+      - cite: "**Daisuke Iwai**, “Computational Projection Displays,” 第77回応用物理学会秋季学術講演会 講演予稿集, 04-062, 2016."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_JSAP16.pdf" }
+      - cite: "Hirotaka Asayama, **Daisuke Iwai**, Kosuke Sato, “Diminishable Visual Markers on Fabricated Projection Object for Dynamic Spatial Augmented Reality,” In Proceedings of ACM SIGGRAPH ASIA Emerging Technologies, Article No. 7, 2015."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/2818466.2818477" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/qFvrtnmnmYk" }
+      - cite: "Ryo Matsukage, **Daisuke Iwai**, Kosuke Sato, “Consistent Desktop Sharing Based on Document Coordinate System for Face-to-face Online Meeting,” In Proceedings of ACM SIGGRAPH ASIA Emerging Technologies, Article No. 6, 2015."
+        links:
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/2818466.2818481" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/Hh-4LkbwD30" }
+      - cite: "Hirotaka Asayama, **Daisuke Iwai**, Kosuke Sato, “Diminishable Visual Markers on Fabricated Projection Object for Dynamic Spatial Augmented Reality,” In Proceedings of ACM SIGGRAPH ASIA Posters, Article No. 38, 2015."
+        links: []
+      - cite: "Toshio Kanamori, **Daisuke Iwai**, and Kosuke Sato, “Manipulating Haptic Shape Perception by Visual Surface Deformation and Finger Displacement in Spatial Augmented Reality,” In Proceedings of IEEE International Symposium on Mixed and Augmented Reality, pp. 190-191, 2015."
+        links: []
+      - cite: "Yuta Ueda, **Daisuke Iwai**, and Kosuke Sato, “InstantReach: Virtual Hand Interaction using Smartphone,” In USB Proceedings of IEEE International Symposium on Mixed and Augmented Reality, S&T Demos 14, 2015."
+        links: []
+      - cite: "Parinya Punpongsanon, Emilie Guy, Tamy Boubekeur, **Daisuke Iwai**, and Kosuke Sato, “Ground Navigation in 3D Scenes using Simple Body Motions,” In Proceedings of International Conference on Artificial Reality and Telexistence - Eurographics Symposium on Virtual Environments (ICAT-EGVE), pp. 19-20, 2014."
+        links: []
+      - cite: "Shoichi Takeda, **Daisuke Iwai**, and Kosuke Sato, “An Immersive Projection Display with Dynamic Reflectance Control Using Photochromism,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 57-58, 2014."
+        links: []
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “[Poster] A Preliminary Study on Altering Surface Softness Perception using Augmented Color and Deformation,” In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 301-302, 2014."
+        links: []
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “DeforMe: Projection-based Visualization of Deformable Surfaces using Invisible Textures,” In Proceedings of SIGGRAPH Asia Emerging Technologies, pp. 8:1-8:3, 2013."
+        links:
+          - { icon: "🌐", label: "Project", url: "https://punpongsanon.info/deforme/index.html" }
+          - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/2542284.2542292" }
+          - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/7tdfrgqfz6vtfhn/SA_2013_DeforMe_punpongsanon.pdf?dl=0" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/i3U93QTfzlg" }
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Visualization of Viscoelastic Surfaces Deformation using Infrared Vision Technique,” In Proceeding of Thailand-Japan International Academic Conference, pp.172-173, 2013."
+        links: []
+      - cite: "Hsin-Ni Ho, **Daisuke Iwai**, Yuki Yoshikawa, Junji Watanabe, and Shin’ya Nishida, “Effects of color on perceived temperature,” Perception, Vol. 42 (supplement), p. 167, 2013. (Proceedings of European Conference on Visual Perception (ECVP2013))"
+        links: []
+      - cite: "Naoto Hino, **Daisuke Iwai** and Kosuke Sato, “Dynamic Reflectance Control of Photochromic Compounds for 3D High Dynamic Range Display,” CVPR 2012 Workshop for Computational Cameras and Displays, 2012."
+        links: []
+      - cite: "David Samuel, **Daisuke Iwai** and Kosuke Sato, “Focal Length Modulation of Projection Lens for Defocus Blur Compenstation,” CVPR 2012 Workshop for Computational Cameras and Displays, 2012."
+        links: []
+      - cite: "Kei Kodama, **Daisuke Iwai**, and Kosuke Sato, “Pan-Tilt Projector Path Planning for Adaptive Resolution Display,” In Proceedings of International Conference on Artificial Reality and Telexistence (ICAT), p.140, 2011."
+        links: []
+      - cite: "Tatsunori Yabiki, **Daisuke Iwai**, and Kosuke Sato, “Adaptive Annotation Layout in Projection-Based Mixed Reality by Considering Its Readability,” In Proceedings of International Conference on Artificial Reality and Telexistence (ICAT), p.144, 2011."
+        links: []
+      - cite: "Mariko Miki, **Daisuke Iwai**, and Kosuke Sato, “Optically Hiding of Information with Polarized Complementary Projection,” In Proceedings of International Conference on Artificial Reality and Telexistence (ICAT), p.166, 2011."
+        links: []
+      - cite: "Saeko Shimazu, **Daisuke Iwai**, and Kosuke Sato, “High Dynamic Range 3D Display System with Projector and 3D Color Printer Output,” In Proceedings of International Conference on Artificial Reality and Telexistence (ICAT), p.165, 2011."
+        links: []
+      - cite: "Mariko Miki, **Daisuke Iwai**, and Kosuke Sato, “Optically Hiding of Tabletop Information with Polarized Complementary Image Projection - Your Shadow Reveals It!,” In Proceedings of ACM International Conference on Interactive Tabletops and Surfaces (ITS), pp. 260-261, 2011."
+        links: []
+      - cite: "Saeko Shimazu, **Daisuke Iwai** and Kosuke Sato, “3D High Dynamic Range Display System,” In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 235-236, 2011."
+        links:
+          - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR.2011.6092393" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/JXhK5n2frLg" }
+      - cite: "Keisuke Matsuzaki, **Daisuke Iwai**, and Kosuke Sato, “Snail Light Projector: Interaction with Virtual Projection Light in Hyper-Slow Propagation Speed,” In Proceedings of ACM SIGCHI International Conference on Advances in Computer Entertainment Technology (ACE’10), pp. 114-115, 2010."
+        links: []
+      - cite: "Momoyo Nagase, **Daisuke Iwai**, and Kosuke Sato, “Dynamic Control of Multiple Focal-Plane Projections for Eliminating Defocus and Occlusion,” In Proceedings of IEEE Virtual Reality (poster), pp. 293-294, 2010."
+        links: []
+      - cite: "Oliver Bimber and **Daisuke iwai**, “Superimposing Dynamic Range,” In Proceedings of SIGGRAPH 2008 New Tech Demo (DVD), p.36, 2008."
+        links: []
+      - cite: "Noriko Nagata, Kazutaka Okumoto, **Daisuke Iwai**, Felipe Toro and Seiji Inokuchi, “Comparative Analysis and Synthesis of Latin Dance using Motion Capture,” In Proceedings of International Conference on Virtual Systems and Multimedia (VSMM’04), pp. 779-780, 2004."
+        links: []
+  - id: misc
+    title_en: "Miscellaneous"
+    title_ja: "その他（英文）"
+    entries:
+      - cite: "Parinya Punpongsanon, Yamato Miyatake, **Daisuke Iwai**, and Kosuke Sato, “Food DX Through Unobtrusive Edible Tags using Food 3D Printing,” Journal of the Imaging Society of Japan (日本画像学会誌), Vol. 62, No. 2, pp. 121-127, 2023."
+        links: []
+      - cite: "Wolfgang Hürst, **Daisuke Iwai**, and Prabhakaran Balakrishnan, “International workshop on multimodal virtual and augmented reality (workshop summary),” In Proceedings of the 18th ACM International Conference on Multimodal Interaction (ICMI), pp. 596-597, 2016."
+        links: []
+      - cite: "Hsin-Ni Ho, **Daisuke Iwai**, Yuki Yoshikawa, Junji Watanabe, and Shin’ya Nishida, “Impact of hand and object colors on object temperature perception,” Temperature, Vol. 2, No. 3, pp. 344-345, 2015."
+        links:
+          - { icon: "📄", label: "Taylor & Francis (open access)", url: "https://doi.org/10.1080/23328940.2015.1078926" }
+      - cite: "Kosuke Sato, **Daisuke Iwai**, Sei Ikeda, Noriko Takemura, “Procams-Based Cybernetics,” IEEE VR Lab/Project Presentations, 2015."
+        links:
+          - { icon: "📄", label: "Preprint", url: "http://arxiv.org/abs/1510.02710" }
+      - cite: "Oliver Bimber and **Daisuke Iwai**, “Superimposing Dynamic Range,” Bauhaus-Universität Weimar, Technical Report #1358, 2008."
+        links: []
+
+  # ---- 和文業績（日本語ページのみ）----
+  - id: books-ja
+    ja_only: true   # 日本語ページのみに表示
+    title_en: "Books (Japanese)"
+    title_ja: "書籍（和文）"
+    entries:
+      - cite: "小松英彦, 富永昌二, 西田眞也(編), 質感科学ハンドブック, 東京大学出版会, 2025年1月 (分担執筆：執筆箇所「6-6 ディスプレイ技術」)"
+        links: []
+      - cite: "小松英彦(編), 質感の科学 ―知覚・認知メカニズムと分析・表現の技術―, 朝倉書店, 2016年10月 (分担執筆：執筆箇所「5.1 リアルな映像を作り出す技術」)"
+        links: []
+      - cite: "蔵田武志, 清川清(監修), 大隈隆史(編集), AR(拡張現実)技術の基礎・発展・実践, 科学情報出版, 2015年9月 (分担執筆：執筆箇所「2.2 空間型拡張現実感」, 「3.3 ビューマネージメント、可視化」)"
+        links: []
+  - id: journal-ja
+    ja_only: true   # 日本語ページのみに表示
+    title_en: "Journal Articles and Letters (Japanese)"
+    title_ja: "原著論文・総説論文・レター（和文）"
+    entries:
+      - cite: "松田綾美, Parinya Punpongsanon, **岩井大輔**, 佐藤宏介, “食品端材への低視認度画像マーカ埋込による料理識別,” システム制御情報学会論文誌, Vol. 37, No. 12, pp. 313-315, 2024."
+        links: []
+      - cite: "岡本祥宏, 佐藤優志, **岩井大輔**, 佐藤宏介, “投影拡張手示指部にレーザスペックル振動計測機能を有する遠方触覚拡張,” 日本バーチャルリアリティ学会論文誌, Vol. 28, No. 3, pp. 165-174, 2023."
+        links: []
+      - cite: "渡邊あきら, 佐藤優志, 内田琢也, **岩井大輔**, 佐藤宏介, “レーザ走査プロジェクタによる輪郭投影手のミニマル表現と浮遊・接触感提示,” 日本バーチャルリアリティ学会論文誌, Vol. 27, No. 2, pp. 152-161, 2022."
+        links: []
+      - cite: "稲垣理也, **岩井大輔**, 佐藤宏介, “横臥療養者向けVR映像提示方法とディスプレイ形状の基礎検討,” 電気学会論文誌C, Vol. 142, No. 5, pp. 513-521, 2022."
+        links: []
+      - cite: "寺井晴香, **岩井大輔**, 佐藤宏介, “空間光位相変調器を用いた投影画素の再配置による画素密度補正,” 映像情報メディア学会誌, Vol. 75, No. 6, pp. 820-823, 2021."
+        links: []
+      - cite: "稲垣理也, 松倉悠, **岩井大輔**, 佐藤宏介, “圧縮センシングに基づいたガス分布マッピング,” 電気学会論文誌E, Vol. 141, No. 4, pp. 113-114, 2021."
+        links: []
+      - cite: "山本健太, **岩井大輔**, 佐藤宏介, “画素一致プロジェクタ-カメラシステムによる動的プロジェクションマッピング,” 日本バーチャルリアリティ学会論文誌, Vol. 26, No. 1, pp. 107-116, 2021."
+        links:
+          - { icon: "🏆", label: "日本バーチャルリアリティ学会論文賞", url: "https://vrsj.org/awards/best_papers/#paper24" }
+      - cite: "浅井唯貴, 榎本龍一, 上田雄太, **岩井大輔**, 佐藤宏介, “タッチ入力型拡張手投影スマート車椅子における拡張手表現と走行制御,” 電気学会論文誌C, Vol. 139, No. 5, pp. 662-669, 2019."
+        links: []
+      - cite: "河原拓海, **岩井大輔**, 佐藤宏介, “投影輝度向上および利用者との衝突回避を目指したプロジェクタドローンの動的配置,” 日本バーチャルリアリティ学会論文誌, Vol. 23, No. 2, pp. 75-78, 2018."
+        links: []
+      - cite: "竹澤拓朗, **岩井大輔**, 佐藤宏介, 原利宏, 村瀬健二, “自動車内装意匠設計における投影型複合現実感技術を用いた視覚変形と表面質感変調に関する研究,” 自動車技術会論文集, Vol. 49, No. 3, pp. 599-604, 2018."
+        links: []
+      - cite: "青木芽衣, 渡邊淳司, **岩井大輔**, 佐藤宏介, “手へのテクスチャ重畳投影による触質感変調の検討,” 映像情報メディア学会誌, Vol. 71, No. 3, pp. J118-J120, 2017."
+        links: []
+      - cite: "金森俊雄, **岩井大輔**, 佐藤宏介, “重畳投影する手映像の位置ずれによる形状触知覚変調,” 日本バーチャルリアリティ学会論文誌, Vol. 20, No. 3, pp. 263-266, 2015."
+        links: []
+      - cite: "塚本潤, **岩井大輔**, 加嶋健司, “分散最適化にもとづく協調型映像投影システムによる投影色補正,” 日本バーチャルリアリティ学会論文誌, Vol. 20, No. 2, pp. 143-150, 2015."
+        links: []
+      - cite: "**岩井大輔**, 田中章文, 佐藤宏介, “複数重畳投影による立体模型の投影型彩色のための投影結果推定に基づくプロジェクタ選択法,” 日本バーチャルリアリティ学会論文誌, Vol. 20, No. 2, pp. 75-81, 2015."
+        links: []
+      - cite: "岡原浩平, 小川修平, 新明拓也, **岩井大輔**, 佐藤宏介, “身体拡張型インタフェースのための前腕の投影表現に関する基礎検討,” 日本バーチャルリアリティ学会論文誌, Vol. 19, No. 3, pp. 349-355, 2014."
+        links: []
+      - cite: "武内真梨奈, 五十川麻里子, **岩井大輔**, 佐藤宏介, “影のメタファを利用したポインティングインタフェースにおける影の制約緩和による操作性の向上,” 日本バーチャルリアリティ学会論文誌, Vol. 19, No. 2, pp. 207-214, 2014."
+        links: []
+      - cite: "吉川佑生, **岩井大輔**, 佐藤宏介, “視温覚融合投影インターフェースにおける視覚が温覚に与える作用の基礎検討,” 日本バーチャルリアリティ学会論文誌, Vol. 18, No. 4, pp. 527-530, 2013."
+        links: []
+      - cite: "木室俊一, **岩井大輔**, 佐藤宏介, “ハンドヘルドプロジェクタの遅延追従投影による目標交差インタフェース,” 映像情報メディア学会誌, Vol. 67, No. 12, pp. J455-J462, 2013."
+        links: []
+      - cite: "小川修平, 杉田尚基, **岩井大輔**, 佐藤宏介, “EigenNail法における複数識別器による指先押下認識の改善とそのメニュー選択インタフェース応用に向けた基礎検討,” 映像情報メディア学会誌, Vol. 67, No. 12, pp. J425-433, 2013."
+        links: []
+      - cite: "武内真梨奈, **岩井大輔**, 佐藤宏介, “投影型複合現実感のための6スペクトルバンドプロジェクタによる投影色補正,” 日本バーチャルリアリティ学会論文誌, Vol. 18, No. 3, pp. 207-216, 2013."
+        links: []
+      - cite: "綿谷亮, **岩井大輔**, 佐藤宏介, “着座時揺動の同調傾向に基づく聴衆の興奮・退屈状態の計測,” 電気学会論文誌C, Vol. 133, No. 4, pp. 706-712, 2013."
+        links: []
+      - cite: "松本翔平, 綿谷亮, **岩井大輔**, 佐藤宏介, “アンビエントな着座揺動センシングによるデスクワークにおける筆記・非筆記状態識別,” 電気学会論文誌C, Vol. 133, No. 2, pp. 373-379, 2013."
+        links: []
+      - cite: "**岩井大輔**, 矢引達教, 松下和弘, 佐藤宏介, “投影型アノテーションにおける投影面形状の重畳文字可読性に与える影響および重畳文字の運動による可読性改善に関する研究,” 日本バーチャルリアリティ学会論文誌, Vol. 17, No.4, pp. 469-476, 2012."
+        links: []
+      - cite: "片岡真史, **岩井大輔**, 佐藤宏介, “感性語を入力とする舞台照明コントローラ,” 電気学会論文誌C, Vol. 132, No. 12, pp. 1999-2006, 2012."
+        links: []
+      - cite: "島津冴子, **岩井大輔**, 佐藤宏介, “複数台プロジェクタによる投影型複合現実感のための解像度を考慮したプロジェクタ最適配置,” 日本バーチャルリアリティ学会論文誌, Vol. 17, No. 3, pp. 261-268, 2012."
+        links: []
+      - cite: "松崎圭佑, **岩井大輔**, 佐藤宏介, “超低速度光の仮想表現による光伝播体験,” 日本バーチャルリアリティ学会論文誌, Vol. 16, No. 4, pp. 577-584, 2011."
+        links: []
+      - cite: "松下和弘, **岩井大輔**, 佐藤宏介, “Interactive Bookshelf Surface: 本棚のインタラクティブサーフェス化による文書探索・収納支援,” 日本バーチャルリアリティ学会論文誌, Vol. 16, No. 1, pp. 3-12, 2011."
+        links: []
+      - cite: "長瀬百代, **岩井大輔**, 佐藤宏介, “複数投影環境における投影像の空間周波数解析に基づくモデルベースボケ補償および影除去,” 日本バーチャルリアリティ学会論文誌, Vol. 15, No. 3, pp. 503-512, 2010."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “投影型複合現実感技術を用いた熱画像可視化,” 可視化情報学会論文集, Vol. 27, No. 9, pp. 69-76, 2007."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “Limpid Desk: 投影型複合現実感による机上書類の透過化,” 情報処理学会論文誌, Vol. 48, No. 3, pp. 1294-1306, 2007."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “ThermoRetouch & ThermoModeler: 熱感覚を利用した画像創作支援,” 芸術科学会論文誌, Vol. 6, No. 2, pp. 65-75, 2007."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “ThermoReality: 実環境に偏在する熱現象を対象とする投影型エデュテイメントシステム,” 日本バーチャルリアリティ学会論文誌, Vol. 11, No. 4, pp. 569-572, 2006."
+        links: []
+      - cite: "中山太一郎, **岩井大輔**, 佐藤宏介, “投影型情報提示における判読性に関する研究,” 映像情報メディア学会誌, Vol. 60, No. 12, pp. 2012-2014, 2006."
+        links: []
+      - cite: "**岩井大輔**, 金谷一朗, 日浦慎作, 井口征士, 佐藤宏介, “ThermoPainter: 熱画像を用いたタブレット型入力装置とそのインタラクティブ描画システム,” 情報処理学会論文誌, Vol. 46, No. 7, pp. 1582-1593, 2005."
+        links: []
+      - cite: "長田典子, **岩井大輔**, 津田学, 和氣早苗, 井口征士, “音と色のノンバーバルマッピング−色聴保持者のマッピングルール抽出とその応用−,” 電子情報通信学会論文誌(A), Vol. J86-A, No. 11, pp. 1219-1230, 2003."
+        links: []
+  - id: domestic-conference
+    ja_only: true   # 日本語ページのみに表示
+    title_en: "Domestic Conference Presentations"
+    title_ja: "国内会議発表"
+    entries:
+      - cite: "早形友希, 長原一, **岩井大輔**, 中村友哉, “密着型画像スキャナの三次元化に向けた可微分ロッドレンズシミュレータの開発,” 第70回システム制御情報学会研究発表講演会, pp. 886-893, 2026."
+        links: []
+      - cite: "田原万丈, **岩井大輔**, “投影対象の二次元微小振動に同期した体積走査型高速投影による凹凸形状表現,” 第70回システム制御情報学会研究発表講演会, pp. 772-778, 2026."
+        links: []
+      - cite: "森川理佐子, **岩井大輔**, 中村友哉, “ホログラフィックミラーを用いた直立型空中像ディスプレイ,” 第70回システム制御情報学会研究発表講演会, pp. 767-771, 2026."
+        links: []
+      - cite: "中島功陽, Shiva Sinaei, 楠山弘基, **岩井大輔**, 中村友哉, “レンズレスカメラを用いたホログラフィックテレプレゼンス,” 第70回システム制御情報学会研究発表講演会, pp. 761-766, 2026."
+        links: []
+      - cite: "川島大空, **岩井大輔**, “聴覚提示とプロジェクションマッピングによるクロスモーダル統合を用いた物体の質感変調,” 第70回システム制御情報学会研究発表講演会, pp. 756-760, 2026."
+        links: []
+      - cite: "岸道大, 雨坂宇宙, **岩井大輔**, “爪表面への方向性振動提示による重量知覚変調手法,” 日本バーチャルリアリティ学会研究報告, Vol. 31, No.HAP01, pp. 32-35, 2026."
+        links: []
+      - cite: "清水聖也, 雨坂宇宙, 森田崇文, **岩井大輔**, “TasteFlow Tube: 単一チューブ内の味溶液カプセルによる味の時間変化提示デバイスの提案,” 第33回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2025) 論文集, デモ発表, 1-C14, 2025."
+        links: []
+      - cite: "岸道大, 雨坂宇宙, 竹内悠人, **岩井大輔**, “爪上振動提示による重量感覚変調,” 第33回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2025) 論文集, デモ発表, 2-C12, 2025."
+        links: []
+      - cite: "井元祐亮, **岩井大輔**, “不可視パターンが埋め込まれたプロジェクションマッピング環境下でのフォーカシングシュリーレン撮影,” 第30回パターン計測シンポジウム, PM110-03, 2025."
+        links: []
+      - cite: "三浦和之, 竹内正稀, **岩井大輔**, “分散協調型マルチプロジェクタ・カメラシステムによる重複領域処理と色補償,” 第77回 複合現実感研究会(SIGMR), MR2025-12, 2025."
+        links: []
+      - cite: "立岩悠翔, **岩井大輔**, “ビジョントラッキングを用いた指先のレーザドップラ振動計測,” 第30回日本バーチャルリアリティ学会大会論文集, 1F2-03 (3 pages), 2025."
+        links: []
+      - cite: "園田雄基, **岩井大輔**, “狭帯域3バンドパスフィルタによる明室環境でのプロジェクションマッピング,” 第30回日本バーチャルリアリティ学会大会論文集, 2E2-01 (4 pages), 2025."
+        links: []
+      - cite: "前田恵照, **岩井大輔**, “ハイパースペクトルカメラを用いたプロジェクタ色補償のユーザ調査による色知覚評価,” 第30回日本バーチャルリアリティ学会大会論文集, 2E2-03 (3 pages), 2025."
+        links: []
+      - cite: "中尾都史也, **岩井大輔**, “目標形状に応じた投影面のオンライン変形と立体視プロジェクションマッピングによる動的立体表現,” 第30回日本バーチャルリアリティ学会大会論文集, 2E2-04 (4 pages), 2025."
+        links: []
+      - cite: "墨田充輝, **岩井大輔**, “実環境でのプロテウス効果生起に向けたユーザ身体不可視化の検討,” 第30回日本バーチャルリアリティ学会大会論文集, 2E2-12 (4 pages), 2025."
+        links: []
+      - cite: "小西遥登, 佐藤宏介, **岩井大輔**, “変形可能なドーム面への手指押し込み動作の画像認識に基づくアバター操作,” 第30回日本バーチャルリアリティ学会大会論文集, 3C2-02 (4 pages), 2025."
+        links: []
+      - cite: "竹内正稀, 鯉田孝和, **岩井大輔**, “環境照明下におけるプロジェクションマッピングの投影テクスチャが色の見えに与える影響,” 日本視覚学会2025年夏季大会, 1o05, 2025."
+        links: []
+      - cite: "山本達也, 佐藤宏介, 仁木一順, **岩井大輔**, “高齢者向け抱締型VRシステム,” 第24回日本VR医学会学術大会, GS-P15, p. 62, 2025."
+        links: []
+      - cite: "三浦康平, **岩井大輔**, “柔らかい物体に対する手作業中のハンドモデル復元の検討,” 第28回画像の認識・理解シンポジウム, IS2-029 (3 pages), 2025."
+        links: []
+      - cite: "前田恵照, **岩井大輔**, “最急降下法を用いたスペクトル画像誤差最小化によるプロジェクタ色補償,” 第28回画像の認識・理解シンポジウム, IS3-201 (5 pages), 2025."
+        links: []
+      - cite: "井元祐亮, **岩井大輔**, “任意の投影映像に埋め込んだ不可視パターンによるシュリーレン撮影,” 第28回画像の認識・理解シンポジウム, IS3-205 (5 pages), 2025."
+        links: []
+      - cite: "楠山弘基, 中村友哉, **岩井大輔**, “大型フレネルレンズを用いた影なしプロジェクタの開口符号化による投影ボケ補償,” 第28回画像の認識・理解シンポジウム, IS3-206 (5 pages), 2025."
+        links: []
+      - cite: "前田恵照, 佐藤宏介, **岩井大輔**, “ハイパースペクトルカメラを用いたプロジェクタ色補償,” 第69回システム制御情報学会研究発表講演会, pp. 440-444, 2025."
+        links: []
+      - cite: "園田雄基, **岩井大輔**, 佐藤宏介, “波⻑分割多重光学フィルタを用いた明室環境下でのプロジェクションマッピング,” 第69回システム制御情報学会研究発表講演会, pp. 977-979, 2025."
+        links: []
+      - cite: "高橋実, 佐藤優志, 佐藤宏介, **岩井大輔**, “投影型拡張手を用いた実物体操作感覚に関する研究,” 第69回システム制御情報学会研究発表講演会, pp. 980-983, 2025."
+        links: []
+      - cite: "中尾都史也, 佐藤優志, 佐藤宏介, **岩井大輔**, “制御可能な変形面へのプロジェクションマッピングによる動的立体表現,” 第69回システム制御情報学会研究発表講演会, pp. 984-986, 2025."
+        links: []
+      - cite: "墨田充輝, 佐藤宏介, **岩井大輔**, “複合現実空間内の実鏡に映るユーザ身体のアバター化,” 第69回システム制御情報学会研究発表講演会, pp. 987-991, 2025."
+        links: []
+      - cite: "立岩悠翔, 佐藤宏介, **岩井大輔**, “追従型レーザドップラ振動計測による指先接触判定,” 第69回システム制御情報学会研究発表講演会, pp. 992-994, 2025."
+        links: []
+      - cite: "河野巧, **岩井大輔**, 佐藤宏介, “複数台カメラを用いた投影パターン直接受光による複数台プロジェクタの同時三次元位置推定,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, Vol. 2025-CVIM-240, No. 8, p. 1-4, 2025."
+        links: []
+      - cite: "松元龍馬, **岩井大輔**, 佐藤宏介, “HMDを用いたMR幽体ハンド食事支援システム,” 第29回パターン計測シンポジウム, pp. 14-17, 2024."
+        links: []
+      - cite: "山本達也, **岩井大輔**, 仁木一順, 佐藤宏介, “高齢者のVR体験ウォークスルーをガイドする介護者用ARシステム,” 第29回日本バーチャルリアリティ学会大会論文集, 1B1-03 (3 pages), 2024."
+        links: []
+      - cite: "小西遥登, **岩井大輔**, 佐藤宏介, “入出力装置一体型ハンドヘルドXRデバイスのフォームファクタに関する考察,” 第29回日本バーチャルリアリティ学会大会論文集, 1E1-02 (2 pages), 2024."
+        links: []
+      - cite: "山内燿斗, **岩井大輔**, 佐藤宏介, “胸部装着型XRデバイスにおける腹部平面上のタッチ操作と仮想空間との座標対応に関する考察,” 第29回日本バーチャルリアリティ学会大会論文集, 1E1-03 (4 pages), 2024."
+        links: []
+      - cite: "竹内悠人, **岩井大輔**, 佐藤宏介, “手首装着型拡張手投影における深度センサを用いた遠隔接触感覚,” 第29回日本バーチャルリアリティ学会大会論文集, 1E1-04 (2 pages), 2024."
+        links: []
+      - cite: "花井俊, 岡本祥宏, 佐藤優志, **岩井大輔**, 佐藤宏介, “手首装着型レーザースペックル振動計測を活用した触覚拡張による遠方物体の不可視情報識別,” 第29回日本バーチャルリアリティ学会大会論文集, 1E1-07 (4 pages), 2024."
+        links: []
+      - cite: "石川蒼桜, 佐藤優志, **岩井大輔**, 佐藤宏介, “超指向性スピーカの反射音を用いた投影拡張手への音像提示,” 第29回日本バーチャルリアリティ学会大会論文集, 2B1-09 (2 pages), 2024."
+        links: []
+      - cite: "谷育歩, **岩井大輔**, 佐藤宏介, “高画素密度プロジェクションマッピングによる実物体の外観と知覚的に一致するバーチャル物体の提示,” 第29回日本バーチャルリアリティ学会大会論文集, 2B2-02 (4 pages), 2024."
+        links: []
+      - cite: "佐藤優志, 石川蒼桜, 竹内悠人, **岩井大輔**, 佐藤宏介, “投影型手腕拡張インタフェースにおける視聴覚効果による浮遊・接触感提示,” 第29回日本バーチャルリアリティ学会大会論文集, 2B2-06 (3 pages, 2G-12), 2024."
+        links: []
+      - cite: "三浦康平, **岩井大輔**, 佐藤宏介, “手作業における柔軟な物体表面とその接触領域の3次元復元,” 第29回日本バーチャルリアリティ学会大会論文集, 3B1-12 (4 pages), 2024."
+        links: []
+      - cite: "岡本峻宙, **岩井大輔**, 佐藤宏介, “立体物への遅延なし影抑制プロジェクションマッピングのための多方向重畳マルチ投影の検討,” 第29回日本バーチャルリアリティ学会大会論文集, 3E2-08 (3 pages), 2024."
+        links: []
+      - cite: "三浦和之, **岩井大輔**, 佐藤宏介, “分散協調マルチプロジェクションシステムによる実環境照明再現,” 第29回日本バーチャルリアリティ学会大会論文集, 3E2-09 (3 pages), 2024."
+        links: []
+      - cite: "山本達也, 岩崎琢己, **岩井大輔**, 仁木一順, 佐藤宏介, “VR体験中の高齢者を支援する介護者用ARシステム,” 第68回システム制御情報学会研究発表講演会, pp. 960-964, 2024."
+        links: []
+      - cite: "石川蒼桜, 佐藤優志, **岩井大輔**, 佐藤宏介, “方向制御可能な超指向性スピーカを用いた投影拡張手への音像提示,” 第68回システム制御情報学会研究発表講演会, pp. 967-970, 2024."
+        links: []
+      - cite: "小西遥登, **岩井大輔**, 佐藤宏介, “掌と指先の微小変位入力に基づく一体型ハンドヘルドVRシステム,” 第68回システム制御情報学会研究発表講演会, pp. 971-972, 2024."
+        links: []
+      - cite: "西隼世, **岩井大輔**, 佐藤宏介, “投影対象への微振動付加と適応高速投影による立体的質感表現における投影画像補正,” 第68回システム制御情報学会研究発表講演会, pp. 1134-1135, 2024."
+        links: []
+      - cite: "河野巧, **岩井大輔**, 佐藤宏介, “対象表面埋込カメラによる投影パターン直接受光を用いた複数台プロジェクタの同時幾何較正,” 第68回システム制御情報学会研究発表講演会, pp. 1136-1139, 2024."
+        links: []
+      - cite: "井元祐亮, **岩井大輔**, 佐藤宏介, “プロジェクションマッピング映像に埋め込まれた不可視パターンによるシュリーレン撮影,” 第68回システム制御情報学会研究発表講演会, pp. 1140-1142, 2024."
+        links: []
+      - cite: "藤村航太郎, 竹内正稀, **岩井大輔**, 佐藤宏介, “LEDウォールとレンズアレイを用いたライトフィールド照明による明室再現環境下でのプロジェクションマッピング,” 第68回システム制御情報学会研究発表講演会, pp. 1143-1145, 2024."
+        links: []
+      - cite: "三浦和之, **岩井大輔**, 佐藤宏介, “エッジコンピュータを用いた分散協調マルチプロジェクションシステムにおける投影色補償,” 第68回システム制御情報学会研究発表講演会, pp. 1146-1148, 2024."
+        links: []
+      - cite: "岩﨑琢己, 山本達也, 松井尚樹, **岩井大輔**, 仁木一順, 佐藤宏介, “高齢者向け抱枕型多感覚提示VRシステム,” 情報処理学会インタラクション2024, 2B-59, 2024."
+        links: []
+      - cite: "森田茉莉, **岩井大輔**, 橋田朋子, “ぬけがらメトリ：半透明膜を用いたフォトグラメトリにより物体の表面を現実と異なるかたちで抽出・造形する手法,” 情報処理学会インタラクション2024, 1B-46, 2024."
+        links: []
+      - cite: "**岩井大輔**, “[招待講演] プロジェクションマッピングにおける深層学習,” 映情学技報, Vol. 48, pp. 36-39, 2024."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_ITE24.pdf" }
+      - cite: "楠山弘基, 影山雄太, **岩井大輔**, 佐藤宏介, “影抑制と焦点ぼけ補償とを動的に調整可能な大開口同軸二重投影システム,” 第28回日本バーチャルリアリティ学会大会論文集, 2D1-06 (4 pages), 2023."
+        links: []
+      - cite: "**岩井大輔**, “プロジェクションマッピングによる照明と映像の融合,” 照明学会公開研究会資料, LSLS-23-2 (pp. 4-7), 2023."
+        links:
+      - cite: "三浦康平, **岩井大輔**, 佐藤宏介, “複数のRGB-Dカメラ及び熱カメラを用いた手作業の三次元復元,” 第67回システム制御情報学会研究発表講演会, pp. 98-101, 2023."
+        links: []
+      - cite: "西隼世, **岩井大輔**, 佐藤宏介, “投影対象への微振動付加と適応高速投影による毛状素材の高質感投影表現,” 第67回システム制御情報学会研究発表講演会, pp. 177-181, 2023."
+        links: []
+      - cite: "楠山弘基, 影山雄太, **岩井大輔**, 佐藤宏介, “大開口同軸二重投影システムによる影抑制,” 第67回システム制御情報学会研究発表講演会, pp. 182-185, 2023."
+        links: []
+      - cite: "影山雄太, **岩井大輔**, 佐藤宏介, “プロジェクションマッピングの画質劣化補償におけるCNNとViTの精度比較,” 第67回システム制御情報学会研究発表講演会, pp. 186-190, 2023."
+        links: []
+      - cite: "Shengze Zhong, Parinya Punpongsanon, **岩井大輔**, 佐藤宏介, “Structure Design with Text-Guided Stylization,” 第67回システム制御情報学会研究発表講演会, pp. 200-203, 2023."
+        links: []
+      - cite: "松元龍馬, Parinya Punpongsanon, **岩井大輔**, 佐藤宏介, “OST-HMDを用いた幽体ハンド食事支援システム,” 第67回システム制御情報学会研究発表講演会, pp. 328-331, 2023."
+        links: []
+      - cite: "花井俊, 内田琢也, 佐藤優志, **岩井大輔**, 佐藤宏介, “体動に頑健な肩装着小型拡張手投影システム,” 第67回システム制御情報学会研究発表講演会, pp. 332-334, 2023."
+        links: []
+      - cite: "佐藤優志, 内田琢也, **岩井大輔**, 佐藤宏介, “CG手腕を受信映像に重畳し輪郭手腕を遠隔地へ同時投影するビデオ対話システム,” 第67回システム制御情報学会研究発表講演会, pp. 335-337, 2023."
+        links: []
+      - cite: "牧篤司, Parinya Punpongsanon, **岩井大輔**, 佐藤宏介, “食体験変容のための投影型ARによる動的食品質感変調に関する研究,” 第67回システム制御情報学会研究発表講演会, pp. 338-341, 2023."
+        links: []
+      - cite: "山内耀斗, 岩﨑琢己, 松井尚樹, **岩井大輔**, 佐藤宏介, “断続的使用に適した胸部装着型VRデバイスの提案,” 第67回システム制御情報学会研究発表講演会, pp. 342-346, 2023."
+        links: []
+      - cite: "岡本祥宏, 佐藤優志, **岩井大輔**, 佐藤宏介, “イベントカメラを用いたレーザスペックル振動計測による遠隔触覚拡張,” 情報処理学会インタラクション2023論文集, pp. 857-859, 2023."
+        links: []
+      - cite: "内田琢也, 人見亜斗, 佐藤優志, **岩井大輔**, 佐藤宏介, “リストマウント型投影拡張手システムを用いた感覚追加,” 情報処理学会インタラクション2023論文集, pp. 908-910, 2023."
+        links: []
+      - cite: "松田綾美, パリンヤ プンポンサノン, **岩井大輔**, 佐藤宏介, “柔らかい食品上への情報埋め込み,” 情報処理学会第85回全国大会論文集, pp. 4:137-4:138, 2023."
+        links: []
+      - cite: "金城和志, **岩井大輔**, 佐藤宏介, “前面投影と網膜投影とを重畳呈示するメッシュスクリーン型プロジェクションマッピング,” 第27回日本バーチャルリアリティ学会大会論文集, 3D2-4 (4 pages), 2022."
+        links: []
+      - cite: "竹内正稀, **岩井大輔**, 佐藤宏介, “環境照明再現により投影テクスチャのコントラスト低下を抑制するプロジェクションマッピング,” 第27回日本バーチャルリアリティ学会大会論文集, 3D3-4 (4 pages), 2022."
+        links: []
+      - cite: "佐藤優志, **岩井大輔**, 佐藤宏介, “投影型手腕拡張インタフェースへの聴覚フィードバックの付与,” 第27回日本バーチャルリアリティ学会大会論文集, 3D3-2 (3 pages), 2022."
+        links: []
+      - cite: "内田琢也, 佐藤優志, **岩井大輔**, 佐藤宏介, “投影型投影拡張手と実手との微小な運動不整合を手掛かりとする情報伝達,” 第27回日本バーチャルリアリティ学会大会論文集, 1D2-5 (3 pages), 2022."
+        links: []
+      - cite: "岡本峻宙, **岩井大輔**, 佐藤宏介, “多方向重畳プロジェクションマッピングによる質感編集,” 第66回システム制御情報学会研究発表講演会, pp. 238-240, 2022."
+        links: []
+      - cite: "谷育歩, 山本健太, 影山雄太, **岩井大輔**, 佐藤宏介, “高画素密度プロジェクションマッピングによる微細な質感編集,” 第66回システム制御情報学会研究発表講演会, pp. 241-243, 2022."
+        links: []
+      - cite: "上田史貴, 山本健太, 影山雄太, **岩井大輔**, 佐藤宏介, “フォーカルサーフェス投影によるプロジェクタの被写界深度拡張,” 第66回システム制御情報学会研究発表講演会, pp. 244-246, 2022."
+        links: []
+      - cite: "人見亜斗, 佐藤優志, 内田琢也, **岩井大輔**, 佐藤宏介, “マルチモーダル刺激環境における投影拡張手への感覚追加に関する研究,” 第66回システム制御情報学会研究発表講演会, pp. 247-250, 2022."
+        links: []
+      - cite: "岩﨑琢己, 松井尚樹, **岩井大輔**, 佐藤宏介, “抱締型仮想現実感提示装置に関する研究,” 第66回システム制御情報学会研究発表講演会, pp. 826-829, 2022."
+        links: []
+      - cite: "松田綾美, 宮武大和, Parinya Punpongsanon, **岩井大輔**, 佐藤宏介, “センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィードバックの検討,” 第66回システム制御情報学会研究発表講演会, pp. 981-983, 2022."
+        links: []
+      - cite: "木口穂乃里, 仁木一順, 高橋奈々, 松井尚樹, 馬渕はづき, **岩井大輔**, 佐藤宏介, 伊藤壽記, 上田幹子, “認知症予防に貢献するデジタル治療法の開発を目指して～Virtual reality等を活用したヒトの五感へアプローチ～,” 日本薬学会第142年会, 27PO1-pm2-75S, 2022."
+        links: []
+      - cite: "**岩井大輔**, “光技術のプロジェクションマッピング応用,” 2022年電子情報通信学会総合大会エレクトロニクス講演論文集1, pp. SS-25-SS-26, 2022."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_IEICE22.pdf" }
+      - cite: "宮武大和, プンポンサノンパリンヤ, **岩井大輔**, 佐藤宏介, “3Dプリント食品内部への情報埋め込み,” 情報処理学会第84回全国大会, pp.4-189-4-190, 2022."
+        links: []
+      - cite: "堀悠太郎, プンポンサノンパリンヤ, **岩井大輔**, 佐藤宏介, “サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御,” 情報処理学会第84回全国大会, pp.3-143-3-144, 2022."
+        links: []
+      - cite: "本田健斗, 松倉悠, **岩井大輔**, 佐藤宏介, “呼吸に同期した気流制御による匂いの混入を抑制した嗅覚ディスプレイの開発,” 日本バーチャルリアリティ学会研究報告 (VR研報), Vol. 27, No. SBR-1, pp. 13-18, 2022."
+        links: []
+      - cite: "寺井晴香, **岩井大輔**, 佐藤宏介, “空間光位相変調器を用いた投影画素均一再配置,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2022-CVIM-228, pp. 2:1-2:4, 2022."
+        links:
+          - { icon: "🏆", label: "SIG-MR賞", url: "http://sigmr.vrsj.org/awards.html" }
+      - cite: "石田仰輝, **岩井大輔**, 佐藤宏介, “複数台プロジェクタでの動的プロジェクションマッピングにおけるオンライン幾何較正,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2022-CVIM-228, pp. 1:1-1:4, 2022."
+        links: []
+      - cite: "義田遼太朗, 原利宏, 武田雄策, 村瀬健二, **岩井大輔**, 佐藤宏介, “自動車内装意匠設計のための投影型複合現実感技術による部材形状と質感の変調,” 公益社団法人自動車技術会 2021年秋季大会学術講演会講演予稿集, 講演番号094, 2021."
+        links: []
+      - cite: "Shengze Zhong, Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “A Simple Calibration of Material Constitutive Model for FDM 3D Printers,” In Proceedings of Conference on 4D and Functional Fabrication (4DFF) 2021, pp. 29-31. Online, 2021."
+        links: []
+      - cite: "松井尚樹, **岩井大輔**, 仁木一順, 佐藤宏介, “認知症高齢者向け二線吊式VR体験装置のマルチモーダル化による没入感向上,” 第26回日本バーチャルリアリティ学会大会論文集, 2B2-3 (3 pages), 2021."
+        links: []
+      - cite: "Liyuan DUAN, 松倉悠, プンポンサノン パリンヤ, **岩井大輔**, 佐藤宏介, “Superimposing methane gas visualization over a real environment using optical see-through augmented reality,” 第26回日本バーチャルリアリティ学会大会論文集, 2D1-3 (4 pages), 2021."
+        links: []
+      - cite: "牧田整明, **岩井大輔**, 佐藤宏介, “光学シースルー型大域反射成分観察スコープにおける投影パタンの検討,” 第26回日本バーチャルリアリティ学会大会論文集, 2D1-6 (3 pages), 2021."
+        links: []
+      - cite: "佐藤優志, **岩井大輔**, 佐藤宏介, “投影型拡張手インタラクションにおける視覚効果付与に関する一考察,” 第26回日本バーチャルリアリティ学会大会論文集, 2D2-1 (4 pages), 2021."
+        links: []
+      - cite: "金城和志, **岩井大輔**, 佐藤宏介, “前面投影と網膜投影とを重畳呈示する微細孔スクリーン型プロジェクションマッピング,” 第26回日本バーチャルリアリティ学会大会論文集, 2D2-2 (3 pages), 2021."
+        links: []
+      - cite: "山本健太, **岩井大輔**, 佐藤宏介, “単一レンズ型同軸広角プロジェクタ-カメラシステムによる動的プロジェクションマッピングの基礎検討,” 第26回日本バーチャルリアリティ学会大会論文集, 2D2-3 (4 pages), 2021."
+        links: []
+      - cite: "内田琢也, 渡邊あきら, 佐藤優志, **岩井大輔**, 佐藤宏介, “装着型拡張手システムを用いた不可知情報の可知化,” 第26回日本バーチャルリアリティ学会大会論文集, 2D2-4 (2 pages), 2021."
+        links: []
+      - cite: "渡邊あきら, 内田琢也, 佐藤優志, **岩井大輔**, 佐藤宏介, “レーザ走査プロジェクタにおける拡張手の浮遊および接触表現,” 第26回日本バーチャルリアリティ学会大会論文集, 3C2-3 (3 pages), 2021."
+        links: []
+      - cite: "**岩井大輔**, “3次元対象へのプロジェクションマッピングにおける画質劣化抑制技術,” 精密工学会 画像応用技術専門委員会 研究会報告, Vol. 36, No. 3, pp. 1-5, 2021."
+        links:
+      - cite: "影山雄太, **岩井大輔**, 佐藤宏介, “CNNを用いた動的環境下での投影ボケ補償,” 第24回 画像の認識・理解シンポジウム (MIRU2021), L3-4, 2021."
+        links: []
+      - cite: "内田琢也, 渡邊あきら, 佐藤優志, **岩井大輔**, 佐藤宏介, “レーザスキャン投影による装着型拡張手システム,” 第65回システム制御情報学会研究発表講演会講演論文集 (SCI’21), pp. 392-394, 2021."
+        links: []
+      - cite: "松井尚樹, 稲垣理也, **岩井大輔**, 佐藤宏介, “バンド装着を必要としない二線吊式ヘッドマウントディスプレイ装置,” 第65回システム制御情報学会研究発表講演会講演論文集 (SCI’21), pp. 389-391, 2021."
+        links: []
+      - cite: "石田仰輝, **岩井大輔**, 佐藤宏介, “複数台プロジェクタでの動的プロジェクションマッピングにおけるオンライン幾何較正,” 第65回システム制御情報学会研究発表講演会講演論文集 (SCI’21), pp. 1086-1087, 2021."
+        links: []
+      - cite: "金城和志, **岩井大輔**, 佐藤宏介, “微細孔板を用いて前面投影と網膜投影とを組み合わせるプロジェクションマッピングシステム,” 第65回システム制御情報学会研究発表講演会講演論文集 (SCI’21), pp. 1083-1085, 2021."
+        links: []
+      - cite: "牧田整明, **岩井大輔**, 佐藤宏介, “光学シースルー型大域反射成分観測スコープの構築,” 第65回システム制御情報学会研究発表講演会講演論文集 (SCI’21), pp. 958-960, 2021."
+        links: []
+      - cite: "堀悠太郎, 平木剛史, プンポンサノンパリンヤ, **岩井大輔**, 川原圭博, 佐藤宏介, “双安定性サーモクロミックインクの選択的加熱を用いた造形後に表面色・模様を制御可能な立体物造形手法,” 情報処理学会インタラクション2021, pp. 662-667, 2021."
+        links: []
+      - cite: "竹内正稀, **岩井大輔**, 佐藤宏介, “プロジェクションマッピングによる実環境照明再現,” 電子情報通信学会総合大会 情報・システム講演論文集2, p.72, 2021."
+        links: []
+      - cite: "杉本正暁, **岩井大輔**, 佐藤宏介, “近接配置ピンホールアレイマスクを用いたプロジェクタ較正の精度改善,” 第25回日本バーチャルリアリティ学会大会, 2B3-5, 2020."
+        links: []
+      - cite: "渡邊あきら, 稲垣理也, 平木剛史, 松倉悠, **岩井大輔**, 佐藤宏介, “レーザ走査プロジェクタによる拡張手の輪郭投影,” 第25回日本バーチャルリアリティ学会大会, 3D3-1, 2020."
+        links: []
+      - cite: "稲垣理也, **岩井大輔**, 佐藤宏介, “横臥療養者のためのVRインタフェース,” 第25回日本バーチャルリアリティ学会大会予稿集, 1C3-7, 2020."
+        links: []
+      - cite: "佐藤優志, 平木剛史, 松倉悠, **岩井大輔**, 佐藤宏介, “投影型拡張手インタラクションに対する深層学習を用いた触覚フィードバック推定,” 第25回日本バーチャルリアリティ学会大会, 3B2-1:1-3, 2020."
+        links: []
+      - cite: "木村宙志，**岩井大輔**，佐藤宏介，“非平面スクリーンへの立体投影における焦点走査眼鏡による輻輳調節矛盾の軽減,” 第25回日本バーチャルリアリティ学会大会予稿集, 2B1-6, 2020."
+        links: []
+      - cite: "影山雄太, 五十川麻理子, **岩井大輔**, 佐藤宏介, “ProDebNet: 畳み込みニューラルネットワークによる投影ボケ補償,” 第23回画像の認識・理解シンポジウム, IS3-1-12, 2020."
+        links: []
+      - cite: "渡邊あきら, 稲垣理也, 平木剛史, 松倉悠, **岩井大輔**, 佐藤宏介, “療養者向け手腕投影システムにおける抽象投影と力覚呈示,” 第64回システム制御情報学会研究発表講演会講演論文集 (SCI’20), pp. 925-927, 2020."
+        links: []
+      - cite: "山本健太, **岩井大輔**, 佐藤宏介, “撮像一体型有機ELデバイスを用いた画素一致プロジェクタ-カメラシステムの構築,” 第64回システム制御情報学会研究発表講演会講演論文集 (SCI’20), pp. 221-223, 2020."
+        links: []
+      - cite: "義田遼太朗, **岩井大輔**, 佐藤宏介, 原利宏, 武田雄策, 村瀬健二, “複合現実感技術を用いた自動車ピラートリム意匠設計支援,” 第64回システム制御情報学会研究発表講演会講演論文集 (SCI’20), pp. 753-755, 2020."
+        links: []
+      - cite: "寺井晴香, **岩井大輔**, 佐藤宏介, “空間光位相変調器を用いた空間非一様なプロジェクタ解像度変調,” 第64回システム制御情報学会研究発表講演会講演論文集 (SCI’20), pp. 748-750, 2020."
+        links: []
+      - cite: "杉本正暁, **岩井大輔**, 佐藤宏介, “ピンホールマスクプレートを用いたプロジェクタ較正,” 電子情報通信学会技術研究報告, PRMU2019-76, pp. 59-64, 2020."
+        links: []
+      - cite: "藤野佑一, 松倉悠, 平木剛史, **岩井大輔**, 佐藤宏介, “温度を制御した空気によるにおいの印象変調,” 第25回香り・味と生体情報研究会, pp. 25–30, 2020."
+        links: []
+      - cite: "本田健斗, 松倉悠, **岩井大輔**, 石田寛, 佐藤宏介, “ガスの吸脱着に基づく匂い変調デバイスに関する基礎的検討,” 令和2年電気学会全国大会講演論文集, p. 238, 2020."
+        links: []
+      - cite: "藤野佑一, 松倉悠, 平木剛史, **岩井大輔**, 佐藤宏介, “温湿度変調に基づきにおいを変調させる空気提示装置,” 電気学会ケミカルセンサ/バイオ・マイクロマシン合同研究会資料, CHS-20-7, 2020."
+        links: []
+      - cite: "宮武大和, 平木剛史, 前田智祐, **岩井大輔**, 佐藤宏介, “HaptoMapping: 映像への不可視な情報埋め込みによる視触覚重畳提示,” 情報処理学会インタラクション2020論文集, pp. 425–430, 2020."
+        links: []
+      - cite: "三木明穂, 平木剛史, **岩井大輔**, 川原圭博, 佐藤宏介, “映像への不可視な画素位置情報埋め込みによる動的プロジェクションマッピング,” 情報処理学会インタラクション2020論文集, pp. 1014–1019, 2020."
+        links: []
+      - cite: "佐藤優志, 平木剛史, 田辺育暉, 松倉悠, **岩井大輔**, 佐藤宏介, “投影バーチャルハンドインタフェースへの疑似触覚の適用に関する一考察,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2020-CVIM-220(8), pp. 1-4, 2020."
+        links: []
+      - cite: "渡邊あきら, 平木剛史, **岩井大輔**, 佐藤宏介, “大画面に描画可能なバーチャル書道パフォーマンス体験システム,” 令和元年電気関係学会関西連合大会, pp. 315-316, 2019."
+        links: []
+      - cite: "木村宙志, **岩井大輔**, 佐藤宏介, “焦点走査眼鏡と同期した時間多重化投影による立体投影の輻輳調節矛盾の軽減,” 映情学技報, Vol. 43, No. 34, pp. 25-28, 2019."
+        links: []
+      - cite: "平木剛史, **岩井大輔**, 川原圭博, 佐藤宏介, “同軸光学系による映像と紫外線の同時投影に向けた可視・紫外光投影プロジェクタの開発,” 第24回日本バーチャルリアリティ学会大会予稿集, 3C-02 (4 pages). 2019."
+        links: []
+      - cite: "影山雄太, 五十川麻里子, **岩井大輔**, 佐藤宏介, “敵対的生成ネットワークを用いた投影型複合現実感のための実時間ボケ補償,” 第22回 画像の認識・理解シンポジウム (MIRU2019), PS1-44, 2019."
+        links: []
+      - cite: "稲垣理也, 松倉悠, **岩井大輔**, 佐藤宏介, “メタンガス分布の3次元計測システムの開発,” 令和元年度 電気学会研究会資料 センサ・マイクロマシン部門総合研究会, pp.97-101, 2019."
+        links: []
+      - cite: "三好幹, プンポンサノン・パリンヤ, **岩井大輔**, 佐藤宏介, “3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計,” 第63回システム制御情報学会研究発表講演会, pp. 1203-1207, 2019."
+        links: []
+      - cite: "佐藤優志, 田辺育暉, 森田耕平, プンポンサノン・パリンヤ, 松倉悠, **岩井大輔**, 佐藤宏介, “投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示,” 第63回システム制御情報学会研究発表講演会, pp. 1367-1374, 2019."
+        links: []
+      - cite: "森田耕平, 田辺育暉, 佐藤優志, プンポンサノン・パリンヤ, 松倉悠, **岩井大輔**, 佐藤宏介, “頭部方向を用いた投影型拡張仮想手の操作範囲の拡張,” 第63回システム制御情報学会研究発表講演会, pp. 1375-1381, 2019."
+        links: []
+      - cite: "杉本正暁, **岩井大輔**, 佐藤宏介, “ピンホールマスクプレートを用いたプロジェクタ較正,” 第63回システム制御情報学会研究発表講演会, pp. 1426-1432, 2019."
+        links: []
+      - cite: "木村宙志, 上田龍幸, **岩井大輔**, 佐藤宏介, “焦点走査眼鏡と時間多重化投影による立体プロジェクションにおける輻輳調節矛盾の軽減,” 第63回システム制御情報学会研究発表講演会, pp. 1433-1437, 2019."
+        links: []
+      - cite: "影山雄太, 五十川麻里子, **岩井大輔**, 佐藤宏介, “敵対的生成ネットワークを用いた映像投影時に生じるブラー補償,” 第63回システム制御情報学会研究発表講演会, pp. 1438-1445, 2019."
+        links: []
+      - cite: "藤野佑一, 松倉悠, **岩井大輔**, 佐藤宏介, “温冷風を利用した匂いの変調,” 電気学会全国大会論文集, pp. 287-288, 2019."
+        links: []
+      - cite: "浜崎巧, 伊藤勇太, 廣井裕一, **岩井大輔**, 杉本麻樹, “[解説]光学透過型へツドマウントディスプレイを組み合わせた高ダイナミックレンジなプロジェクションマッピング,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2019-CVIM-215(13), pp. 1-5, 2019."
+        links:
+          - { icon: "🏆", label: "SIG-MR賞", url: "http://sigmr.vrsj.org/awards.html" }
+      - cite: "松井孝太, 佐藤宏介, **岩井大輔**, “バーチャルハンドの視覚効果による操作者への疑似触覚フィードバック,” 計測自動制御学会システムインテグレーション部門講演会 （SI2018）, pp. 377-380, 2018."
+        links: []
+      - cite: "加嶋健司, **岩井大輔**, “液体可変焦点レンズのスパース最適制御,” 第61回自動制御連合講演会, pp. 1632-1633, 2018."
+        links: []
+      - cite: "平谷光佑, **岩井大輔**, 佐藤宏介, “再帰透過光学系を用いた遮蔽物による影を抑制するプロジェクションマッピングシステム,” 映情学技報, vol. 42, no. 35, pp. 9-12, 2018."
+        links: []
+      - cite: "上田龍幸, **岩井大輔**, 佐藤宏介, “高速プロジェクタと可変焦点レンズを用いた空間非一様な焦点ボケ操作による拡張現実感,” 第23回日本バーチャルリアリティ学会大会予稿集, 14D-2 (3 pages), 2018."
+        links: []
+      - cite: "五十川麻理子, 三上弾, **岩井大輔**, 草地良規, 佐藤宏介, “画像インペインティングのための低主観品質領域の位置推定,” 第21回 画像の認識・理解シンポジウム, PS3-54 (4 pages), 2018."
+        links:
+          - { icon: "🏆", label: "MIRUインタラクティブ発表賞", url: "https://sites.google.com/view/miru2018sapporo/%E3%83%9B%E3%83%BC%E3%83%A0/%E8%A1%A8%E5%BD%B0?authuser=0" }
+      - cite: "松倉悠, 安部直喜, **岩井大輔**, 佐藤宏介, “顔の向きや位置に応じて匂いの種類や提示位置を変更可能な嗅覚ディスプレイの開発,” 日本機械学会第18回機素潤滑設計部門講演会講演論文集, pp. 19–20, 2018."
+        links: []
+      - cite: "刀根大樹, **岩井大輔**, 日浦慎作, 佐藤宏介, “3Dプリンタ埋め込み光ファイバー型導光路を用いたアクティブマーカによる動的プロジェクションマッピング,” Visual Computingシンポジウム予稿集, P3, 2018."
+        links: []
+      - cite: "上田龍幸, 井澤英俊, **岩井大輔**, 佐藤宏介, “高速プロジェクタと可変焦点レンズを用いた空間的に非一様な合焦距離変調,” 第62回システム制御情報学会研究発表講演会講演論文集, 356-3 (6 pages), 2018."
+        links: []
+      - cite: "平谷光佑, **岩井大輔**, 佐藤宏介, “再帰透過光学系による空中像投影を用いた影なしプロジェクションマッピングの試み,” 第62回システム制御情報学会研究発表講演会講演論文集, 356-2 (3 pages), 2018."
+        links: []
+      - cite: "藤野佑一, 松倉悠, **岩井大輔**, 佐藤宏介, “匂い源に関する視覚情報を隠蔽した場合における人間の匂い源探索行動の調査,” 第62回システム制御情報学会研究発表講演会講演論文集, 346-4 (5 pages), 2018."
+        links: []
+      - cite: "神之門拓己, **岩井大輔**, 佐藤宏介, “ステレオディスプレイを用いた鏡面物体の質感変調”，平成30年電気学会全国大会講演論文集, p. 67, 2018."
+        links: []
+      - cite: "青木亮磨, 浅井唯貴, 松倉悠, **岩井大輔**, 佐藤宏介, “手モーションキャプチャ装置Leap Motionを用いた拡張仮想手のモーション制御に関する研究”, 平成30年電気学会全国大会講演論文集, pp. 201-202, 2018."
+        links: []
+      - cite: "田辺育暉, 浅井唯貴, 榎本龍一, 松倉悠, **岩井大輔**, 佐藤宏介, “仮想手操作における非操作手への触覚呈示手法の検討,” 情報処理学会インタラクション2018, pp. 785-790, 2018."
+        links: []
+      - cite: "安部直喜, 松倉悠, **岩井大輔**, 佐藤宏介, “顔の位置や顔の角度によって匂いの放出位置や匂いの種類を切り替え可能なSmelling Screenの開発,” 第63回日本VR学会サイバースペースと仮想都市研究会, pp.11-15, 2018."
+        links:
+          - { icon: "🏆", label: "サイバースペース研究賞", url: "https://www.sigcs.org/p/blog-page_27.html" }
+      - cite: "**岩井大輔**, “[招待講演] プロジェクションマッピング研究の最新動向,” 電子情報通信学会技術研究報告, Vol. PRMU2017-143, pp. 319-323, 2018."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_PRMU18.pdf" }
+      - cite: "**岩井大輔**, “レーザープロジェクタドローン,” 第23回レーザーディスプレイ技術研究会講演予稿集, pp. 6-13 (2018)."
+        links: []
+      - cite: "峯隆太郎, **岩井大輔**, 日浦慎作, 佐藤宏介, “非平面透明層によるリアプロジェクションの画素密度均一化,” 電子情報通信学会技術研究報告, Vol 117, No. 266, pp. 23-26, 2017."
+        links: []
+      - cite: "竹澤拓朗, **岩井大輔**, 佐藤宏介, 原利宏, 村瀬健二, “自動車内装意匠設計における投影型複合現実感技術を用いた視覚変形と表面質感変調に関する研究,” 公益社団法人自動車技術会 2017年秋季大会学術講演会講演予稿集, pp. 1319-1324, 2017."
+        links: []
+      - cite: "奥谷凪, **岩井大輔**, 佐藤宏介, “ステレオ投影による視覚的変形で知覚される実物体表面質感の調査,” 人工知能学会全国大会(第31回)論文集, 2L3-OS-09b-4 (4 pages), 2017."
+        links: []
+      - cite: "佐藤貴俊, **岩井大輔**, 佐藤宏介, “複数台のパンプロジェクタを用いたハンドヘルド型投影システム,” 第61回システム制御情報学会研究発表講演会講演論文集, 112-2 (3 pages), 2017."
+        links: []
+      - cite: "刀根大樹, **岩井大輔**, 日浦慎作, 佐藤宏介, “投影対象内の導光路を同時３Ｄ印刷するアクティブマーカによる動的プロジェクションマッピング,” 第61回システム制御情報学会研究発表講演会講演論文集, 112-3 (3 pages), 2017."
+        links: []
+      - cite: "峯隆太郎, **岩井大輔**, 日浦慎作, 佐藤宏介, “非平面プロジェクションにおける画素密度均一化のための光路透明層の形状最適化,” 第61回システム制御情報学会研究発表講演会講演論文集, 112-4 (4 pages), 2017."
+        links: []
+      - cite: "河原拓海, **岩井大輔**, 佐藤宏介, “投影輝度向上および利用者との衝突回避を目指したプロジェクタドローンの動的配置,” 第61回システム制御情報学会研究発表講演会講演論文集, 132-1 (3 pages), 2017."
+        links: []
+      - cite: "菊川剛, **岩井大輔**, 佐藤宏介, “バーチャルハンドを投影するテレプレゼンスロボット,” 第61回システム制御情報学会研究発表講演会講演論文集, 132-4 (5 pages), 2017."
+        links: []
+      - cite: "萩野和音, **岩井大輔**, 佐藤宏介, “3Dプリンタ出力への静電容量方式マルチタッチセンサ埋込みにおける電極配置に関する研究,” 第61回システム制御情報学会研究発表講演会講演論文集, 142-4 (6 pages), 2017."
+        links: []
+      - cite: "田辺育暉, 浅井唯貴, 榎本龍一, 上田雄太, **岩井大輔**, 佐藤宏介, “身体拡張インタフェースにおける非操作手への触覚呈示機構に関する研究,” 第61回システム制御情報学会研究発表講演会講演論文集, 142-5 (6 pages), 2017."
+        links: []
+      - cite: "竹澤拓朗, **岩井大輔**, 佐藤宏介, 原利宏, 村瀬健二, “自動車内装デザイン設計支援のためのプロジェクション方式複合現実技術を用いた表面質感操作システムの構築,” 電子情報通信学会総合大会講演論文集, D-11-46, 2017."
+        links: []
+      - cite: "浅井唯貴, 上田雄太, **岩井大輔**, 佐藤宏介, “拡張身体投影システムを搭載したスマート車椅子,” 情報処理学会研究報告, Vol. 2017-AAC-3, No. 14, 2017."
+        links: []
+      - cite: "青木芽衣, **岩井大輔**, 佐藤宏介, “視温覚融合投影インタフェースにおける適切な温覚刺激呈示方法の検討,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2017-CVIM-205(43), pp. 1-6, 2017."
+        links: []
+      - cite: "北嶋友喜, **岩井大輔**, 佐藤宏介, “光センサを用いたレーザプロジェクタの走査計測に基づく位置・姿勢推定,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2017-CVIM-205(10), pp. 1-4, 2017."
+        links:
+          - { icon: "🏆", label: "SIG-MR賞", url: "http://sigmr.vrsj.org/awards.html" }
+      - cite: "吉山仁望, **岩井大輔**, 佐藤宏介, “符号化間歇照明に基づく照明識別と昼間化画像処理,” ビジョン技術の実利用ワークショップViEW2016講演論文集, OS5-H1(IS2-29), 2016."
+        links: []
+      - cite: "井澤英俊, **岩井大輔**, 佐藤宏介, “投影対象の形状に適応したフォーカススイープ投影によるプロジェクタの被写界深度合成,” 電子情報通信学会技術研究報告, Vol. 116, No. 280, pp. 17-20, 2016."
+        links: []
+      - cite: "奥谷凪, **岩井大輔**, 佐藤宏介, “視覚的形状操作において実物体表面質感を毀損しないステレオ投影の基礎検討,” 人工知能学会全国大会（第30回）論文集, 2I5-OS-07b-4 (2 pages), 2016."
+        links: []
+      - cite: "青山宗太, **岩井大輔**, 佐藤宏介, “重畳投影パターンの手に対する相対速度変調による力覚の操作,” 人工知能学会全国大会（第30回）論文集, 2I5-OS-07b-5 (2 pages), 2016."
+        links: []
+      - cite: "浅井唯貴, 上田雄太, **岩井大輔**, 佐藤宏介, “投影バーチャルハンドを有するスマート車椅子,” 第60回システム制御情報学会研究発表講演会講演論文集, 325-1 (6 pages), 2016."
+        links: []
+      - cite: "榎本龍一, 上田雄太, 新明拓也, **岩井大輔**, 佐藤宏介, “バーチャルハンド混在環境における自ハンドの識別と所有感覚,” 第60回システム制御情報学会研究発表講演会講演論文集, 325-2 (6 pages), 2016."
+        links: []
+      - cite: "城野亮, **岩井大輔**, 佐藤宏介, “瞬き・サッカード等の視覚特性を用いた非知覚画像計測手法の提案,” 第60回システム制御情報学会研究発表講演会講演論文集, 262-3 (2 pages), 2016."
+        links: []
+      - cite: "井澤英俊, **岩井大輔**, 佐藤宏介, “適応的フォーカススイープ投影によるプロジェクタの被写界深度合成,” 研究報告コンピュータビジョンとイメージメディア（CVIM）, 2016-CVIM-202, pp. 9:1-9:2, 2016."
+        links: []
+      - cite: "上田雄太, 浅井唯貴, 榎本龍一, 新明拓也, 武村紀子, **岩井大輔**, 佐藤宏介, “タブレット駆動型身体拡張インタフェース 〜スタンドアローン型 ExtendedHand〜”, 情報処理学会インタラクション2016論文集, pp. 1004-1009, 2016."
+        links: []
+      - cite: "塚本潤, **岩井大輔**, 加嶋健司, “減衰係数を用いない協調型映像投影システムの設計”, 第58回自動制御連合講演会, 2B2-3, 2015."
+        links: []
+      - cite: "青木芽衣, 渡邊淳司, **岩井大輔**, 佐藤宏介, “身体プロジェクションによる触質感操作,” NICOGRAPH 2015, P-08, 2015."
+        links: []
+      - cite: "Kai Wang, Noriko Takemura, **Daisuke Iwai**, Kosuke Sato, “An assisted system for supporting hand tremor sufferers typing on the keyboard,” NICOGRAPH 2015, D-13, 2015."
+        links: []
+      - cite: "浅山弘孝, **岩井大輔**, 佐藤宏介, “プロジェクションマッピングにおける位置合わせのための陰消型マーカ,” 映像情報メディア学会技術報告, Vol. 39, No. 40, pp. 9-12, 2015."
+        links: []
+      - cite: "吉山仁望, **岩井大輔**, 佐藤宏介, “暗所遠隔操作のための間歇照明を利用した昼間動画生成,” 第18回画像と認識・理解シンポジウム MIRU2015 Extended Abstract, SS5-7, 2015."
+        links: []
+      - cite: "青木芽衣, 渡邊淳司, **岩井大輔**, 佐藤宏介, “身体へのテクスチャ投影によるなぞり触質感の操作,” 第59回システム制御情報学会研究発表講演会講演論文集, 313-1 (4 pages), 2015."
+        links: []
+      - cite: "金森俊雄, **岩井大輔**, 佐藤宏介, “重畳投影する指先映像の空間的ずれによる形状触知覚の操作,” 第59回システム制御情報学会研究発表講演会講演論文集, 313-2 (3 pages), 2015."
+        links: []
+      - cite: "Kai Wang, Sei Ikeda, Noriko Takemura, **Daisuke Iwai**, and Kosuke Sato, “An input-assist system considering non-periodic involuntary hand movements,” 第59回システム制御情報学会研究発表講演会講演論文集, 313-3 (2 pages), 2015."
+        links: []
+      - cite: "浅山弘孝, **岩井大輔**, 佐藤宏介, “動的プロジェクションマッピングにおける投影対象の位置姿勢推定のための3Dプリンタ出力へのマーカ埋め込み,” 第59回システム制御情報学会研究発表講演会講演論文集, 313-6 (3 pages), 2015."
+        links: []
+      - cite: "塚本潤, **岩井大輔**, 加嶋健司, “2自由度制御系としての動画投影システムの設計,” 第59回システム制御情報学会研究発表講演会講演論文集, 324-3 (3 pages), 2015."
+        links: []
+      - cite: "吉山仁望, **岩井大輔**, 佐藤宏介, “間歇的照明を用いた動画像の昼間化,” 第59回システム制御情報学会研究発表講演会講演論文集, 343-1 (2 pages), 2015."
+        links: []
+      - cite: "上田雄太, **岩井大輔**, 佐藤宏介, “バーチャルハンド操作のための携帯タッチ端末を使用した手指状態推定,” 第59回システム制御情報学会研究発表講演会講演論文集, 343-3 (4 pages), 2015."
+        links: []
+      - cite: "塚本潤, **岩井大輔**, 加嶋健司, “分散最適化にもとづく協調型映像投影システムの設計,” 計測自動制御学会関西支部・システム制御情報学会若手研究発表会, pp. 145-146, 2015."
+        links: []
+      - cite: "塚本潤, **岩井大輔**, 加嶋健司, “分散最適化にもとづく協調型映像投影システムの設計,” 第57回自動制御連合講演会, pp. 2093-2094, 2014."
+        links: []
+      - cite: "竹田翔一, **岩井大輔**, 佐藤宏介, “フォトクロミズムによる投影面反射率の時空間変調に基づいた高コントラスト投影,” 電子情報通信学会技術研究報告, Vol. 114, No. 248, pp. 5-8, 2014."
+        links: []
+      - cite: "武内真梨奈, 吉川佑生, **岩井大輔**, 佐藤宏介, “視温覚融合投影インタフェースにおける視覚情報の動的変化が温覚に与える影響の基礎検討,” 第19回日本バーチャルリアリティ学会大会論文集, pp. 29-32, 2014."
+        links: []
+      - cite: "森多花梨, 池田聖, **岩井大輔**, 佐藤宏介, “矢穴を手掛かりにした石材の三次元データの自動マッチング,” 第58回システム制御情報学会研究発表講演会講演論文集, 115-1 (2 pages), 2014."
+        links: []
+      - cite: "新明拓也, **岩井大輔**, 佐藤宏介, “距離画像計測に基づき触覚フィードバックを付与する投影型上腕拡張ユーザインタフェース,” 第58回システム制御情報学会研究発表講演会講演論文集, 115-4 (6 pages), 2014."
+        links: []
+      - cite: "金森俊雄, **岩井大輔**, 佐藤宏介, “投影型複合現実感における身体重畳投影によるPseudo-Haptics提示,” 第58回システム制御情報学会研究発表講演会講演論文集, 115-3 (4 pages), 2014."
+        links: []
+      - cite: "バヤルサイハン ビレゲサイハン, 池田聖, **岩井大輔**, 佐藤宏介, “非同期点滅光源の識別による全光源点灯画像の合成,” 第58回システム制御情報学会研究発表講演会講演論文集, 316-5 (2pages), 2014."
+        links: []
+      - cite: "細溝仁人, **岩井大輔**, 佐藤宏介, “自律飛行型プロジェクタの揺動投影像の幾何補正,” 第58回システム制御情報学会研究発表講演会講演論文集, 325-6 (4 pages), 2014."
+        links: []
+      - cite: "松蔭瞭, **岩井大輔**, 佐藤宏介, “投影型遠隔教育支援システムにおける書類座標系に基づく机上書類位置制約の緩和,” 第58回システム制御情報学会研究発表講演会講演論文集, 115-2 (5 pages), 2014."
+        links: []
+      - cite: "佐藤宏介, **岩井大輔**, 池田聖, 武村紀子, “ProCams-Based Cybernetics－プロジェクタカメラ系による身体と環境のサイバー拡張－,” 研究報告コンピュータビジョンとイメージメディア (CVIM), 情報処理学会, Vol. 2014-CVIM-190, No. 49, pp. 1-8, 2014."
+        links: []
+      - cite: "池田聖, 森多花梨, 吉元俊輔, **岩井大輔**, 佐藤宏介, “Kinectを利用したウェアラブル形状計測システムSENS-Wiperの試作,” 日本情報考古学会講演論文集, Vol. 11, pp. 75-80, 2013."
+        links: []
+      - cite: "竹田翔一, **岩井大輔**, 佐藤宏介, “フォトクロミズムによる反射率変調を用いた非平面投影ディスプレイの高コントラスト化,” 第18回日本バーチャルリアリティ学会大会論文集, pp. 84-87, 2013."
+        links: []
+      - cite: "武内真梨奈, **岩井大輔**, 佐藤宏介, “6スペクトルバンドプロジェクタによる投影色の色域拡大,” 第90回パターン計測部会研究会, pp. 14-21, 2013."
+        links: []
+      - cite: "吉水健悟, 吉元俊輔, **岩井大輔**, 佐藤宏介, “行動認識のための環境発電型無線センサ埋込コップの提案,” 第90回パターン計測部会研究会, pp. 22-28, 2013."
+        links: []
+      - cite: "大野良介, 吉元俊輔, **岩井大輔**, 佐藤宏介, “皮膚変形の光学計測による掌への押下力推定,” 電子情報通信学会総合大会講演論文集, A-15-3, 2013."
+        links: []
+      - cite: "竹田翔一, **岩井大輔**, 佐藤宏介, “フォトクロミズムを利用した没入型ディスプレイ投影面の相互反射補償および高コントラスト化,” 電子情報通信学会総合大会講演論文集, A-16-15, 2013."
+        links: []
+      - cite: "吉水健悟, 吉元俊輔, **岩井大輔**, 佐藤宏介, “食器を用いたエネルギーハーベスト型アンビエントセンシングによる行動認識,” 電子情報通信学会総合大会講演論文集, D-9-16, 2013."
+        links: []
+      - cite: "武内真梨奈, **岩井大輔**, 佐藤宏介, “6スペクトルバンドプロジェクタによる投影色補正,” 電子情報通信学会総合大会講演論文集, D-11-93, 2013."
+        links: []
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai** and Kosuke Sato, “Projection-based Mixed Reality on Viscoelastic Surface by Visual Tracking of Surface Deformation,” 第17回パターン計測シンポジウム資料, pp. 35-40, 2012."
+        links: []
+      - cite: "佐々木貴之, 池田聖, **岩井大輔**, 佐藤宏介, “シーン中の周期構造を用いた 多視点3次元復元のためのスケール推定,” ビジョン技術の実利用ワークショップ ViEW2012 講演論文集, IS2-C8, 2012."
+        links: []
+      - cite: "土屋寛, **岩井大輔**, 佐藤宏介, “拡散符号化光投影法の投影パターンに関する検討,” ビジョン技術の実利用ワークショップ ViEW2012 講演論文集, IS2-C5, 2012"
+        links: []
+      - cite: "**岩井大輔**, 吉川佑生, 佐藤宏介, “視温覚融合投影提示における視覚刺激の温覚への影響に関する考察,” 日本バーチャルリアリティ学会研究報告（力触覚の提示と計算研究会）, Vol. 17, No. HDC09, pp. 3-6, 2012."
+        links: []
+      - cite: "三原翔一郎, **岩井大輔**, 佐藤宏介, “投影面反射特性の不連続境界における高解像度カメラを用いた高精度色補正,” 映像情報メディア学会年次大会講演予稿集, 21-8 (2 pages), 2012."
+        links: []
+      - cite: "田中章文, **岩井大輔**, 佐藤宏介, “投影重畳領域でのコンテンツの投影結果推定による画質劣化を最小化するプロジェクタ選択手法,” 映像情報メディア学会年次大会講演予稿集, 15-6 (2 pages), 2012."
+        links: []
+      - cite: "三原翔一郎, **岩井大輔**, 佐藤宏介, “投影対象面の反射特性の空間的不連続領域での高解像度カメラを用いた高精度色補正投影,” 第56回システム制御情報学会研究発表講演会論文集, pp. 357-358, 2012."
+        links: []
+      - cite: "岡原浩平, 小川修平, **岩井大輔**, 佐藤宏介, “身体投影モデルインタフェースの操作性と身体の拡張感に関する研究,” 第56回システム制御情報学会研究発表講演会論文集, pp. 247-248, 2012."
+        links: []
+      - cite: "吉川佑生, **岩井大輔**, 佐藤宏介, “視温覚融合投影インターフェースにおける視覚情報付加による温度感覚への影響に関する考察,” 第56回システム制御情報学会研究発表講演会論文集, pp. 249-250, 2012."
+        links: []
+      - cite: "佐々木貴之, 池田聖, **岩井大輔**, 佐藤宏介, “周期構造を手がかりにした 3 次元計測のための拡張現実感システム,” 第56回システム制御情報学会研究発表講演会論文集, pp. 399-400, 2012."
+        links: []
+      - cite: "田中章文, **岩井大輔**, 佐藤宏介, “コンテンツの空間周波数成分を考慮した投影画質劣化を最小化するプロジェクタ選択手法,” 第56回システム制御情報学会研究発表講演会論文集, pp. 437-438, 2012."
+        links: []
+      - cite: "David Samuel, **Daisuke Iwai** and Kosuke Sato, “Focal Length Modulation of Projection Lens for Defocus Blur Compensation,” 電子情報通信学会総合大会情報・システム講演論文集2, p.8 (D-11-8), 2012."
+        links: []
+      - cite: "三木麻理子, **岩井大輔**, 佐藤宏介, “インタラクティブテーブルトップのための補色偏光投影による実影のみでアクセス可能な映像情報隠蔽,” 情報処理学会, インタラクション2012論文集, pp. 97-104, 2012."
+        links: []
+      - cite: "三木麻理子, **岩井大輔**, 佐藤宏介, “補色多重化偏光投影による実影のみでアクセス可能な映像情報隠蔽,” 電子情報通信学会技術研究報告, Vol. 111, No. 379, pp. 139-144, 2012. (第36回複合現実感研究会)"
+        links: []
+      - cite: "日野直登, **岩井大輔**, 佐藤宏介, “フォトクロミック材料を用いた投影面の反射率変調による高コントラスト投影表示,” 電子情報通信学会技術研究報告, Vol. 111, No. 379, pp. 145-150, 2012. (第36回複合現実感研究会)"
+        links: []
+      - cite: "松本翔平, **岩井大輔**, 佐藤宏介, “着座中の体位揺動センシングを用いた行動認識システム,” 平成23年度情報処理学会関西支部支部大会講演論文集, C-27 (2 pages), 2011."
+        links: []
+      - cite: "土屋寛, **岩井大輔**, 佐藤宏介, “瞬時三次元形状復元のための拡散符号化光投影法,” 平成23年度情報処理学会関西支部支部大会講演論文集, C-29 (4 pages), 2011."
+        links: []
+      - cite: "小川修平, **岩井大輔**, 佐藤宏介, “爪画像を用いた多指の指先押下認識と押下方向推定,” 第84回パターン計測部会研究会, pp. 19-24, 2011."
+        links: []
+      - cite: "石川恵子, **岩井大輔**, 佐藤宏介, “生体模倣した揺動による画像センサの能力向上に関する研究,” 第55回システム制御情報学会研究発表講演会講演論文集(SCI’11), pp. 277-278, 2011."
+        links: []
+      - cite: "小川修平, **岩井大輔**, 佐藤宏介, “多指の爪色画像計測によるマルチタッチ入力とアバターハンド操作,” 第55回システム制御情報学会研究発表講演会講演論文集(SCI’11), pp. 257-258, 2011."
+        links: []
+      - cite: "日野直登, **岩井大輔**, 佐藤宏介, “フォトクロミズムを利用した投影面の反射率変調による高コントラスト投影表示,” 電子情報通信学会総合大会講演論文集, p.238, 2011."
+        links: []
+      - cite: "小川修平, 杉田尚基, **岩井大輔**, 佐藤宏介, “Yubios: 指先画像を用いた任意面に対する指先力の検出,” 情報処理学会, インタラクション2011論文集, pp. .779-782, 2011."
+        links: []
+      - cite: "三木麻理子, **岩井大輔**, 佐藤宏介, “ShadowDemultiplexer: 補色多重化偏光投影による実影のみでアクセス可能な映像情報隠蔽,” 情報処理学会, インタラクション2011論文集, pp. 809-812, 2011."
+        links: []
+      - cite: "矢引達教，**岩井大輔**，佐藤宏介, “投影型複合現実感における投影文字の可読性を考慮した重畳アノテーションの適応レイアウト,” 電子情報通信学会技術研究報告, Vol. 110, No. 381, pp. 13-16, 2011. (第33回複合現実感研究会)"
+        links: []
+      - cite: "松崎圭佑, **岩井大輔**, 佐藤宏介, “ディスプレイから超低速度光を放出するモデルに基づく過去回帰インタラクション,” 第15回日本バーチャルリアリティ学会大会, pp. 100-101, 2010."
+        links: []
+      - cite: "児玉敬, **岩井大輔**, 佐藤宏介, “複数台のパンチルトプロジェクタによる視覚特性を考慮に入れた不均一解像度ディスプレイ,” 第15回日本バーチャルリアリティ学会大会, pp. 534-537, 2010."
+        links: []
+      - cite: "島津冴子, **岩井大輔**, 佐藤宏介, “3次元カラー迅速造形物へのマルチプロジェクション重畳による高コントラスト立体ディスプレイ,” 第15回日本バーチャルリアリティ学会大会, pp. 332-335, 2010."
+        links: []
+      - cite: "矢引達教, **岩井大輔**, 佐藤宏介, “投影型複合現実感における対象形状・反射率を考慮した重畳アノテーションの適応レイアウト,” 第15回日本バーチャルリアリティ学会大会, pp. 246-249, 2010."
+        links: []
+      - cite: "島津冴子, **岩井大輔**, 佐藤宏介, “三次元カラー迅速造形物へのプロジェクタ投影重畳による高コントラスト立体ディスプレイ,” 第172回CVIM研究会, 情報処理学会, Vol. 2010-CVIM-172, No. 13 (8 pages), 2010."
+        links: []
+      - cite: "矢引達教, **岩井大輔**, 佐藤宏介, “投影型複合現実感における重畳アノテーションの最適レイアウト,” 第54回システム制御情報学会研究発表講演会講演論文集(SCI’10), pp. 675-676, 2010."
+        links: []
+      - cite: "長瀬百代, **岩井大輔**, 佐藤宏介, “複数台プロジェクタによる投影像のモデルベースボケ補償および影除去,” 第81回パターン計測部会研究会, 計測自動制御学会, pp. 19-24, 2010."
+        links: []
+      - cite: "片岡真史, **岩井大輔**, 佐藤宏介, “感性情報処理に基づく舞台照明の解析と生成,” 電子情報通信学会総合大会講演論文集, p.195, 2010."
+        links: []
+      - cite: "児玉敬, **岩井大輔**, 佐藤宏介, “複数台のパンチルトズームプロジェクタによるコンテキストに応じた不均一解像度ディスプレイ,” 電子情報通信学会総合大会講演論文集, p.220, 2010."
+        links: []
+      - cite: "濱口菜々, 山本景子, **岩井大輔**, 佐藤宏介, “机上振動音のアンビエントセンシングによるユーザ状態推定,” 第17回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2009)論文集 pp. 139-140, 2009."
+        links: []
+      - cite: "松下和弘, **岩井大輔**, 佐藤宏介, “1次元レンジファインダと画像計測による本棚利用ログの自動取得とインタラクティブ本棚,” 第52回自動制御連合講演会, E5-4 (6 pages), 2009."
+        links: []
+      - cite: "長瀬百代, **岩井大輔**, 佐藤宏介, “複数投影環境での投影像の空間周波数解析に基づくモデルベース多重焦点制御,” 第14回日本バーチャルリアリティ学会大会, 3A2-1 (4 pages), 2009."
+        links: []
+      - cite: "松下和弘, **岩井大輔**, 佐藤宏介, “投影型複合現実感技術と本棚ログによる本棚利用支援,” 第14回日本バーチャルリアリティ学会大会, 3B2-1 (4 pages), 2009."
+        links: []
+      - cite: "松崎圭佑, **岩井大輔**, 佐藤宏介, “エフェクト効果を付与した超低速度光の仮想投影　-Snail Light Projector-,” 第14回日本バーチャルリアリティ学会大会, 2A1-1 (4 pages), 2009."
+        links: []
+      - cite: "長瀬百代, **岩井大輔**, 佐藤宏介, “複数投影における鮮明な投影像表示のためのモデルベース多重焦点制御,” 第167回CVIM研究会, 情報処理学会, pp. 29:1-29:8, 2009."
+        links: []
+      - cite: "濱口菜々, 山本景子, **岩井大輔**, 佐藤宏介, “筆記音のアンビエントセンシングによるユーザ状態推定,” 第53回システム制御情報学会研究発表講演会講演論文集(SCI’09), pp. 159-160, 2009."
+        links: []
+      - cite: "池田和人, 山本豪志朗, **岩井大輔**, 佐藤宏介, “仮想影の視覚効果による影インタフェースの操作性に関する考察,” 第53回システム制御情報学会研究発表講演会講演論文集(SCI’09), pp. 153-154, 2009."
+        links: []
+      - cite: "松崎圭佑, 甲田春樹, **岩井大輔**, 佐藤宏介, “Snail Light Projector: 超低速度光の仮想する時空間映像表現,” 第53回システム制御情報学会研究発表講演会講演論文集(SCI’09), pp. 151-152, 2009."
+        links: []
+      - cite: "松下和弘, **岩井大輔**, 佐藤宏介, “投影型複合現実感技術を用いた書架管理支援システム,” 電子情報通信学会総合大会講演論文集, p.289, 2009."
+        links: []
+      - cite: "李昶, **岩井大輔**, 日浦慎作, 佐藤宏介, “天井蛍光灯型LED光源による三次元位置計測,” 電子情報通信学会総合大会講演論文集, p.633, 2009."
+        links: []
+      - cite: "松崎圭佑, 甲田春樹, **岩井大輔**, 佐藤宏介, “Snail Light Projector: 超低速光速を模倣した時空間映像インタラクション,” 情報処理学会, インタラクション2009論文集, pp. 19-20, 2009."
+        links: []
+      - cite: "中井裕文, **岩井大輔**, 佐藤宏介, “スリット型レンジファインダの把持走査による３次元形状の統合,” 第13回パターン計測シンポジウム, pp. 33-39, 2008."
+        links: []
+      - cite: "山本豪志朗, **岩井大輔**, 佐藤宏介, “投影型複合現実空間における掌シルエットを利用したアクセスインタフェース,” 第13回日本バーチャルリアリティ学会大会, pp. 280-283, 2008."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “プロジェクタ‐サーマルカメラ型インタラクティブシステム,” 第156回CVIM研究会, 情報処理学会, pp. 9-16, 2006."
+        links: []
+      - cite: "中山太一郎, **岩井大輔**, 佐藤宏介, “投影型情報提示におけるビジュアルインフォメーションの最適投影位置,” 情報処理学会関西支部大会, ビジュアルインフォメーション研究会, pp. 73-74, 2006."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “CrossOverlayDesktop：ユーザ交流のためのモバイル端末デスクトップの動的画面重畳,” ヒューマンインタフェースシンポジウム2006論文集, pp. 1161-1164, 2006."
+        links: []
+      - cite: "**岩井大輔**, 花谷佐和子, 堀井千夏, 佐藤宏介, “Limpid Desk: 投影型複合現実感による机上実物体の透過化,” 情報処理学会, インタラクション2006論文集, pp. 259-266, 2006."
+        links: []
+      - cite: "奥本和貴, 長田典子, **岩井大輔**, フェリペ・トロ, 井口征士, “モーションキャプチャによるラテンダンスの解析と生成,” 電子情報通信学会総合大会講演論文集, p.266, 2005."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “Thermo-Painter: 熱画像と熱メタファによるインタラクティブ描画システム,” 情報処理学会, インタラクション2004論文集, pp. 21-22, 2004."
+        links:
+          - { icon: "🏆", label: "ベストインタラクティブ発表賞", url: "http://www.interaction-ipsj.org/2004/i2004.html" }
+      - cite: "**岩井大輔**, 佐藤宏介, 井口征士, “熱画像を利用した入力デバイスとインタラクション,” 情報処理学会関西支部大会, ビジュアルインフォメーション研究会, pp. 55-56, 2003."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, 井口征士, “赤外線カメラを用いた温度検知型タブレット,” 第47回システム制御情報学会, pp. 299-300, 2003."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, 井口征士, “赤外線カメラを用いたタブレット—温度を介したヒューマンインタフェースの試み,” 電子情報通信学会総合大会講演論文集, A-15-25, 2003."
+        links: []
+      - cite: "**岩井大輔**, フェリペ・トロ, 井口征士, “踊りの特徴分析と日本人と南米人のノリ,” 計測自動制御学会, システムインテグレーション部門講演会(SI2002), pp. 299-300, 2002."
+        links: []
+      - cite: "**岩井大輔**, 長田典子, 津田学, 和氣早苗, 井口征士, “音と色のノンバーバルマッピングー色聴保持群のマッピングルール抽出とその応用ー,” 情処研報(2002-MUS-47), Vol. 2002, No. 100, pp. 97-104, 2002."
+        links: []
+      - cite: "**岩井大輔**, 長田典子, 和氣早苗, 井口征士, “音と色のノンバーバルマッピング,” 情報処理学会関西支部, 支部大会講演論文集, pp. 7-10, 2002."
+        links: []
+      - cite: "フェリペ・トロ, **岩井大輔**, 井口征士, “踊りの特徴抽出と日本人らしさ,” 情報処理学会, 人文科学とコンピュータシンポジウム論文集, pp. 165-168, 2002."
+        links: []
+  - id: others-ja
+    ja_only: true   # 日本語ページのみに表示
+    title_en: "Others (Japanese)"
+    title_ja: "その他（和文）"
+    entries:
+      - cite: "日浦慎作, **岩井大輔**, 黒木忍, 延原章平, 溝上陽子, 南本敬史, “質感研究プロジェクトにおける3Dプリンター活用とその効果,” AMフューチャー, Vol.2, No.1, pp. 57-62, 2026."
+        links: []
+      - cite: "**岩井大輔**, “人間拡張のためのプロジェクションマッピング技術,” 光設計研究グループ機関誌, No. 77, pp 14-19, 2024."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_ODG24.pdf" }
+      - cite: "**岩井大輔**, “物理世界の見えを自在に操作するプロジェクションマッピング技術,” レーザー研究 (レーザー学会誌), Vol. 51, No. 6, pp. 389-392, 2023."
+        links: []
+      - cite: "**岩井大輔**, “プロジェクタ+Xを用いた最新AR/MR研究,” 映像情報メディア学会誌, Vol. 76, No. 3, pp. 316-321, 2022."
+        links: []
+      - cite: "寺井晴香, **岩井大輔**, 佐藤宏介, “空間光位相変調器を用いたプロジェクタ画素の動的再配置,” 画像ラボ, Vol. 33, No. 5, pp. 28-32, 2022."
+        links: []
+      - cite: "**岩井大輔**, “プロジェクターのハードウェア限界を超える質感表現編集技術,” 光学, Vol. 50, No. 8, pp. 341-343, 2021."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_Kogaku21.pdf" }
+      - cite: "**岩井大輔**, “プロジェクションマッピング研究の最新動向,” 電気ガラス, Vol. 62, pp. 3-8, 2020."
+        links: []
+      - cite: "木村宙志, **岩井大輔**, 佐藤宏介, “焦点走査眼鏡と同期した時間多重化投影による立体投影の輻輳調節矛盾の軽減,” 光アライアンス, Vol. 31, No. 7, pp. 32-36, 2020."
+        links: []
+      - cite: "**岩井大輔**, “高自由度照明技術としてのプロジェクションマッピング,” 照明学会誌, Vol. 103, No. 5, pp. 179-182, 2019."
+        links:
+          - { icon: "📄", label: "Preprint", url: "/share/paper/Iwai_IEIJ19.pdf" }
+      - cite: "**岩井大輔**, “プロジェクションマッピングの基盤技術,” 電気学会誌, Vol. 139, No. 1, pp. 34-37, 2019."
+        links:
+      - cite: "**岩井大輔**, “ドローンからのプロジェクション,” 微小光学研究会機関誌 Microoptics News, No. 32, No. 2, pp. 37-42 (2018)."
+        links:
+      - cite: "佐藤克成, 才脇直樹, 吉田哲也, 内田有希, 佐藤宏介, **岩井大輔**, “中等教育段階を中心とした家庭科学習における情報機器を導入した新たな教材の開発と提案,” 教育システム研究(奈良女子大学教育システム開発センター紀要), No. 13(3月), pp. 283-294 (2018)."
+        links: []
+      - cite: "**岩井大輔**, 河原拓海, 佐藤宏介, “映像投射型ドローン,” 月刊OPTRONICS (特集 光技術がもたらすロボット開発の可能性), Vol. 36, No. 432, pp. 64-67, 2017."
+        links: []
+      - cite: "**岩井大輔**, “プロジェクション型AR,” 精密工学会誌 (特集: VR/AR・MRを用いたものづくりの新潮流), Vol. 83, No. 6, pp. 494-498, 2017."
+        links:
+          - { icon: "📄", label: "J-STAGE (open access)", url: "https://www.jstage.jst.go.jp/article/jjspe/83/6/83_494/_pdf/-char/ja" }
+      - cite: "何昕霓, **岩井大輔**, “温度覚と色覚の感覚間相互作用,” Clinical Neuroscience, Vol. 35, No. 2, pp. 189-191, 2017."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “色や模様のついた面にちゃんと映す! 色補正のメカニズム,” インターフェース, CQ出版社, Vol. 41, No. 5, pp. 93-100, 2015."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “プロジェクタ応用工学,” 月刊OPTRONICS (特集 いま注目のプロジェクション技術), Vol. 34, No. 397, pp. 91-96, 2015."
+        links: []
+      - cite: "**岩井大輔**, 武村紀子, 佐藤宏介, “ユーザインタフェースのためのアンビエントパターン計測技術,” 計測と制御, Vol. 53, No. 7, pp. 599-604, 2014."
+        links:
+      - cite: "**岩井大輔**, “特集巻頭言 プロジェクションマッピング,” 日本バーチャルリアリティ学会誌 (特集 プロジェクションマッピング), Vol. 19, No. 2, p. 6, 2014."
+        links: []
+      - cite: "**岩井大輔**, “プロジェクションマッピングにおけるインタラクティブ技術,” O plus E, Vol. 35, No. 11, pp. 1273-1277, 2013."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “講座 誰にでもわかる3D 応用6：未来の3Dとインタラクション技術,” 映像情報メディア学会誌, Vol. 65, No. 12, pp. 42-46, 2011."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “プロジェクション型AR（拡張現実感）,” 画像ラボ, Vol. 22, No. 2, pp. 8-15, 2011."
+        links: []
+      - cite: "佐藤宏介, **岩井大輔**, “CMSとデジタル映像制作を組み合わせた大学初年次教育の試み,” 平成22年度情報教育研究集会, pp. , 2010."
+        links: []
+      - cite: "**岩井大輔**, “応用5: プロジェクション型AR,” 特集 拡張現実感 (AR), 情報処理学会誌「情報処理」, Vol. 51, No. 4, pp. 408-413, 2010."
+        links: []
+      - cite: "**岩井大輔**, “書評：コンピュータ・グラフィックスの歴史 - 3DCGというイマジネーション -,” Book Review, 日本バーチャルリアリティ学会誌, Vol. 14, No. 4, p.69, 2009."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “熱画像を用いた実机上空間での接触検出とその投影型複合現実感応用,” 画像ラボ, Vol. 19, No. 9, pp. 5-9, 2008."
+        links: []
+      - cite: "**岩井大輔**, “Bauhaus-Universität Weimar, Augmented Reality Lab,” ワクワク留学体験記, 日本バーチャルリアリティ学会誌, Vol. 13, No. 2, pp. 58-59, 2008."
+        links: []
+      - cite: "中山太一郎, **岩井大輔**, 佐藤宏介, “Camera-Based OCRを組み合わせた投影型書類アノテーション,” 画像ラボ, Vol. 18, No. 7, pp. 60-63, 2007."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “Limpid Desk,” 技術展望小特集「テーブル型システムの現状」, ヒューマンインタフェース学会誌, Vol. 9, No. 1, pp. 53-54, 2007."
+        links: []
+      - cite: "**岩井大輔**, “ThermoPainter 熱の痕跡を利用したアート作品制作支援システム,” 芸術科学会誌DiVA, Vol. 10, pp. 58-61, 2006."
+        links: []
+      - cite: "**岩井大輔**, 佐藤宏介, “ThermoPainter & ThermoReality：熱画像を用いた投影型複合現実感,” 画像ラボ, Vol. 17, No. 4, pp. 27-30, 2006."
+        links: []
+      - cite: "**岩井大輔**, 金谷一朗, 佐藤宏介, “ThermoPainter,” インタラクティブ東京作品梗概集2005, p.21, 2005."
+        links: []
+      - cite: "**岩井大輔**, 中野雄矢, “映像情報訪問記：立命館大学アート・リサーチセンター,” 映像情報メディア学会誌, Vol. 57, No. 6, pp. 683-686, 2003."
+        links: []

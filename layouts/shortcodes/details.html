@@ -1,0 +1,14 @@
+{{- /*
+  Collapsible disclosure. The summary renders as a pill button; clicking it
+  reveals the inner Markdown. Native <details>, so it works without JavaScript.
+
+    {{< details summary="Show more" >}}
+    ... Markdown (tables, lists, …) ...
+    {{< /details >}}
+*/ -}}
+<details class="disclosure">
+  <summary>{{ .Get "summary" }}</summary>
+  <div class="disclosure-body">
+    {{ .Inner | markdownify }}
+  </div>
+</details>

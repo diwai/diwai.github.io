@@ -1,0 +1,25 @@
+<script>
+  /* Group the flat .prose flow into full-width bands that alternate
+     white / grey, split at each <h2> (home = sections, publications = years).
+     Nodes are moved (not recreated), so ids and existing listeners survive. */
+  (function () {
+    var prose = document.querySelector('.prose');
+    if (!prose) return;
+    var groups = [], cur = null;
+    Array.prototype.slice.call(prose.childNodes).forEach(function (n) {
+      if (n.nodeType === 1 && n.tagName === 'H2') { cur = [n]; groups.push(cur); }
+      else { if (!cur) { cur = []; groups.push(cur); } cur.push(n); }
+    });
+    var frag = document.createDocumentFragment();
+    groups.forEach(function (g, i) {
+      var band = document.createElement('section');
+      band.className = 'band band-' + (i % 2);
+      var inner = document.createElement('div');
+      inner.className = 'band-inner';
+      g.forEach(function (n) { inner.appendChild(n); });
+      band.appendChild(inner);
+      frag.appendChild(band);
+    });
+    prose.appendChild(frag);
+  })();
+</script>

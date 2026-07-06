@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="intro">
+  {{ with .Params.avatar }}
+    <img class="avatar" src="{{ . }}" alt="{{ $.Title }}" width="132" height="132">
+  {{ end }}
+  <div class="intro-text">
+    <h1 class="name">{{ .Title }}</h1>
+    {{ with .Params.role }}<p class="role">{{ . }}</p>{{ end }}
+    {{ with .Params.affiliation }}
+      <p class="affil">
+        {{ if $.Params.affiliation_url }}<a href="{{ $.Params.affiliation_url }}">{{ . }}</a>{{ else }}{{ . | safeHTML }}{{ end }}
+      </p>
+    {{ end }}
+    <p class="contact">
+      {{ with .Params.email }}<span class="mono">{{ . }}</span>{{ end }}
+      {{ with .Params.scholar }} &nbsp;·&nbsp; <a href="{{ . }}">Google Scholar</a>{{ end }}
+    </p>
+  </div>
+</section>
+
+<div class="spectrum" role="presentation"></div>
+
+<div class="prose">
+  {{ .Content }}
+</div>
+
+{{ partial "section-bands.html" . }}
+{{ end }}

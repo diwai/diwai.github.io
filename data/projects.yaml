@@ -1,0 +1,390 @@
+# Projects — single source for BOTH the English and Japanese home pages.
+# Add a project once here and it appears on both language pages (only the
+# title differs per language; venue / image / links are shared).
+# 'show' = how many cards appear before the “Show more” button.
+show: 6
+items:
+  - title_en: "Casper DPM: Cascaded Perceptual Dynamic Projection Mapping onto Hands"
+    title_ja: "Casper DPM: 手へのマーカーレス高速追従プロジェクションマッピング"
+    venue: "ACM SIGGRAPH ASIA 2024"
+    image: "/images/proj/casperdpm.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://yoterel.github.io/casper-project-page/" }
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3680528.3687624" }
+      - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2409.04397" }
+  - title_en: "A Multi-aperture Coaxial Projector Balancing Shadow Suppression and Deblurring"
+    title_ja: "大開口レンズによる影なしプロジェクションマッピング"
+    venue: "IEEE TVCG 2024, IEEE ISMAR 2024"
+    image: "/images/proj/Kusuyama_ISMAR24.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://hirokikusuyama.studio.site/3#shadowless" }
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/TVCG.2024.3456170" }
+  - title_en: "Efficient Distortion-Free Neural Projector Deblurring in Dynamic Projection Mapping"
+    title_ja: "動的プロジェクションマッピングでの幾何補正とぼけ補償を両立する深層学習"
+    venue: "IEEE TVCG 2024"
+    image: "/images/proj/distfreedeblur.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://sites.research-p.com/yutakageyama/projects/efficient-distortion-free-neural-projector-deblurring-in-dynamic-projection-mapping/" }
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/TVCG.2024.3354957" }
+  - title_en: "Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors"
+    title_ja: "明るい部屋でも鮮明なプロジェクションマッピング"
+    venue: "IEEE TVCG 2024, IEEE VR 2024"
+    image: "/images/proj/pminbright.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2024.3372031" }
+      - { icon: "📄", label: "Preprint", url: "http://arxiv.org/abs/2403.02547" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/qEutemEzs10" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2024/20240315_1" }
+  - title_en: "Topology Optimization with Text-Guided Stylization"
+    title_ja: "生成AIを用いたトポロジー最適化"
+    venue: "Structural and Multidisciplinary Optimization 2023"
+    image: "/images/proj/neuralstyleTO.jpg"
+    links:
+      - { icon: "📄", label: "Springer (Open Access)", url: "https://link.springer.com/article/10.1007/s00158-023-03686-7" }
+      - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2310.15506" }
+  - title_en: "Neural Projection Mapping Using Reflectance Fields"
+    title_ja: "ニューラルプロジェクションマッピング"
+    venue: "IEEE TVCG 2023, IEEE ISMAR 2023"
+    image: "/images/proj/neuralpm.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://yoterel.github.io/nepmap-project-page/" }
+      - { icon: "📄", label: "IEEE", url: "https://ieeexplore.ieee.org/document/10269043" }
+      - { icon: "📄", label: "Preprint", url: "https://doi.org/10.48550/arXiv.2306.06595" }
+  - title_en: "Estimation of Fused-Filament-Fabrication Structural Vibro-Acoustic Performance by Modal Impact Sound"
+    title_ja: "FDM方式3Dプリンタ出力物の弾性特性推定とその鍵盤打楽器デザイン応用"
+    venue: "Computers & Graphics 2023"
+    image: "/images/proj/modalestimation.jpg"
+    links:
+      - { icon: "📄", label: "Elsevier (Open Access)", url: "https://doi.org/10.1016/j.cag.2023.07.010" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/52kqboOnmoQ" }
+  - title_en: "NSTO: Neural Synthesizing Topology Optimization for Modulated Structure Generation"
+    title_ja: "ニューラルネットワークを用いたトポロジー最適化"
+    venue: "CGF 2023, Pacific Graphics 2023"
+    image: "/images/proj/NSTO.jpg"
+    links:
+      - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.14700" }
+      - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2303.11757" }
+  - title_en: "Shadowless Projection Mapping using Retrotransmissive Optics"
+    title_ja: "影なしプロジェクションマッピング"
+    venue: "IEEE TVCG 2023, IEEE VR 2023"
+    image: "/images/proj/shadowless.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/TVCG.2023.3247104" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/DMBSlLQp-c0" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/nlN_cbfe7tc" }
+  - title_en: "A Monocular Projector-Camera System using Modular Architecture"
+    title_ja: "レンズ共有型プロジェクタカメラシステム"
+    venue: "IEEE TVCG 2023"
+    image: "/images/proj/monoprocams.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "http://doi.org/10.1109/TVCG.2022.3217266" }
+  - title_en: "HaptoMapping: Visuo-Haptic Augmented Reality by Embedding User-Imperceptible Tactile Display Control Signals in a Projected Image"
+    title_ja: "プロジェクション映像への触覚デバイス駆動信号の埋め込み"
+    venue: "IEEE TVCG 2023, IEEE VR 2022"
+    image: "/images/proj/haptomapping.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/TVCG.2021.3136214" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/6Ch1j9zUWoU" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/tXWdNuWWpKM" }
+  - title_en: "interiqr: Unobtrusive Edible Tags using Food 3D Printing"
+    title_ja: "フード3Dプリンタを用いた食べられるデータの埋め込み"
+    venue: "ACM UIST 2022"
+    image: "/images/proj/interiqr.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://punpongsanon.info/foodcode/" }
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3526113.3545669" }
+      - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/0v4rypppd5t4pc8/UIST_2022_Interiqr_Miyatake.pdf?dl=0" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/vAMmxEroSzs" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2022/20221017_2" }
+  - title_en: "Online Projector Deblurring Using a Convolutional Neural Network"
+    title_ja: "CNNを用いた動的プロジェクションマッピングぼけ補償"
+    venue: "IEEE TVCG 2022, IEEE VR 2022"
+    image: "/images/proj/onlineprodebnet.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://sites.research-p.com/yutakageyama/projects/online-projector-deblurring-using-a-convolutional-neural-network/" }
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/TVCG.2022.3150465" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/MSCj2IIZevw" }
+  - title_en: "Multifocal Stereoscopic Projection Mapping"
+    title_ja: "立体プロジェクションマッピングにおける空中像の多重焦点化"
+    venue: "IEEE TVCG 2021, IEEE ISMAR 2021"
+    image: "/images/proj/multifocalspm.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2021.3106486" }
+      - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2110.07726" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/I8DGTQnxm38" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/eqaYdPdU5WM" }
+  - title_en: "Directionally Decomposing Structured Light for Projector Calibration"
+    title_ja: "フォーカス設定に依存しないプロジェクタ較正法"
+    venue: "IEEE TVCG 2021, IEEE ISMAR 2021"
+    image: "/images/proj/ddstructuredlight.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2021.3106511" }
+      - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2110.03924" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/TD5G2Qc7BEM" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/4tUG3HwCyic" }
+  - title_en: "FoodFab: Creating Food Perception Tricks using Food 3D Printing"
+    title_ja: "満腹感を騙す食品3D印刷"
+    venue: "ACM CHI 2020"
+    image: "/images/proj/foodfab.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://hcie.csail.mit.edu/research/foodfab/foodfab.html" }
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3313831.3376421" }
+      - { icon: "📄", label: "Preprint", url: "https://hcie.csail.mit.edu/research/foodfab/CHI_2020_FoodFab.pdf" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/kBojJIUhHS8" }
+  - title_en: "IlluminatedFocus: Vision Augmentation using Spatial Defocusing via Focal Sweep Eyeglasses and High-Speed Projection"
+    title_ja: "焦点ぼけを空間制御する視覚拡張眼鏡"
+    venue: "IEEE TVCG 2020, IEEE VR 2020"
+    image: "/images/proj/illuminatedfocus-2.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2020.2973496" }
+      - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2002.02167" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/NQntt8X1Xh0" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/QVeycpDcstc" }
+  - title_en: "FibAR: Embedding Optical Fibers in 3D Printed Objects for Active Markers in Dynamic Projection Mapping"
+    title_ja: "動的プロジェクションマッピングのための3D印刷型光ファイバーマーカー"
+    venue: "IEEE TVCG 2020, IEEE VR 2020"
+    image: "/images/proj/fibar-1.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2020.2973444" }
+      - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2002.02159" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/NGafcVO2euM" }
+      - { icon: "📺", label: "Talk", url: "https://youtu.be/jIOaaNpd3-4" }
+  - title_en: "FleXeen: Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality"
+    title_ja: "プロジェクションマッピングによる柔らかさ質感の操作"
+    venue: "IEEE TVCG 2020, IEEE VR 2019"
+    image: "/images/proj/flexeen.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://punpongsanon.info/flexeen/flexeen.html" }
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2871044" }
+      - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/whxjixy6d11kiuw/TVCG_2018_FleXeen_punpongsanon.pdf?dl=0" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/pdsGVWs2BqU" }
+  - title_en: "Augmented Environment Mapping for Appearance Editing of Glossy Surfaces"
+    title_ja: "空間拡張現実による鏡面物体の質感変調"
+    venue: "IEEE ISMAR 2019"
+    image: "/images/proj/aemapping.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR.2019.00-26" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/L5V_Oa3PycI" }
+  - title_en: "Non-Contact Thermo-Visual Augmentation by IR-RGB Projection"
+    title_ja: "熱と映像のプロジェクションマッピング"
+    venue: "IEEE TVCG 2019, IEEE VR 2019"
+    image: "/images/proj/thermalpm.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2820121" }
+  - title_en: "Stereoscopic Capture in Projection Mapping"
+    title_ja: "プロジェクションマッピングによる質感をともなう変形操作"
+    venue: "IEEE Access 2018"
+    image: "/images/proj/stereocapture.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/ACCESS.2018.2875905" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/CXkmXbtjv1o" }
+  - title_en: "Seamless Multi-Projection Revisited"
+    title_ja: "複数台投影における継ぎ目の解消"
+    venue: "IEEE TVCG 2018, IEEE ISMAR 2018"
+    image: "/images/proj/seamlessmp.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://la.disneyresearch.com/publication/seamless-multi-projection-revisited/" }
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2868597" }
+      - { icon: "📄", label: "Preprint", url: "https://la.disneyresearch.com/wp-content/uploads/color_uniformity_2.pdf" }
+  - title_en: "Pseudo-Shape Sensation by Stereoscopic Projection Mapping"
+    title_ja: "プロジェクションマッピングによる形状に対する触感覚の擬似的な操作"
+    venue: "IEEE Access 2018"
+    image: "/images/proj/pseudoshape.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/ACCESS.2018.2858268" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/3zgb1FQwhPk" }
+  - title_en: "Fabricating Diminishable Visual Markers for Geometric Registration in Projection Mapping"
+    title_ja: "プロジェクションマッピングマーカーの不可視化"
+    venue: "IEEE TVCG 2018, IEEE VR 2018"
+    image: "/images/proj/diminishedmarker.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2017.2657634" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/qFvrtnmnmYk" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2015/20151013_1" }
+  - title_en: "HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection"
+    title_ja: "プロジェクションマッピングと透過型ARを組み合わせた質感再現"
+    venue: "IEEE TVCG 2018, IEEE VR 2018"
+    image: "/images/proj/hysar-1.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://www.ar.c.titech.ac.jp/projects/hysar" }
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2018.2793659" }
+      - { icon: "📄", label: "Preprint", url: "https://drive.google.com/file/d/13YoAZ98HY1yreM2Xk-a6OQ9q_uQF5YH5/view?usp=sharing" }
+  - title_en: "Geometrically Consistent Projection-based Tabletop Sharing for Remote Collaboration"
+    title_ja: "プロジェクションマッピングによる遠隔机上共有"
+    venue: "IEEE Access 2018"
+    image: "/images/proj/consistentdesk.jpg"
+    links:
+      - { icon: "📄", label: "IEEE (Open Access)", url: "https://doi.org/10.1109/ACCESS.2017.2781699" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/AR1WqG2mqlE" }
+  - title_en: "SPAP: Simultaneous Projection and Positioning of Laser Projector Pixels"
+    title_ja: "SPAP: レーザ光照射タイミングを用いるプロジェクションマッピング位置合わせ"
+    venue: "IEEE TVCG 2017, IEEE ISMAR 2017"
+    image: "/images/proj/spap-1.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2017.2734478" }
+      - { icon: "📎", label: "Supplementary material", url: "https://drive.google.com/file/d/1rxCOEVLUxFXL6eyFepPmRY08HMNtg13G/view?usp=share_link" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/3U2il3Gh4Xw" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2017/20170925_1" }
+  - title_en: "Body Cyberization by Spatial Augmented Reality for Reaching Unreachable World"
+    title_ja: "ExtendedHand: プロジェクションマッピングによる拡張手"
+    venue: "Augmented Human 2017"
+    image: "/images/proj/extendedhand.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://www.extendedhand.net/en-home-1/" }
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3041164.3041188" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/fYwK7d_cUO8" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2016/20160229_1" }
+  - title_en: "Makeup Lamps: Live Augmentation of Human Faces via Projection"
+    title_ja: "人の顔へのプロジェクションマッピング"
+    venue: "CGF 2017, Eurographics 2017"
+    image: "/images/proj/makeuplamps-1.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://studios.disneyresearch.com/2017/04/24/makeup-lamps-live-augmentation-of-human-faces-via-projection/" }
+      - { icon: "📄", label: "Wiley", url: "https://doi.org/10.1111/cgf.13128" }
+      - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/03/Makeup-Lamps-Live-Augmentation-of-Human-Faces-via-Projection-1.pdf" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/Ilgu3aFCphs" }
+  - title_en: "LazyNav: 3D Ground Navigation with Non-Critical Body Parts"
+    title_ja: "メタバース空間を「くつろいで」探索するインタフェース"
+    venue: "IEEE TVCG 2017, IEEE 3DUI 2015"
+    image: "/images/proj/lazynav.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/" }
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/3DUI.2015.7131725" }
+      - { icon: "📄", label: "Preprint", url: "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/LazyNav.pdf" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/hL5mQcCFU9I" }
+  - title_en: "Inter-reflection Compensation of Immersive Projection Display by Spatio-Temporal Screen Reflectance Modulation"
+    title_ja: "スクリーンの反射率変調による没入型ディスプレイの高コントラスト化"
+    venue: "IEEE TVCG 2016, IEEE VR 2016"
+    image: "/images/proj/ifcomp.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2016.2518136" }
+  - title_en: "SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality"
+    title_ja: "プロジェクションマッピングによる柔らかさの触知覚の擬似的な操作"
+    venue: "IEEE TVCG 2015, IEEE ISMAR 2015"
+    image: "/images/proj/softar.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://punpongsanon.info/softar/" }
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2459792" }
+      - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/7b6k739wvicul64/TVCG_2015_SoftAR_punpongsanon.pdf?dl=0" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/dVAa5oM4jF4" }
+  - title_en: "Radiometric Compensation for Cooperative Distributed Multi-Projection System through 2-DOF Distributed Control"
+    title_ja: "分散協調制御による複数台プロジェクタの色補償"
+    venue: "IEEE TVCG 2015, IEEE ISMAR 2015"
+    image: "/images/proj/distributedcomp.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2459905" }
+  - title_en: "Extended Depth-of-Field Projector by Fast Focal Sweep Projection"
+    title_ja: "焦点スイープ投影によるプロジェクタの被写界深度拡張"
+    venue: "IEEE TVCG 2015, IEEE VR 2015"
+    image: "/images/proj/focalsweep.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2015.2391861" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/GWo2XmIFC0c" }
+      - { icon: "📢", label: "Press release", url: "https://resou.osaka-u.ac.jp/ja/research/2015/20150323_1" }
+  - title_en: "Projection-based Visualization of Tangential Deformation of Nonrigid Surface by Deformation Estimation Using Infrared Texture"
+    title_ja: "赤外インク利用の変形計測に基づく柔軟物へのプロジェクションマッピング"
+    venue: "Springer Virtual Reality 2015, ACM SIGGRAPH ASIA Etech 2013"
+    image: "/images/proj/deforme.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://punpongsanon.info/deforme/index.html" }
+      - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-014-0256-y" }
+      - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/i3U93QTfzlg" }
+  - title_en: "Combining colour and temperature: A blue object is more likely to be judged as warm than a red object"
+    title_ja: "温度感覚と色彩感覚の相互作用の調査"
+    venue: "Scientific Reports 2014"
+    image: "/images/proj/colortemp.jpg"
+    links:
+      - { icon: "📄", label: "Nature (Open Access)", url: "https://dx.doi.org/10.1038/srep05527" }
+  - title_en: "Projection Screen Reflectance Control for High Contrast Display using Photochromic Compounds and UV LEDs"
+    title_ja: "フォトクロミズムを用いた高コントラスト映像投影"
+    venue: "Optics Express 2014"
+    image: "/images/proj/photochromicscreen3.jpg"
+    links:
+      - { icon: "📄", label: "Optica (Open Access)", url: "https://doi.org/10.1364/OE.22.013492" }
+  - title_en: "Making Graphical Information Visible in Real Shadows on Interactive Tabletops"
+    title_ja: "影の中に情報が浮かび上がるテーブルトップディスプレイ"
+    venue: "IEEE TVCG 2014, IEEE ISMAR 2014"
+    image: "/images/proj/shadowaccess.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2014.2316002" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/CMGIdcsDqz4" }
+  - title_en: "Augmenting Physical Avatars Using Projector Based Illumination"
+    title_ja: "アンドロイドロボットの顔へのプロジェクションマッピング"
+    venue: "ACM TOG 2013, ACM SIGGRAPH ASIA 2013"
+    image: "/images/proj/androidprojection.jpg"
+    links:
+      - { icon: "🌐", label: "Project Page", url: "https://studios.disneyresearch.com/2013/11/01/augmenting-physical-avatars-using-projector-based-illumination/" }
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/2508363.2508416" }
+      - { icon: "📄", label: "Preprint", url: "https://studios.disneyresearch.com/wp-content/uploads/2019/04/Augmenting-Physical-Avatars-Using-Projector-Based-Illumination.pdf" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/O1qV6glZkOQ" }
+  - title_en: "View Management of Projected Labels on Non-Planar and Textured Surfaces"
+    title_ja: "プロジェクションマッピングされた注釈情報の最適レイアウト"
+    venue: "IEEE TVCG 2013, IEEE ISMAR 2013"
+    image: "/images/proj/annotationlayout.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2012.321" }
+  - title_en: "3D High Dynamic Range Display System"
+    title_ja: "多色3Dプリンタとプロジェクションマッピングによる質感レプリカ"
+    venue: "IEEE ISMAR 2011"
+    image: "/images/proj/3dhdr.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/ISMAR.2011.6092393" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/JXhK5n2frLg" }
+  - title_en: "Interactive Bookshelf Surface for In Situ Book Searching and Storing Support"
+    title_ja: "プロジェクションマッピングを用いた本棚のスマート化"
+    venue: "Augmented Human 2011"
+    image: "/images/proj/bookshelf.jpg"
+    links:
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1959826.1959828" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/1mEgfD1ccHg" }
+  - title_en: "Dynamic Defocus and Occlusion Compensation of Projected Imagery by Model-Based Optimal Projector Selection in Multi-projection Environment"
+    title_ja: "合成開口プロジェクションによる焦点ぼけ補償および影除去"
+    venue: "Springer Virtual Reality 2011"
+    image: "/images/proj/syntheticaperturepm.jpg"
+    links:
+      - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-010-0168-4" }
+  - title_en: "Document Search Support by Making Physical Documents Transparent in Projection-Based Mixed Reality"
+    title_ja: "プロジェクションマッピングによる書類の透明化"
+    venue: "Springer Virtual Reality 2011, ACM VRST 2006"
+    image: "/images/proj/limpiddesk.jpg"
+    links:
+      - { icon: "📄", label: "Springer", url: "https://doi.org/10.1007/s10055-010-0159-5" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/fuTzfmV6yb0" }
+  - title_en: "Optical Superimposition of Infrared Thermography through Video Projection"
+    title_ja: "プロジェクションマッピングによる温度分布可視化"
+    venue: "Infrared Physics & Technology 2010"
+    image: "/images/proj/thermographypm.jpg"
+    links:
+      - { icon: "📄", label: "Elsevier", url: "https://doi.org/10.1016/j.infrared.2009.11.001" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/O9DrvyPr6Zs" }
+  - title_en: "Superimposing Dynamic Range"
+    title_ja: "印刷とプロジェクションマッピングによる高コントラストディスプレイ"
+    venue: "ACM TOG 2008, ACM SIGGRAPH ASIA 2008"
+    image: "/images/proj/superimposingdynamicrange-1.jpg"
+    links:
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1409060.1409103" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/SS_ELjbDTOo" }
+  - title_en: "Touch Sensing by Image Analysis of Fingernail"
+    title_ja: "爪の色分布の画像解析による指先の接触推定"
+    venue: "SICE 2008"
+    image: "/images/proj/sugita.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SICE.2008.4654901" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/ocSv48e7Vcc" }
+  - title_en: "User Interface by Virtual Shadow Projection"
+    title_ja: "影のプロジェクションマッピングによる遠隔画面操作インタフェース"
+    venue: "SICE 2006"
+    image: "/images/proj/shadowinteraction.jpg"
+    links:
+      - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/SICE.2006.314974" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/RU0F-EuQrPo" }
+  - title_en: "Heat Sensation in Image Creation with Thermal Vision"
+    title_ja: "熱現象を利用したタッチインタラクション"
+    venue: "ACM ACE 2005"
+    image: "/images/proj/thermopainter.jpg"
+    links:
+      - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/1178477.1178510" }
+      - { icon: "📄", label: "Preprint", url: "https://drive.google.com/file/d/1oO5oard7twGTW8UqB5ohqBtKao5hJr-h/view?usp=share_link" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/jaSkErqKoG4" }
+      - { icon: "📺", label: "Teaser", url: "https://youtu.be/ZFjclf7DXmA" }

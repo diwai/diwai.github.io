@@ -1,0 +1,50 @@
+{{- /*
+  Renders the project card gallery from the single data source
+  data/projects.yaml — the SAME file feeds both the English and Japanese
+  home pages (title_en / title_ja pick the language; venue, image and links
+  are shared). Shows `show` cards, then a "Show more" button reveals the rest.
+
+  Usage in the page: {{< projects >}}
+*/ -}}
+{{- $lang := site.Language.Lang -}}
+{{- $d := site.Data.projects -}}
+<div class="gallery-wrap">
+  <div class="gallery" data-step="{{ $d.show | default 6 }}">
+    {{- range $d.items }}
+    <article class="pcard">
+      {{- with .image }}<div class="pcard-media"><img src="{{ . }}" alt="" loading="lazy"></div>{{ end }}
+      <h3 class="pcard-title">{{ if eq $lang "ja" }}{{ .title_ja | default .title_en }}{{ else }}{{ .title_en | default .title_ja }}{{ end }}</h3>
+      {{- with .venue }}<p class="pcard-venue mono">{{ . }}</p>{{ end }}
+      <div class="pcard-links"><p>
+        {{- range .links }}<a href="{{ .url }}">{{ with .icon }}{{ . }} {{ end }}{{ .label }}</a> {{ end -}}
+      </p></div>
+    </article>
+    {{- end }}
+  </div>
+  <div class="gallery-actions">
+    <button type="button" class="gallery-more" data-more="{{ i18n "showMore" }}" data-less="{{ i18n "showLess" }}">{{ i18n "showMore" }}</button>
+  </div>
+</div>
+<script>
+(function(){
+  var wraps=document.querySelectorAll('.gallery-wrap');
+  var w=wraps[wraps.length-1];
+  if(!w||w.dataset.init){return;} w.dataset.init="1";
+  var g=w.querySelector('.gallery'), btn=w.querySelector('.gallery-more');
+  var step=parseInt(g.dataset.step,10)||6;
+  var cards=Array.prototype.slice.call(g.children).filter(function(n){return n.nodeType===1 && n.classList.contains('pcard');});
+  if(cards.length<=step){ w.querySelector('.gallery-actions').style.display='none'; return; }
+  var expanded=false;
+  function render(){
+    for(var i=0;i<cards.length;i++){ cards[i].hidden = (!expanded && i>=step); }
+    btn.textContent = expanded ? btn.dataset.less : btn.dataset.more;
+    btn.classList.toggle('is-expanded', expanded);
+  }
+  render();
+  btn.addEventListener('click',function(){
+    expanded=!expanded;
+    render();
+    if(!expanded){ g.scrollIntoView({block:'start',behavior:'smooth'}); }
+  });
+})();
+</script>

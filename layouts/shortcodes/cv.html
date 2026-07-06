@@ -1,0 +1,163 @@
+{{- /*
+  Renders all CV sections (awards, career, talks, funding, patents, academic
+  service, media) from the SINGLE data source data/cv.json — the same file
+  feeds both the English and Japanese home pages.
+
+  Each entry may have `en` and/or `ja` text:
+    * English page  → shows entries that have `en` (rendered from `en`).
+    * Japanese page → shows every entry, using `ja` if present else `en`.
+  So an English-only entry (write `en` once) appears on BOTH pages; a
+  Japanese-only entry appears on the Japanese page only.
+
+  Usage in the page: {{< cv >}}
+*/ -}}
+{{- $lang := site.Language.Lang -}}
+{{- range site.Data.cv.sections -}}
+  {{- $sec := . -}}
+  {{- $title := cond (eq $lang "ja") (or .title_ja .title_en) (or .title_en .title_ja) -}}
+
+  {{- /* ---------- table: career ---------- */ -}}
+  {{- if eq .type "table" -}}
+    {{- $rows := slice -}}
+    {{- range .entries -}}
+      {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+      {{- if $t -}}{{- $d := cond (eq $lang "ja") (or .date_ja .date_en) .date_en -}}{{- $rows = $rows | append (dict "d" $d "t" $t) -}}{{- end -}}
+    {{- end -}}
+    {{- if $rows }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+<table><tbody>
+{{- range $rows }}
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+{{- end }}
+</tbody></table>
+    {{- end -}}
+
+  {{- /* ---------- awards: split into Iwai's own vs co-author/student ---------- */ -}}
+  {{- else if eq .type "awards" -}}
+    {{- $entries := .entries -}}
+    {{- $groups := slice
+        (dict "by" "self"     "id" "awards"          "t" $title)
+        (dict "by" "coauthor" "id" "awards-coauthor" "t" (cond (eq $lang "ja") "共著者・学生の受賞" "Co-authored & Student Awards")) -}}
+    {{- range $g := $groups -}}
+      {{- $maj := slice -}}{{- $oth := slice -}}
+      {{- range $entries -}}
+        {{- if eq .by $g.by -}}
+          {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+          {{- if $t -}}
+            {{- $d := cond (eq $lang "ja") (or .date_ja .date_en) .date_en -}}
+            {{- $r := dict "d" $d "t" $t -}}
+            {{- if .selected -}}{{- $maj = $maj | append $r -}}{{- else -}}{{- $oth = $oth | append $r -}}{{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if or $maj $oth }}
+<h2 id="{{ $g.id }}">{{ $g.t }}</h2>
+        {{- if $maj }}
+<table><tbody>
+{{- range $maj }}
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+{{- end }}
+</tbody></table>
+        {{- end }}
+        {{- if $oth -}}
+          {{- $summary := "" -}}
+          {{- if $maj -}}
+            {{- $summary = cond (eq $lang "ja") (printf "その他の受賞 %d 件を表示" (len $oth)) (printf "Show %d more awards" (len $oth)) -}}
+          {{- else -}}
+            {{- $summary = cond (eq $lang "ja") (printf "%d 件を表示" (len $oth)) (printf "Show %d awards" (len $oth)) -}}
+          {{- end }}
+<details class="disclosure"><summary>{{ $summary }}</summary>
+<div class="disclosure-body"><table><tbody>
+{{- range $oth }}
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+{{- end }}
+</tbody></table></div></details>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+  {{- /* ---------- talks: grouped by year ---------- */ -}}
+  {{- else if eq .type "talks" -}}
+    {{- $md := "" -}}{{- $ly := "" -}}
+    {{- range .entries -}}
+      {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+      {{- if $t -}}
+        {{- if ne .year $ly -}}{{- $md = printf "%s\n\n#### %s\n" $md .year -}}{{- $ly = .year -}}{{- end -}}
+        {{- $md = printf "%s\n- %s" $md $t -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $md }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+{{ $md | markdownify }}
+    {{- end -}}
+
+  {{- /* ---------- funding: grouped by sub-heading (PI / Co-I) ---------- */ -}}
+  {{- else if eq .type "funding" -}}
+    {{- $md := "" -}}{{- $ls := "" -}}
+    {{- range .entries -}}
+      {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+      {{- if $t -}}
+        {{- $sub := cond (eq $lang "ja") (or .sub_ja .sub_en) .sub_en -}}
+        {{- $d := cond (eq $lang "ja") (or .date_ja .date_en) .date_en -}}
+        {{- if ne $sub $ls -}}{{- $md = printf "%s\n\n### %s\n\n| %s | %s |\n| --- | --- |" $md $sub $d $t -}}{{- $ls = $sub -}}
+        {{- else -}}{{- $md = printf "%s\n| %s | %s |" $md $d $t -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $md }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+{{ $md | markdownify }}
+    {{- end -}}
+
+  {{- /* ---------- patents: numbered ---------- */ -}}
+  {{- else if eq .type "numbered" -}}
+    {{- $items := slice -}}
+    {{- range .entries -}}
+      {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+      {{- if $t -}}{{- $items = $items | append $t -}}{{- end -}}
+    {{- end -}}
+    {{- if $items }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+<ol>
+{{- range $items }}
+<li>{{ . | markdownify }}</li>
+{{- end }}
+</ol>
+    {{- end -}}
+
+  {{- /* ---------- academic service: grouped by subsection ---------- */ -}}
+  {{- else if eq .type "service" -}}
+    {{- $md := "" -}}
+    {{- range .subs -}}
+      {{- $sub := cond (eq $lang "ja") (or .sub_ja .sub_en) .sub_en -}}
+      {{- $items := slice -}}
+      {{- range .entries -}}
+        {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+        {{- if $t -}}{{- $items = $items | append $t -}}{{- end -}}
+      {{- end -}}
+      {{- if $items -}}
+        {{- $md = printf "%s\n\n#### %s\n" $md $sub -}}
+        {{- range $items -}}{{- $md = printf "%s\n- %s" $md . -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $md }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+{{ $md | markdownify }}
+    {{- end -}}
+
+  {{- /* ---------- plain list: media coverage ---------- */ -}}
+  {{- else if eq .type "list" -}}
+    {{- $items := slice -}}
+    {{- range .entries -}}
+      {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
+      {{- if $t -}}{{- $items = $items | append $t -}}{{- end -}}
+    {{- end -}}
+    {{- if $items }}
+<h2 id="{{ .id }}">{{ $title }}</h2>
+<ul>
+{{- range $items }}
+<li>{{ . | markdownify }}</li>
+{{- end }}
+</ul>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,52 @@
+{{- /*
+  ALTERNATIVE publications view: all publications listed by YEAR (newest first),
+  each tagged with its category and numbered PER CATEGORY across all years,
+  counting from the oldest (e.g. JOURNAL → J1 … J116). So the number on the
+  newest entry of a category equals the total published in that category.
+  Reads the same data/publications(_ja).yaml — no data is duplicated.
+*/ -}}
+{{- $lang := site.Language.Lang -}}
+{{- $cat := dict
+  "books"               (dict "tag" "BOOK"         "key" "book"        "rank" 0 "pfx" "B")
+  "books-ja"            (dict "tag" "BOOK"         "key" "book"        "rank" 0 "pfx" "B")
+  "journal"             (dict "tag" "JOURNAL"      "key" "journal"     "rank" 1 "pfx" "J")
+  "journal-ja"          (dict "tag" "JOURNAL"      "key" "journal"     "rank" 2 "pfx" "J")
+  "conference"          (dict "tag" "CONFERENCE"   "key" "conference"  "rank" 3 "pfx" "C")
+  "misc"                (dict "tag" "MISC"         "key" "misc"        "rank" 4 "pfx" "M")
+  "others-ja"           (dict "tag" "MISC"         "key" "misc"        "rank" 4 "pfx" "M")
+  "non-archival"        (dict "tag" "NON-ARCHIVAL" "key" "nonarchival" "rank" 5 "pfx" "N")
+  "domestic-conference" (dict "tag" "NON-ARCHIVAL" "key" "nonarchival" "rank" 5 "pfx" "N")
+-}}
+{{- $all := slice -}}
+{{- range $sec := site.Data.publications.sections -}}
+  {{- if and $sec.ja_only (ne $lang "ja") -}}{{- continue -}}{{- end -}}
+  {{- $c := index $cat $sec.id -}}
+  {{- if not $c -}}{{- $c = dict "tag" (cond (eq $lang "ja") $sec.title_ja $sec.title_en) "key" "misc" "rank" 9 "pfx" "M" -}}{{- end -}}
+  {{- range $sec.entries -}}
+    {{- $ys := findRE "(19|20)[0-9][0-9]" .cite -}}
+    {{- $yr := "0000" -}}{{- if $ys -}}{{- $yr = index $ys (sub (len $ys) 1) -}}{{- end -}}
+    {{- $sk := add (mul (sub 9999 (int $yr)) 100) (index $c "rank") -}}
+    {{- $all = $all | append (dict "year" $yr "sk" $sk "tag" (index $c "tag") "key" (index $c "key") "pfx" (index $c "pfx") "cite" .cite "links" .links) -}}
+  {{- end -}}
+{{- end -}}
+{{- $sorted := sort $all "sk" -}}
+{{- /* per-category totals, then number newest→oldest as total, total-1, … 1 */ -}}
+{{- $totals := newScratch -}}
+{{- range $sorted -}}{{- $totals.Add .key 1 -}}{{- end -}}
+{{- $seen := newScratch -}}
+{{- $ly := "" -}}
+{{- range $sorted -}}
+  {{- $num := sub (int ($totals.Get .key)) (int ($seen.Get .key | default 0)) -}}
+  {{- $seen.Add .key 1 -}}
+  {{- if ne .year $ly }}
+<h2 id="y{{ .year }}">{{ .year }}</h2>
+    {{- $ly = .year -}}
+  {{- end }}
+    <div class="pub pub-idx">
+      <span class="pub-num pub-num-{{ .key }}">{{ .pfx }}{{ $num }}</span>
+      <p><span class="pub-tag pub-tag-{{ .key }}">{{ .tag }}</span> {{ .cite | markdownify }}</p>
+      {{- with .links }}
+      <p>{{ range . }}<a href="{{ .url }}">{{ with .icon }}{{ . }} {{ end }}{{ .label }}</a> {{ end }}</p>
+      {{- end }}
+    </div>
+{{- end -}}

@@ -1,0 +1,105 @@
+# ============================================================
+#  Site configuration
+#  Docs: https://gohugo.io/getting-started/configuration/
+# ============================================================
+
+baseURL = "https://daisukeiwai.org/"
+title = "Daisuke Iwai"
+
+# personal site — no blog taxonomies
+disableKinds = ["taxonomy", "term"]
+
+# --- Languages -------------------------------------------------
+# Japanese is served at "/" (default), English at "/en/".
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+
+# Translate pages by filename: `_index.en.md` <-> `_index.ja.md`
+[markup.goldmark.renderer]
+  unsafe = true          # allow raw HTML in Markdown (needed for a few links/images)
+
+# allow "## Heading {#id}" so nav can link to sections on the single page
+[markup.goldmark.parser.attribute]
+  title = true
+  block = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel   = 3
+
+# --- Per-language settings + navigation menus ------------------
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    title = "Daisuke Iwai"
+    [languages.en.params]
+      description = "Daisuke Iwai — Professor at the University of Osaka. Research on projection mapping, AR/VR, and Shitsukan (material perception) science."
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Projects"
+      url = "/en/#projects"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Awards"
+      url = "/en/#awards"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "CV"
+      url = "/en/#cv"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Publications"
+      pageRef = "/publications/"
+      weight = 5
+
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja"
+    weight = 2
+    title = "岩井大輔"
+    [languages.ja.params]
+      description = "岩井大輔 — 大阪大学 教授。プロジェクションマッピング・AR/VR・質感科学の研究。"
+    [[languages.ja.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.ja.menu.main]]
+      name = "Projects"
+      url = "/#projects"
+      weight = 2
+    [[languages.ja.menu.main]]
+      name = "Awards"
+      url = "/#awards"
+      weight = 3
+    [[languages.ja.menu.main]]
+      name = "CV"
+      url = "/#cv"
+      weight = 4
+    [[languages.ja.menu.main]]
+      name = "Publications"
+      pageRef = "/publications/"
+      weight = 5
+
+# --- Global params ---------------------------------------------
+[params]
+  copyrightName = "Daisuke Iwai"
+  # University logo shown in the footer (put the file in static/images/)
+  footerLogo = "/images/logo_osaka-u.svg"
+  footerLogoUrl = "https://www.osaka-u.ac.jp/"
+
+# Build settings
+[minify]
+  disableXML = true
+
+# --- Analytics -------------------------------------------------
+# Google Analytics 4. Replace the ID below with your own Measurement ID
+# (looks like "G-XXXXXXXXXX", from analytics.google.com → Admin → Data streams).
+# The tag is emitted only in production builds (`hugo`), never in `hugo server`.
+[services.googleAnalytics]
+  ID = "G-XXXXXXXXXX"
