@@ -20,7 +20,6 @@ sections:
         date_ja: "2026年3月23日"
         selected: true
         en: "**Honorable Mention for Best Paper (IEEE VR 2026)** — Kotaro Fujimura, Hiroki Kusuyama, Masaki Takeuchi, and Daisuke Iwai, “High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), 2026. [Link](https://ieeevr.org/2026/awards/conference-awards/)"
-        ja: "**Honorable Mention for Best Paper (IEEE VR 2026)** — Kotaro Fujimura, Hiroki Kusuyama, Masaki Takeuchi, and Daisuke Iwai, “High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), 2026. [Link](https://ieeevr.org/2026/awards/conference-awards/)"
         by: "self"
       - date_en: "01 Apr. 2025"
         date_ja: "2025年4月1日"
@@ -32,19 +31,16 @@ sections:
         date_ja: "2024年12月6日"
         selected: true
         en: "**Best Student Demo in Show Award (ACM SIGGRAPH ASIA 2024 Emerging Technologies)** — Yotam Erel, Or Kozlovsky-Mordenfeld, Hiroki Kusuyama, Kohei Miura, Daisuke Iwai, Kosuke Sato, and Amit H. Bermano, “Casper DPM: Cascaded Perceptual Dynamic Projection Mapping onto Hands,” In Proceedings of ACM SIGGRAPH Asia 2024 Emerging Technologies, Article No. 4, 1-2, 2024. [Link](https://asia.siggraph.org/2024/for-the-press/press-releases/siggraph-asia-2024-award-winners/)"
-        ja: "**Best Student Demo in Show Award (ACM SIGGRAPH ASIA 2024 Emerging Technologies)** — Yotam Erel, Or Kozlovsky-Mordenfeld, Hiroki Kusuyama, Kohei Miura, Daisuke Iwai, Kosuke Sato, and Amit H. Bermano, “Casper DPM: Cascaded Perceptual Dynamic Projection Mapping onto Hands,” In Proceedings of ACM SIGGRAPH Asia 2024 Emerging Technologies, Article No. 4, 1-2, 2024. [Link](https://asia.siggraph.org/2024/for-the-press/press-releases/siggraph-asia-2024-award-winners/)"
         by: "self"
       - date_en: "18 Mar. 2024"
         date_ja: "2024年3月18日"
         selected: true
         en: "**Best Paper Award (IEEE VR 2024)** — Masaki Takeuchi, Hiroki Kusuyama, Daisuke Iwai, and Kosuke Sato, “Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 30, No. 5, pp. 2151-2161, 2024. [Link](https://ieeevr.org/2024/awards/conference-awards/)"
-        ja: "**Best Paper Award (IEEE VR 2024)** — Masaki Takeuchi, Hiroki Kusuyama, Daisuke Iwai, and Kosuke Sato, “Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 30, No. 5, pp. 2151-2161, 2024. [Link](https://ieeevr.org/2024/awards/conference-awards/)"
         by: "self"
       - date_en: "29 Mar. 2023"
         date_ja: "2023年3月29日"
         selected: true
         en: "**Best Poster Honorable Mention (IEEE VR 2023)** — Kazushi Kinjo, Daisuke Iwai, and Kosuke Sato, “A High-Dynamic-Range Mesh Screen VR Display by Combining Frontal Projection and Retinal Projection,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 629-630, 2023. [Link](https://ieeevr.org/2023/awards/conference-awards/#poster-honorable)"
-        ja: "**Best Poster Honorable Mention (IEEE VR 2023)** — Kazushi Kinjo, Daisuke Iwai, and Kosuke Sato, “A High-Dynamic-Range Mesh Screen VR Display by Combining Frontal Projection and Retinal Projection,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 629-630, 2023. [Link](https://ieeevr.org/2023/awards/conference-awards/#poster-honorable)"
         by: "self"
       - date_en: "15 Dec. 2022"
         date_ja: "2023年2月7日"
@@ -60,19 +56,16 @@ sections:
         date_ja: "2022年3月16日"
         selected: true
         en: "**Best Journal Paper Honorable Mention (IEEE VR 2022)** — Yuta Kageyama, Daisuke Iwai, and Kosuke Sato, “Online Projector Deblurring Using a Convolutional Neural Network,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 28, No. 5, pp. 2223-2233, 2022. [Link](https://ieeevr.org/2022/)"
-        ja: "**Best Journal Paper Honorable Mention (IEEE VR 2022)** — Yuta Kageyama, Daisuke Iwai, and Kosuke Sato, “Online Projector Deblurring Using a Convolutional Neural Network,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 28, No. 5, pp. 2223-2233, 2022. [Link](https://ieeevr.org/2022/)"
         by: "self"
       - date_en: "07 Oct. 2021"
         date_ja: "2021年10月7日"
         selected: true
         en: "**Best Journal Paper (IEEE ISMAR 2021)** — Sorashi Kimura, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Multifocal Stereoscopic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 27, No. 11, pp. 4256-4266, 2021. [Link](https://ismar21.org/program/awards/)"
-        ja: "**Best Journal Paper (IEEE ISMAR 2021)** — Sorashi Kimura, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Multifocal Stereoscopic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 27, No. 11, pp. 4256-4266, 2021. [Link](https://ismar21.org/program/awards/)"
         by: "self"
       - date_en: "27 Mar. 2019"
         date_ja: "2019年3月27日"
         selected: true
         en: "**Best Research Demonstration Runner-up (IEEE VR 2019)** — Kosuke Hiratani, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Shadowless Projector: Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 1309-1310, 2019. [Link](http://ieeevr.org/2019/awards/conference_awards.html)"
-        ja: "**Best Research Demonstration Runner-up (IEEE VR 2019)** — Kosuke Hiratani, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Shadowless Projector: Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 1309-1310, 2019. [Link](http://ieeevr.org/2019/awards/conference_awards.html)"
         by: "self"
       - date_ja: "2017年9月28日"
         selected: true
@@ -82,19 +75,16 @@ sections:
         date_ja: "2016年9月20日"
         selected: true
         en: "**Best Paper Runner Up Award (IEEE ISMAR 2016)** — Yuta Itoh, Toshiyuki Amano, Daisuke Iwai, and Gudrun Klinker, “Gaussian Light Field: Estimation of Viewpoint-Dependent Blur for Optical See-Through Head-Mounted Displays,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 22, No. 11, pp. 2368-2376, 2016. [Link](http://www.ismar2016.org/)"
-        ja: "**Best Paper Runner Up Award (IEEE ISMAR 2016)** — Yuta Itoh, Toshiyuki Amano, Daisuke Iwai, and Gudrun Klinker, “Gaussian Light Field: Estimation of Viewpoint-Dependent Blur for Optical See-Through Head-Mounted Displays,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 22, No. 11, pp. 2368-2376, 2016. [Link](http://www.ismar2016.org/)"
         by: "self"
       - date_en: "25 Mar. 2015"
         date_ja: "2015年3月25日"
         selected: true
         en: "**Best Paper Award (IEEE VR 2015)** — Daisuke Iwai, Shoichiro Mihara, and Kosuke Sato, “Extended Depth-of-Field Projector by Fast Focal Sweep Projection,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Virtual Reality 2015), Vol. 21, No. 4, pp. 462-470, 2015. [Link](http://ieeevr.org/2015/)"
-        ja: "**Best Paper Award (IEEE VR 2015)** — Daisuke Iwai, Shoichiro Mihara, and Kosuke Sato, “Extended Depth-of-Field Projector by Fast Focal Sweep Projection,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Virtual Reality 2015), Vol. 21, No. 4, pp. 462-470, 2015. [Link](http://ieeevr.org/2015/)"
         by: "self"
       - date_en: "24 Mar. 2015"
         date_ja: "2015年3月24日"
         selected: true
         en: "**Best Paper Award (IEEE 3DUI 2015)** — Emilie Guy, Parinya Punpongsanon, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur, “LazyNav: 3D Ground Navigation with Non-Critical Body Parts,” In Proceedings of IEEE Symposium on 3D User Interfaces, pp. 43-50, 2015. [Link](http://3dui.org/)"
-        ja: "**Best Paper Award (IEEE 3DUI 2015)** — Emilie Guy, Parinya Punpongsanon, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur, “LazyNav: 3D Ground Navigation with Non-Critical Body Parts,” In Proceedings of IEEE Symposium on 3D User Interfaces, pp. 43-50, 2015. [Link](http://3dui.org/)"
         by: "self"
       - date_ja: "2026年3月23日"
         selected: false
@@ -104,7 +94,6 @@ sections:
         date_ja: "2026年3月22日"
         selected: false
         en: "**Best Paper Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2026)** — Yusuke Imoto, Takashi Amesaka, Daisuke Iwai, “Airflow Measurement for Interactive Projection Mapping using Embedded Imperceptible Spatial Patterns.” (non-archival) [Link](https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA)"
-        ja: "**Best Paper Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2026)** — Yusuke Imoto, Takashi Amesaka, Daisuke Iwai, “Airflow Measurement for Interactive Projection Mapping using Embedded Imperceptible Spatial Patterns.” (non-archival) [Link](https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA)"
         by: "self"
       - date_ja: "2025年11月21日"
         selected: false
@@ -132,7 +121,6 @@ sections:
         date_ja: "2025年3月9日"
         selected: false
         en: "**Best Presentation Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2025)** — Atsushi Maki, Daisuke Iwai, and Kosuke Sato, “A Model-based Motion Amplifying Projection for Food Elasticity Manipulation,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 798-801, 2025. [Link](https://sites.google.com/vogue.cs.titech.ac.jp/vr-hsa/vr-hsa-2025)"
-        ja: "**Best Presentation Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2025)** — Atsushi Maki, Daisuke Iwai, and Kosuke Sato, “A Model-based Motion Amplifying Projection for Food Elasticity Manipulation,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 798-801, 2025. [Link](https://sites.google.com/vogue.cs.titech.ac.jp/vr-hsa/vr-hsa-2025)"
         by: "self"
       - date_ja: "2024年8月8日"
         selected: false
@@ -166,7 +154,6 @@ sections:
         date_ja: "2023年3月29日"
         selected: false
         en: "**Best Paper Nominee (IEEE VR 2023)** — Kosuke Hiratani, Daisuke Iwai, Yuta Kageyama, Parinya Punpongsanon, Takefumi Hiraki, and Kosuke Sato “Shadowless Projection Mapping using Retrotransmissive Optics,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 29, No. 5, pp. 2280-2290, 2023. [Link](https://ieeevr.org/2023/awards/conference-awards/#conference-nominees)"
-        ja: "**Best Paper Nominee (IEEE VR 2023)** — Kosuke Hiratani, Daisuke Iwai, Yuta Kageyama, Parinya Punpongsanon, Takefumi Hiraki, and Kosuke Sato “Shadowless Projection Mapping using Retrotransmissive Optics,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 29, No. 5, pp. 2280-2290, 2023. [Link](https://ieeevr.org/2023/awards/conference-awards/#conference-nominees)"
         by: "self"
       - date_ja: "2023年3月27日"
         selected: false
@@ -208,7 +195,6 @@ sections:
         date_ja: "2020年10月15日"
         selected: false
         en: "**Bronze Prize IEEE GCCE2020 Excellent Student Paper Award** — Liyuan Duan, Haruka Matsukura, Parinya Punpongsanon, Takefumi Hiraki, Daisuke Iwai, and Kosuke Sato, “Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 585-586, 2020. [Link](http://www.ieee-gcce.org/2020/)"
-        ja: "**Bronze Prize IEEE GCCE2020 Excellent Student Paper Award** — Liyuan Duan, Haruka Matsukura, Parinya Punpongsanon, Takefumi Hiraki, Daisuke Iwai, and Kosuke Sato, “Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 585-586, 2020. [Link](http://www.ieee-gcce.org/2020/)"
         by: "self"
       - date_ja: "2020年10月12日"
         selected: false
@@ -230,13 +216,11 @@ sections:
         date_ja: "2020年4月25日"
         selected: false
         en: "**Asian CHI Symposium 2020 Best Presentation Award (Showcase)** — Parinya Punpongsanon, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “FoodFab: Creating Food Perception Illusions using Food 3D Printin,” Asian CHI Symposium 2020. [Link](https://asian-chi.github.io/2020/awards/)"
-        ja: "**Asian CHI Symposium 2020 Best Presentation Award (Showcase)** — Parinya Punpongsanon, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “FoodFab: Creating Food Perception Illusions using Food 3D Printin,” Asian CHI Symposium 2020. [Link](https://asian-chi.github.io/2020/awards/)"
         by: "self"
       - date_en: "26 Mar. 2020"
         date_ja: "2020年3月26日"
         selected: false
         en: "**Best Paper Nominee (IEEE VR 2020)** — Daiki Tone, Daisuke Iwai, Shinsaku Hiura, and Kosuke Sato, “FibAR: Embedding Optical Fibers in 3D Printed Objects for Active Markers in Dynamic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 26, No. 5, pp. 2030-2040, 2020. [Link](http://ieeevr.org/2020/awards/conference.html)"
-        ja: "**Best Paper Nominee (IEEE VR 2020)** — Daiki Tone, Daisuke Iwai, Shinsaku Hiura, and Kosuke Sato, “FibAR: Embedding Optical Fibers in 3D Printed Objects for Active Markers in Dynamic Projection Mapping,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 26, No. 5, pp. 2030-2040, 2020. [Link](http://ieeevr.org/2020/awards/conference.html)"
         by: "self"
       - date_ja: "2019年12月1日"
         selected: false
@@ -258,7 +242,6 @@ sections:
         date_ja: "2019年3月27日"
         selected: false
         en: "**Best Paper Nominee (IEEE VR 2019)** — Yuta Itoh, Tobias Langlotz, Daisuke Iwai, Toshiyuki Amano, and Kiyoshi Kiyokawa, “Light Attenuation Display: Subtractive See-Through Near-Eye Display via Spatial Color Filtering,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 25, No. 5, pp. 1951-1960, 2019. [Link](http://ieeevr.org/2019/awards/conference_awards.html)"
-        ja: "**Best Paper Nominee (IEEE VR 2019)** — Yuta Itoh, Tobias Langlotz, Daisuke Iwai, Toshiyuki Amano, and Kiyoshi Kiyokawa, “Light Attenuation Display: Subtractive See-Through Near-Eye Display via Spatial Color Filtering,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 25, No. 5, pp. 1951-1960, 2019. [Link](http://ieeevr.org/2019/awards/conference_awards.html)"
         by: "self"
       - date_ja: "2018年11月15日"
         selected: false
@@ -280,7 +263,6 @@ sections:
         date_ja: "2018年1月11日"
         selected: false
         en: "**Grand Prize for The 2017 IEEE Access Best Multimedia Contest (Part 1)** — Kai Wang, Daisuke Iwai, and Kosuke Sato, “Supporting Trembling Hand Typing Using Optical See-Through Mixed Reality,” IEEE Access, Vol. 5, pp. 10700-10708, 2017. [Link](http://ieeeaccess.ieee.org/uncategorized/2017-ieee-access-best-multimedia-contest-part-1-winners/)"
-        ja: "**Grand Prize for The 2017 IEEE Access Best Multimedia Contest (Part 1)** — Kai Wang, Daisuke Iwai, and Kosuke Sato, “Supporting Trembling Hand Typing Using Optical See-Through Mixed Reality,” IEEE Access, Vol. 5, pp. 10700-10708, 2017. [Link](http://ieeeaccess.ieee.org/uncategorized/2017-ieee-access-best-multimedia-contest-part-1-winners/)"
         by: "self"
       - date_ja: "2017年8月9日"
         selected: false
@@ -322,7 +304,6 @@ sections:
         date_ja: "2014年10月9日"
         selected: false
         en: "**3rd Prize IEEE GCCE 2014 Student Paper Award** — Yoshito Hosomizo, Daisuke Iwai, and Kosuke Sato, “A Flying Projector Stabilizing Image Fluctuation,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 31-32, 2014. [Link](http://www.ieee-gcce.org/2014/)"
-        ja: "**3rd Prize IEEE GCCE 2014 Student Paper Award** — Yoshito Hosomizo, Daisuke Iwai, and Kosuke Sato, “A Flying Projector Stabilizing Image Fluctuation,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 31-32, 2014. [Link](http://www.ieee-gcce.org/2014/)"
         by: "self"
       - date_ja: "2014年7月8日"
         selected: false
@@ -336,7 +317,6 @@ sections:
         date_ja: "2013年10月3日"
         selected: false
         en: "**Outstanding Student Paper Award (IEEE GCCE 2013)** — Akifumi Tanaka, Daisuke Iwai, and Kosuke Sato, “Minimization of Image Quality Degradation in Multi-projection Mapping,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 8-9, 2013. [Link](http://www.ieee-gcce.org/2013/awards.html)"
-        ja: "**Outstanding Student Paper Award (IEEE GCCE 2013)** — Akifumi Tanaka, Daisuke Iwai, and Kosuke Sato, “Minimization of Image Quality Degradation in Multi-projection Mapping,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 8-9, 2013. [Link](http://www.ieee-gcce.org/2013/awards.html)"
         by: "self"
       - date_ja: "2013年7月7日"
         selected: false
@@ -350,7 +330,6 @@ sections:
         date_ja: "2013年4月14日"
         selected: false
         en: "**Best Presentation Award (KJMR 2013)** — Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality, 2013. [Link](http://ypcex.naist.jp/kjmr2013/)"
-        ja: "**Best Presentation Award (KJMR 2013)** — Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality, 2013. [Link](http://ypcex.naist.jp/kjmr2013/)"
         by: "self"
       - date_ja: "2012年11月4日"
         selected: false
@@ -360,7 +339,6 @@ sections:
         date_ja: "2012年10月4日"
         selected: false
         en: "**3rd Prize GCCE 2012 Student Paper Award** — Ryo Wataya, Daisuke Iwai and Kosuke Sato, “Ambient Sensing Chairs for Audience Emotion Recognition by Finding Synchrony of Body Sway,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 29-33, 2012. [Link](http://www.ieee-gcce.org/2012/)"
-        ja: "**3rd Prize GCCE 2012 Student Paper Award** — Ryo Wataya, Daisuke Iwai and Kosuke Sato, “Ambient Sensing Chairs for Audience Emotion Recognition by Finding Synchrony of Body Sway,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 29-33, 2012. [Link](http://www.ieee-gcce.org/2012/)"
         by: "self"
       - date_ja: "2010年3月30日"
         selected: false
@@ -378,7 +356,6 @@ sections:
         date_ja: "2008年11月1日"
         selected: false
         en: "**iENA Gold Medal (International Trade Fair for Ideas, Inventions and New Products)** — “Superimposing Dynamic Range” [Link](http://www.iena.de/)"
-        ja: "**iENA Gold Medal (International Trade Fair for Ideas, Inventions and New Products)** — “Superimposing Dynamic Range” [Link](http://www.iena.de/)"
         by: "self"
       - date_ja: "2008年7月22日"
         selected: false
@@ -612,6 +589,7 @@ sections:
       - en: "Anselm Grundhöfer, Daisuke Iwai, \"Light field based projector calibration method and system,\" EP3462735. [Google Patents](https://patents.google.com/patent/EP3462735/)"
       - ja: "五十川麻理子, 三上弾, 高橋康輔, 岩井大輔, 佐藤宏介, \"画像領域生成装置、その方法、及びプログラム,\" 特開2019-020877. [Google Patents](https://patents.google.com/patent/JP2019020877A/)"
       - en: "Anselm Grundhöfer, Amit Bermano, Bernd Bickel, Philipp Bruschweiler, Markus Gross, Daisuke Iwai, \"Augmenting physical appearance using illumination,\" US10133171. [Google Patents](https://patents.google.com/patent/US10133171/)"
+        ja: "A. Grundhöfer, A. Bermano, B. Bickel, P. Bruschweiler, M. Gross, D. Iwai, \"Augmenting physical appearance using illumination,\" US10133171. [Google Patents](https://patents.google.com/patent/US10133171/)"
       - ja: "ホー シンニー, 渡邊淳司, 西田眞也, 岩井大輔, 吉川佑生, \"温度感覚制御装置、色決定装置、温度感覚制御方法、色決定方法及びプログラム,\" 特許第6108351号. [Google Patents](https://patents.google.com/patent/JP6108351B2/)"
       - en: "Oliver Bimber, Daisuke Iwai, \"Method and Illumination Device for Optical Contrast Enhancement,\" US20110019914. [Google Patents](https://patents.google.com/patent/US20110019914/)"
       - en: "Oliver Bimber, Daisuke Iwai, \"Method and illumination device for optical contrast enhancement,\" WO2009121775. [Google Patents](https://patents.google.com/patent/WO2009121775/en/)"
@@ -655,6 +633,7 @@ sections:
           - en: "IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR) (2022, 2025, 2026)"
           - en: "IEEE International Symposium on Augmented and Mixed Reality (ISMAR) (2021, 2022)"
           - en: "International Conference on Artificial Reality and Telexistence (ICAT) (2016, 2017)"
+          - ja: "日本バーチャルリアリティ学会大会 (2025)"
       - sub_en: "Program Committee"
         sub_ja: "プログラム委員"
         entries:
@@ -694,7 +673,7 @@ sections:
           - en: "IEEE International Conference on Artificial Intelligence & eXtended and Virtual Reality (AIxVR) Financial Chair (2026)"
           - en: "IEEE International Symposium on 3D User Interface (3DUI) Poster Chair (2017)"
           - en: "NICOGRAPH International Program Co-Chair (2023)"
-          - en: "International Display Workshops / Workshop on Projection and Large-Area Displays and Their Components (IDW PRJ-WS) General Secretary (2025)"
+          - en: "International Display Workshops / Workshop on Projection and Large-Area Displays and Their Components (IDW PRJ-WS) General Secretary (2025, 2026)"
           - ja: "質感のつどい 世話人 (2015-)"
           - ja: "日本バーチャルリアリティ学会 理事 (2021-2024)"
           - ja: "日本バーチャルリアリティ学会 評議員 (2025-)"
@@ -709,6 +688,8 @@ sections:
           - ja: "日本バーチャルリアリティ学会 論文誌特集号「アート&エンタテインメント5」 ゲストエディタ (2019年9月)"
           - ja: "日本バーチャルリアリティ学会 論文誌特集号「複合現実感7」 ゲストエディタ (2017年6月)"
           - ja: "日本バーチャルリアリティ学会 論文誌特集号「複合現実感8」 ゲストエディタ (2020年6月)"
+          - ja: "日本バーチャルリアリティ学会 論文誌特集号「複合現実感9」 ゲストエディタ (2023年9月)"
+          - ja: "日本バーチャルリアリティ学会 論文誌特集号「複合現実感10」 ゲストエディタ (2026年6月)"
           - ja: "映像情報メディア学会 会誌編集委員会 企画幹事 (2012-2016)"
           - ja: "映像情報メディア学会 学会誌特集号「コンピュテーショナルフォトグラフィ」 編集担当幹事 (2013年8月)"
           - ja: "日本バーチャルリアリティ学会大会 展示委員長 (2013)"
@@ -718,9 +699,9 @@ sections:
         sub_ja: "査読 (Review)"
         entries:
           - en: "**Journals:** Nature Machine Intelligence (2020); ACM Transactions on Graphics (2015); ACM Transactions on Applied Perception (2017, 2024); IEEE Computer (2014); IEEE Transactions on Visualization and Computer Graphics (TVCG) (2010, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025); IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020); IEEE Transactions on Image Processing (TIP) (2020); IEEE Transactions on Computational Imaging (TCI) (2016, 2017, 2021); IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) (2012); IEEE Transactions on Automation Science and Engineering (2017); IEEE Journal of Biomedical and Health Informatics (2017); IEEE Access (2019, 2020, 2022, 2025); Scientific Reports (2018, 2022); Optics Express (2018, 2020); Applied Optics (2024); Computer Graphics Forum (CGF) (2009, 2014, 2018, 2019, 2025); Computers & Graphics (2012, 2017, 2022); Visual Computer (2019, 2021); IEEE/OSA Journal of Lightwave Technology (2011); Presence (2015); Journal of the Society for Information Display (2016, 2018); Computers and Electronics in Agriculture (2010); EURASIP Journal on Image and Video Processing (2015); Displays (2018); Computer-Aided Design (2020); Entertainment Computing (2020); MDPI Sensors (2020); IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (2012); IEICE Transactions on Electronics (2021); IEICE Transactions on Information and Systems (2011, 2012, 2013, 2025, 2026); IPSJ Journal (2021); IPSJ Transactions on Computer Vision and Applications（CVA) (2012); SICE Journal of Control, Measurement, and System Integration (JCMSI) (2014, 2015); International Journal of Design Creativity and Innovation (2015); Optical Review (2019); ITE Transactions on Media Technology and Applications (MTA) (2020, 2022)"
-          - en: "**Conferences:** IEEE Conference on Virtual Reality and 3D User Interfaces (VR) (2017, 2018, 2024); IEEE International Symposium on Augmented and Mixed Reality (ISMAR) (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019, 2022, 2023, 2025); ACM Siggraph (2017, 2019, 2023, 2025, 2026); ACM Siggraph Asia (2014, 2018, 2019, 2020, 2021, 2024, 2025); IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2019, 2020); ACM CHI Conference on Human Factors in Computing Systems (2017, 2023); ACM International Conference on Interactive Tabletops and Surfaces (ITS) (2011); ACM Symposium on User Interface Software and Technology (UIST) (2019, 2020); Eurographics (2021, 2024); IEEE International Workshop on Computational Cameras and Displays (CCD) (2013); International Conference on Pervasive Computing (Pervasive) (2012); International Conference on Computer Vision (ICCV) (2011, 2019); ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) (2014); IEEE International Conference on Robotics and Automation (ICRA) (2016); IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2015); EuroHaptics (2020); IEEE Symposium on 3D User Interfaces (3DUI) (2012); ACM Symposium on Spatial User Interaction (SUI) (2013, 2018, 2021, 2022); Augmented Human International Conference (AH) (2014); ACM International Conference on Advances in Computer Entertainment Technology (ACE) (2009, 2014, 2015); ACM Symposium on Virtual Reality Software and Technology (VRST) (2018, 2019, 2020); International Conference on Tangible Embedded and Embodied Interaction (TEI) (2012); Pacific-Rim Symposium on Image and Video Technology (PSIVT) (2011, 2013); Pacific-Rim Conference on Multimedia (PCM) (2012, 2013); Immersive Projection Technology Workshop / Eurographics Workshop on Virtual Environments (IPT/EGVE) (2007); International Conference on Artificial Reality and Telexistence (ICAT) (2010, 2015, 2020); IEEE Global Conference on Consumer Electronics (GCCE) (2013, 2014, 2016); Asian Conference on Computer Vision (ACCV) (2018, 2020); ACCV 2010 Workshop on Application of Computer Vision for Mixed and Augmented Reality (ACVMAR) (2010); EuroXR International Conference (2021); ACM International Conference on Mobile Human-Computer Interaction (MobileHCI) (2023); Asia-Pacific Workshop on Mixed and Augmented Reality (APMAR) (2024); SICE FES (2026)"
-          - ja: "**和文ジャーナル:** 情報処理学会論文誌 (2007, 2014); 電子情報通信学会論文誌 (2012, 2013, 2014); 日本バーチャルリアリティ学会論文誌 (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2018, 2019, 2020, 2021, 2023); 映像情報メディア学会誌 (2012, 2013, 2014, 2015, 2016, 2017, 2022,2023); 人工知能学会論文誌 (2009); 可視化情報学会論文集 (2010); ヒューマンインタフェース学会論文誌 (2012); 芸術科学会論文誌 (2013)"
-          - ja: "**国内会議:** 画像の認識・理解シンポジウム (MIRU) (2018, 2022, 2023)"
+          - en: "**Conferences:** IEEE Conference on Virtual Reality and 3D User Interfaces (VR) (2017, 2018, 2024); IEEE International Symposium on Augmented and Mixed Reality (ISMAR) (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019, 2022, 2023, 2025); ACM SIGGRAPH (2017, 2019, 2023, 2025, 2026); ACM SIGGRAPH Asia (2014, 2018, 2019, 2020, 2021, 2024, 2025); IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2019, 2020); ACM CHI Conference on Human Factors in Computing Systems (2017, 2023); ACM International Conference on Interactive Tabletops and Surfaces (ITS) (2011); ACM Symposium on User Interface Software and Technology (UIST) (2019, 2020); Eurographics (2021, 2024); IEEE International Workshop on Computational Cameras and Displays (CCD) (2013); International Conference on Pervasive Computing (Pervasive) (2012); International Conference on Computer Vision (ICCV) (2011, 2019); ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) (2014); IEEE International Conference on Robotics and Automation (ICRA) (2016); IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2015); EuroHaptics (2020); IEEE Symposium on 3D User Interfaces (3DUI) (2012); ACM Symposium on Spatial User Interaction (SUI) (2013, 2018, 2021, 2022); Augmented Human International Conference (AH) (2014); ACM International Conference on Advances in Computer Entertainment Technology (ACE) (2009, 2014, 2015); ACM Symposium on Virtual Reality Software and Technology (VRST) (2018, 2019, 2020); International Conference on Tangible Embedded and Embodied Interaction (TEI) (2012); Pacific-Rim Symposium on Image and Video Technology (PSIVT) (2011, 2013); Pacific-Rim Conference on Multimedia (PCM) (2012, 2013); Immersive Projection Technology Workshop / Eurographics Workshop on Virtual Environments (IPT/EGVE) (2007); International Conference on Artificial Reality and Telexistence (ICAT) (2010, 2015, 2020); IEEE Global Conference on Consumer Electronics (GCCE) (2013, 2014, 2016); Asian Conference on Computer Vision (ACCV) (2018, 2020); ACCV 2010 Workshop on Application of Computer Vision for Mixed and Augmented Reality (ACVMAR) (2010); EuroXR International Conference (2021); ACM International Conference on Mobile Human-Computer Interaction (MobileHCI) (2023); Asia-Pacific Workshop on Mixed and Augmented Reality (APMAR) (2024); SICE FES (2026)"
+          - ja: "**和文ジャーナル:** 情報処理学会論文誌 (2007, 2014, 2024); 電子情報通信学会論文誌 (2012, 2013, 2014); 日本バーチャルリアリティ学会論文誌 (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2018, 2019, 2020, 2021, 2023, 2024); 映像情報メディア学会誌 (2012, 2013, 2014, 2015, 2016, 2017, 2022,2023); 人工知能学会論文誌 (2009); 可視化情報学会論文集 (2010); ヒューマンインタフェース学会論文誌 (2012); 芸術科学会論文誌 (2013)"
+          - ja: "**国内会議:** 画像の認識・理解シンポジウム (MIRU) (2018, 2022, 2023, 2024, 2025)"
   - id: "media-coverage"
     type: "list"
     title_en: "Media Coverage"

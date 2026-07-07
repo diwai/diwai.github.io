@@ -51,7 +51,11 @@
         {{- end -}}
       {{- end -}}
       {{- if or $maj $oth }}
+        {{- if eq $g.by "coauthor" }}
+<h3 id="{{ $g.id }}">{{ $g.t }}</h3>
+        {{- else }}
 <h2 id="{{ $g.id }}">{{ $g.t }}</h2>
+        {{- end }}
         {{- if $maj }}
 <table><tbody>
 {{- range $maj }}

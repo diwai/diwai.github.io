@@ -7,7 +7,7 @@ sections:
     title_en: "Books"
     title_ja: "著書"
     entries:
-      - cite: "Iwai, D., Itoh, Y. (2026). Augmenting Reality with Shitsukan. In: Nishida, S., Nishino, K. (eds) Shitsukan—Understanding and Manipulating Material and Quality Perception. Springer, Singapore."
+      - cite: "**Iwai, D.**, Itoh, Y. (2026). Augmenting Reality with Shitsukan. In: Nishida, S., Nishino, K. (eds) Shitsukan—Understanding and Manipulating Material and Quality Perception. Springer, Singapore."
         links:
           - { icon: "📄", label: "Springer (open access)", url: "https://doi.org/10.1007/978-981-95-4762-3_11" }
   - id: journal
