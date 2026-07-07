@@ -115,7 +115,7 @@ main.container { padding-block: 2.8rem 3.5rem; }
 .intro-text { padding-top: .1rem; }
 .name {
   font-family: var(--display); font-weight: 600;
-  font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.05;
+  font-size: clamp(1.6rem, 4vw, 2.05rem); line-height: 1.1;
   letter-spacing: -.01em; margin: 0 0 .5rem;
 }
 .role { margin: 0; font-family: var(--display); font-weight: 500; color: var(--ink); }
@@ -195,6 +195,17 @@ main.container { padding-block: 2.8rem 3.5rem; }
   letter-spacing: .06em; color: var(--muted);
   margin: 1.4rem 0 .5rem;
 }
+
+/* inline link chip (invited talks, awards) — same look as publication chips, stays on one line */
+.prose a.chip {
+  display: inline-block; vertical-align: middle; white-space: nowrap;
+  font-family: var(--mono); font-size: .66rem; letter-spacing: .01em;
+  color: var(--muted); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 0 .5rem; line-height: 1.5; margin-left: .3rem;
+  text-decoration: none;
+}
+.prose a.chip:hover { color: var(--ink); border-color: var(--accent); text-decoration: none; }
 
 /* info callouts (JA "keywords / for students / for companies") */
 .prose blockquote {

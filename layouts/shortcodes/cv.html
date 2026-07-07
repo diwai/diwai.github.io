@@ -27,7 +27,7 @@
 <h2 id="{{ .id }}">{{ $title }}</h2>
 <table><tbody>
 {{- range $rows }}
-<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</td></tr>
 {{- end }}
 </tbody></table>
     {{- end -}}
@@ -45,7 +45,10 @@
           {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
           {{- if $t -}}
             {{- $d := cond (eq $lang "ja") (or .date_ja .date_en) .date_en -}}
-            {{- $r := dict "d" $d "t" $t -}}
+            {{- $links := findRE "\\[[^\\]]+\\]\\([^)]+\\)" $t -}}
+            {{- $text := replaceRE "\\s*\\[[^\\]]+\\]\\([^)]+\\)" "" $t -}}
+            {{- $text = replaceRE "[[:space:]·]+$" "" $text -}}
+            {{- $r := dict "d" $d "t" $text "links" $links -}}
             {{- if .selected -}}{{- $maj = $maj | append $r -}}{{- else -}}{{- $oth = $oth | append $r -}}{{- end -}}
           {{- end -}}
         {{- end -}}
@@ -59,7 +62,7 @@
         {{- if $maj }}
 <table><tbody>
 {{- range $maj }}
-<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</td></tr>
 {{- end }}
 </tbody></table>
         {{- end }}
@@ -73,26 +76,60 @@
 <details class="disclosure"><summary>{{ $summary }}</summary>
 <div class="disclosure-body"><table><tbody>
 {{- range $oth }}
-<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}</td></tr>
+<tr><td>{{ .d }}</td><td>{{ .t | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</td></tr>
 {{- end }}
 </tbody></table></div></details>
         {{- end -}}
       {{- end -}}
     {{- end -}}
 
-  {{- /* ---------- talks: grouped by year ---------- */ -}}
+  {{- /* ---------- talks: own vs co-authored (collapsed); year-grouped; link chips ---------- */ -}}
   {{- else if eq .type "talks" -}}
-    {{- $md := "" -}}{{- $ly := "" -}}
+    {{- $self := slice -}}{{- $co := slice -}}
     {{- range .entries -}}
       {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
       {{- if $t -}}
-        {{- if ne .year $ly -}}{{- $md = printf "%s\n\n#### %s\n" $md .year -}}{{- $ly = .year -}}{{- end -}}
-        {{- $md = printf "%s\n- %s" $md $t -}}
+        {{- $links := findRE "\\[[^\\]]+\\]\\([^)]+\\)" $t -}}
+        {{- $text := replaceRE "\\s*\\[[^\\]]+\\]\\([^)]+\\)" "" $t -}}
+        {{- $text = replaceRE "[[:space:]·]+$" "" $text -}}
+        {{- $it := dict "year" .year "text" $text "links" $links -}}
+        {{- if eq .by "coauthor" -}}{{- $co = $co | append $it -}}{{- else -}}{{- $self = $self | append $it -}}{{- end -}}
       {{- end -}}
     {{- end -}}
-    {{- if $md }}
+    {{- if $self }}
 <h2 id="{{ .id }}">{{ $title }}</h2>
-{{ $md | markdownify }}
+      {{- $ly := "" -}}
+      {{- range $self }}
+        {{- if ne .year $ly }}
+          {{- if $ly }}
+</ul>
+          {{- end }}
+<h4>{{ .year }}</h4>
+<ul>
+          {{- $ly = .year -}}
+        {{- end }}
+<li>{{ .text | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</li>
+      {{- end }}
+</ul>
+    {{- end -}}
+    {{- if $co }}
+<h3 id="talks-coauthor">{{ cond (eq $lang "ja") "共著者の講演" "Co-authored Talks" }}</h3>
+<details class="disclosure"><summary>{{ cond (eq $lang "ja") (printf "%d 件を表示" (len $co)) (printf "Show %d talks" (len $co)) }}</summary>
+<div class="disclosure-body">
+      {{- $ly2 := "" -}}
+      {{- range $co }}
+        {{- if ne .year $ly2 }}
+          {{- if $ly2 }}
+</ul>
+          {{- end }}
+<h4>{{ .year }}</h4>
+<ul>
+          {{- $ly2 = .year -}}
+        {{- end }}
+<li>{{ .text | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</li>
+      {{- end }}
+</ul>
+</div></details>
     {{- end -}}
 
   {{- /* ---------- funding: grouped by sub-heading (PI / Co-I) ---------- */ -}}
