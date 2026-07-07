@@ -735,6 +735,7 @@ sections:
     title_en: "Media Coverage"
     title_ja: "取材協力・メディア掲載"
     entries:
+      - en: "IEEE Spectrum (26 Jun 2026): [Shadow-Free Augmented Reality Makes Illusions More Realistic](https://spectrum.ieee.org/shadow-free-spatial-augmented-reality)"
       - ja: "日刊工業新聞（23面）（2024年12月12日）: [経営ひと言／大阪大学・岩井大輔准教授「不可能に挑戦」](https://www.nikkan.co.jp/articles/view/00733950)"
       - ja: "ニュースイッチ（2024年12月5日）: [動く手への映像投影を実現、ずれを高速補正](https://newswitch.jp/p/43879)"
       - ja: "日刊工業新聞（32面）（2024年11月19日）: [阪大など、動く手に映像投影　ずれを高速補正](https://www.nikkan.co.jp/articles/view/00731411)"
