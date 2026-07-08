@@ -13,7 +13,7 @@ avatar: "/images/avatar.jpeg"
 
 > **学生の方へ：** 学部では[基礎工学部・システム科学科・知能システム学コース](http://www.sys.es.osaka-u.ac.jp/sch/jp/)に、大学院では[基礎工学研究科・システム創成専攻・システム科学領域](https://www.grad.sys.es.osaka-u.ac.jp/)に所属しています。入試に関する情報は[こちら](https://www.es.osaka-u.ac.jp/ja/examinee/index.html)からご確認ください。
 
-> **企業の方へ：** プロジェクションマッピング技術・AR/VR 等について、[共同研究](https://www.ccb.osaka-u.ac.jp/service/koko_kyodo_kenkyu/)・[学術相談](https://www.ccb.osaka-u.ac.jp/service/koko_gakujutsu_soudan/)・[技術顧問契約](https://www.osaka-u.ac.jp/ja/research/kengyo)等のご依頼を随時受け付けています。お気軽にご相談下さい。国内外の複数社と実績（論文、特許、学位）が有ります。
+> **企業の方へ：** プロジェクションマッピング技術・AR/VR 等について、[共同研究](https://www.ccb.osaka-u.ac.jp/service/koko_kyodo_kenkyu/)・[技術顧問契約](https://www.osaka-u.ac.jp/ja/research/kengyo)等のご依頼を随時受け付けています。お気軽にご相談下さい。国内外の複数社と実績（論文、特許、学位）が有ります。
 
 ## 研究プロジェクト {#projects}
 
