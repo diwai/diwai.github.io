@@ -86,6 +86,19 @@ sections:
         selected: true
         en: "**Best Paper Award (IEEE 3DUI 2015)** — Emilie Guy, Parinya Punpongsanon, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur, “LazyNav: 3D Ground Navigation with Non-Critical Body Parts,” In Proceedings of IEEE Symposium on 3D User Interfaces, pp. 43-50, 2015. [Link](http://3dui.org/)"
         by: "self"
+        ###############################################
+        ###############################################
+        ########　　主要な受賞以外（共著者も含む）　#########
+        ###############################################
+        ###############################################
+      - date_ja: "2026年6月26日"
+        selected: false
+        ja: "**優秀プレゼンテーション賞** — ○暮坪 秀哉, 雨坂 宇宙, Fengzhou Liang, Tian Min, 杉浦 裕太, 岩井 大輔,“カメラ及びIMUセンサ搭載ヒアラブルデバイスを用いた装着者の三次元姿勢推定” マルチメディア，分散，協調とモバイル(DICOMO2026)シンポジウム, pp. 770 - 778"
+        by: "coauthor"
+      - date_ja: "2026年6月5日"
+        selected: false
+        ja: "**システム制御情報学会SCI学生発表賞** — ○川島大空, 岩井大輔, “聴覚提示とプロジェクションマッピングによるクロスモーダル統合を用いた物体の質感変調,” 第70回システム制御情報学会研究発表講演会, pp. 756-760, 2026."
+        by: "coauthor"
       - date_ja: "2026年3月23日"
         selected: false
         ja: "**IEEE関西支部学生研究奨励賞 (IEEE Kansai Section Best Student Research Award)** — ◯Hiroki Kusuyama, Yuta Kageyama, Daisuke Iwai, and Kosuke Sato, “A Multi-aperture Coaxial Projector Balancing Shadow Suppression and Deblurring,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality), Vol. 30, No. 11, pp. 7031-7041, 2024."
@@ -95,14 +108,26 @@ sections:
         selected: false
         en: "**Best Paper Honorable Mention Award (International Workshop on Virtual Reality for Human and Spatial Augmentation 2026)** — Yusuke Imoto, Takashi Amesaka, Daisuke Iwai, “Airflow Measurement for Interactive Projection Mapping using Embedded Imperceptible Spatial Patterns.” (non-archival) [Link](https://sites.google.com/vogue.cs.titech.ac.jp/VR-HSA)"
         by: "self"
+      - date_ja: "2025年12月15日"
+        selected: false
+        ja: "**奨励賞** — ○岸道大, 雨坂宇宙, 岩井大輔, “VR視覚環境間の到達把持タスクの難易度整合,” 2025年度電気学会関西支部 若手研究発表会, 2025."
+        by: "coauthor"
       - date_ja: "2025年11月21日"
         selected: false
         ja: "**令和7年度 パターン計測部会 優秀論文賞** — 井元祐亮, 岩井大輔, “不可視パターンが埋め込まれたプロジェクションマッピング環境下でのフォーカシングシュリーレン撮影,” 第30回パターン計測シンポジウム, PM110-03, 2025. [Link](https://www.sice.or.jp/org/pattern/)"
         by: "self"
+      - date_ja: "2025年8月30日"
+        selected: false
+        ja: "**第24回日本VR医学会学術大会 学術奨励賞 優秀賞** — ○山本達也, 佐藤宏介, 仁木一順, 岩井大輔, “高齢者向け抱締型VR システム” 第24回日本VR医学会学術大会, pp. 62, 2025."
+        by: "coauthor"
       - date_ja: "2025年8月1日"
         selected: false
         ja: "**MIRUインタラクティブ発表賞** — 楠山弘基, 中村友哉, 岩井大輔, “大型フレネルレンズを用いた影なしプロジェクタの開口符号化による投影ボケ補償,” 第28回画像の認識・理解シンポジウム, IS3-206 (5 pages), 2025. [Link](https://cvim.ipsj.or.jp/MIRU2025/award.html#MIRU_Interactive_Presentation_Awards)"
         by: "self"
+      - date_ja: "2025年5月31日"
+        selected: false
+        ja: "**システム制御情報学会SCI学生発表賞** — ○中尾都史也, 佐藤優志, 佐藤宏介, 岩井大輔, “制御可能な変形面へのプロジェクションマッピングによる動的立体表現,” 第69回システム制御情報学会研究発表講演会, pp. 984-986, 2025."
+        by: "coauthor"
       - date_ja: "2025年3月28日"
         selected: false
         ja: "**第40回電気通信普及財団賞 (テレコムシステム技術賞) 奨励賞** — Masaki Takeuchi, Hiroki Kusuyama, Daisuke Iwai, and Kosuke Sato, “Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces), Vol. 30, No. 5, pp. 2151-2161, 2024. [Link](https://www.taf.or.jp/files/items/17/File/%E6%AD%B4%E4%BB%A3%E5%8F%97%E8%B3%9E%E8%80%85-%E3%83%86%E3%83%AC%E3%82%B3%E3%83%A0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%8A%80%E8%A1%93%E8%B3%9E.pdf)"
@@ -723,7 +748,7 @@ sections:
       - sub_en: "Review"
         sub_ja: "査読 (Review)"
         entries:
-          - en: "**Journals:** Nature Machine Intelligence (2020); ACM Transactions on Graphics (2015); ACM Transactions on Applied Perception (2017, 2024); IEEE Computer (2014); IEEE Transactions on Visualization and Computer Graphics (TVCG) (2010, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025); IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020); IEEE Transactions on Image Processing (TIP) (2020); IEEE Transactions on Computational Imaging (TCI) (2016, 2017, 2021); IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) (2012); IEEE Transactions on Automation Science and Engineering (2017); IEEE Journal of Biomedical and Health Informatics (2017); IEEE Access (2019, 2020, 2022, 2025); Scientific Reports (2018, 2022); Optics Express (2018, 2020); Applied Optics (2024); Computer Graphics Forum (CGF) (2009, 2014, 2018, 2019, 2025); Computers & Graphics (2012, 2017, 2022); Visual Computer (2019, 2021); IEEE/OSA Journal of Lightwave Technology (2011); Presence (2015); Journal of the Society for Information Display (2016, 2018); Computers and Electronics in Agriculture (2010); EURASIP Journal on Image and Video Processing (2015); Displays (2018); Computer-Aided Design (2020); Entertainment Computing (2020); MDPI Sensors (2020); IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (2012); IEICE Transactions on Electronics (2021); IEICE Transactions on Information and Systems (2011, 2012, 2013, 2025, 2026); IPSJ Journal (2021); IPSJ Transactions on Computer Vision and Applications（CVA) (2012); SICE Journal of Control, Measurement, and System Integration (JCMSI) (2014, 2015); International Journal of Design Creativity and Innovation (2015); Optical Review (2019); ITE Transactions on Media Technology and Applications (MTA) (2020, 2022)"
+          - en: "**Journals:** Nature Machine Intelligence (2020); ACM Transactions on Graphics (2015); ACM Transactions on Applied Perception (2017, 2024); IEEE Computer (2014); IEEE Transactions on Visualization and Computer Graphics (TVCG) (2010, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025); IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020); IEEE Transactions on Image Processing (TIP) (2020); IEEE Transactions on Computational Imaging (TCI) (2016, 2017, 2021); IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) (2012); IEEE Transactions on Automation Science and Engineering (2017); IEEE Journal of Biomedical and Health Informatics (2017); IEEE Access (2019, 2020, 2022, 2025); Scientific Reports (2018, 2022); Optics Express (2018, 2020); Applied Optics (2024); Computer Graphics Forum (CGF) (2009, 2014, 2018, 2019, 2025); Computers & Graphics (2012, 2017, 2022); Visual Computer (2019, 2021); IEEE/OSA Journal of Lightwave Technology (2011); Presence (2015); Journal of the Society for Information Display (2016, 2018); Computers and Electronics in Agriculture (2010); EURASIP Journal on Image and Video Processing (2015); Displays (2018); Computer-Aided Design (2020); Entertainment Computing (2020); MDPI Sensors (2020); IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (2012); IEICE Transactions on Electronics (2021); IEICE Transactions on Information and Systems (2011, 2012, 2013, 2025, 2026); IPSJ Journal (2021); IPSJ Transactions on Computer Vision and Applications（CVA) (2012); SICE Journal of Control, Measurement, and System Integration (JCMSI) (2014, 2015); International Journal of Design Creativity and Innovation (2015); Optical Review (2019); ITE Transactions on Media Technology and Applications (MTA) (2020, 2022); Computer Animation and Virtual Worlds (2026)"
           - en: "**Conferences:** IEEE Conference on Virtual Reality and 3D User Interfaces (VR) (2017, 2018, 2024); IEEE International Symposium on Augmented and Mixed Reality (ISMAR) (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019, 2022, 2023, 2025); ACM SIGGRAPH (2017, 2019, 2023, 2025, 2026); ACM SIGGRAPH Asia (2014, 2018, 2019, 2020, 2021, 2024, 2025); IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2019, 2020); ACM CHI Conference on Human Factors in Computing Systems (2017, 2023); ACM International Conference on Interactive Tabletops and Surfaces (ITS) (2011); ACM Symposium on User Interface Software and Technology (UIST) (2019, 2020); Eurographics (2021, 2024); IEEE International Workshop on Computational Cameras and Displays (CCD) (2013); International Conference on Pervasive Computing (Pervasive) (2012); International Conference on Computer Vision (ICCV) (2011, 2019); ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) (2014); IEEE International Conference on Robotics and Automation (ICRA) (2016); IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2015); EuroHaptics (2020); IEEE Symposium on 3D User Interfaces (3DUI) (2012); ACM Symposium on Spatial User Interaction (SUI) (2013, 2018, 2021, 2022); Augmented Human International Conference (AH) (2014); ACM International Conference on Advances in Computer Entertainment Technology (ACE) (2009, 2014, 2015); ACM Symposium on Virtual Reality Software and Technology (VRST) (2018, 2019, 2020); International Conference on Tangible Embedded and Embodied Interaction (TEI) (2012); Pacific-Rim Symposium on Image and Video Technology (PSIVT) (2011, 2013); Pacific-Rim Conference on Multimedia (PCM) (2012, 2013); Immersive Projection Technology Workshop / Eurographics Workshop on Virtual Environments (IPT/EGVE) (2007); International Conference on Artificial Reality and Telexistence (ICAT) (2010, 2015, 2020); IEEE Global Conference on Consumer Electronics (GCCE) (2013, 2014, 2016); Asian Conference on Computer Vision (ACCV) (2018, 2020); ACCV 2010 Workshop on Application of Computer Vision for Mixed and Augmented Reality (ACVMAR) (2010); EuroXR International Conference (2021); ACM International Conference on Mobile Human-Computer Interaction (MobileHCI) (2023); Asia-Pacific Workshop on Mixed and Augmented Reality (APMAR) (2024); SICE FES (2026)"
           - ja: "**和文ジャーナル:** 情報処理学会論文誌 (2007, 2014, 2024); 電子情報通信学会論文誌 (2012, 2013, 2014); 日本バーチャルリアリティ学会論文誌 (2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2018, 2019, 2020, 2021, 2023, 2024); 映像情報メディア学会誌 (2012, 2013, 2014, 2015, 2016, 2017, 2022,2023); 人工知能学会論文誌 (2009); 可視化情報学会論文集 (2010); ヒューマンインタフェース学会論文誌 (2012); 芸術科学会論文誌 (2013)"
           - ja: "**国内会議:** 画像の認識・理解シンポジウム (MIRU) (2018, 2022, 2023, 2024, 2025)"
