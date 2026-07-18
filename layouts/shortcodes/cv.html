@@ -149,40 +149,56 @@
 {{ $md | markdownify }}
     {{- end -}}
 
-  {{- /* ---------- patents: numbered ---------- */ -}}
+  {{- /* ---------- patents: numbered; trailing [label](url) → link chips ---------- */ -}}
   {{- else if eq .type "numbered" -}}
     {{- $items := slice -}}
     {{- range .entries -}}
       {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
-      {{- if $t -}}{{- $items = $items | append $t -}}{{- end -}}
+      {{- if $t -}}
+        {{- $links := findRE "\\[[^\\]]+\\]\\([^)]+\\)" $t -}}
+        {{- $text := replaceRE "\\s*\\[[^\\]]+\\]\\([^)]+\\)" "" $t -}}
+        {{- $text = replaceRE "\\(\\s*(,\\s*)*\\)" "" $text -}}
+        {{- $text = replaceRE "[[:space:],·]+$" "" $text -}}
+        {{- $items = $items | append (dict "text" $text "links" $links) -}}
+      {{- end -}}
     {{- end -}}
     {{- if $items }}
 <h2 id="{{ .id }}">{{ $title }}</h2>
 <ol>
 {{- range $items }}
-<li>{{ . | markdownify }}</li>
+<li>{{ .text | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</li>
 {{- end }}
 </ol>
     {{- end -}}
 
-  {{- /* ---------- academic service: grouped by subsection ---------- */ -}}
+  {{- /* ---------- academic service: grouped by subsection; links → chips ---------- */ -}}
   {{- else if eq .type "service" -}}
-    {{- $md := "" -}}
+    {{- $groups := slice -}}
     {{- range .subs -}}
       {{- $sub := cond (eq $lang "ja") (or .sub_ja .sub_en) .sub_en -}}
       {{- $items := slice -}}
       {{- range .entries -}}
         {{- $t := cond (eq $lang "ja") (or .ja .en) .en -}}
-        {{- if $t -}}{{- $items = $items | append $t -}}{{- end -}}
+        {{- if $t -}}
+          {{- $links := findRE "\\[[^\\]]+\\]\\([^)]+\\)" $t -}}
+          {{- $text := replaceRE "\\s*\\[[^\\]]+\\]\\([^)]+\\)" "" $t -}}
+          {{- $text = replaceRE "\\(\\s*(,\\s*)*\\)" "" $text -}}
+          {{- $text = replaceRE "[[:space:],·]+$" "" $text -}}
+          {{- $items = $items | append (dict "text" $text "links" $links) -}}
+        {{- end -}}
       {{- end -}}
-      {{- if $items -}}
-        {{- $md = printf "%s\n\n#### %s\n" $md $sub -}}
-        {{- range $items -}}{{- $md = printf "%s\n- %s" $md . -}}{{- end -}}
-      {{- end -}}
+      {{- if $items -}}{{- $groups = $groups | append (dict "sub" $sub "items" $items) -}}{{- end -}}
     {{- end -}}
-    {{- if $md }}
+    {{- if $groups }}
 <h2 id="{{ .id }}">{{ $title }}</h2>
-{{ $md | markdownify }}
+      {{- range $groups }}
+<h4>{{ .sub }}</h4>
+<ul>
+        {{- range .items }}
+<li>{{ .text | markdownify }}{{ range .links }} <a class="chip" href="{{ replaceRE "\\[[^\\]]+\\]\\(([^)]+)\\)" "$1" . }}">🌐 {{ replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" . }}</a>{{ end }}</li>
+        {{- end }}
+</ul>
+      {{- end }}
     {{- end -}}
 
   {{- /* ---------- plain list: media coverage ---------- */ -}}
