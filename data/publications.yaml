@@ -21,6 +21,8 @@ sections:
           - { icon: "📺", label: "Teaser", url: "https://youtu.be/DEDGYcM5H84" }
           - { icon: "📢", label: "Press release", url: "https://www.eurekalert.org/news-releases/1120467" }
           - { icon: "🏆", label: "Best Paper Award (IEEE VR 2026)", url: "https://ieeevr.org/2026/awards/conference-awards/" }
+          - { icon: "✨", label: "IEEE Spectrum (online)", url: "https://spectrum.ieee.org/shadow-free-spatial-augmented-reality" }
+          - { icon: "✨", label: "IEEE Spectrum (magazine)", url: "https://doi.org/10.1109/MSPEC.2026.11644894" }
       - cite: "Kotaro Fujimura, Hiroki Kusuyama, Masaki Takeuchi, and **Daisuke Iwai**, “High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), Vol. 32, No. 5, pp. 4250-4259, 2026."
         links:
           - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2026.3679878" }
