@@ -41,8 +41,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Copyright year = year of last content/data update
-        run: echo "HUGO_PARAMS_COPYRIGHTYEAR=$(git log -1 --format=%cd --date=format:%Y -- content data)" >> "$GITHUB_ENV"
+      - name: Dates of last content/data update (copyright year + sitemap lastmod)
+        run: |
+          echo "HUGO_PARAMS_COPYRIGHTYEAR=$(git log -1 --format=%cd --date=format:%Y -- content data)" >> "$GITHUB_ENV"
+          echo "HUGO_PARAMS_CONTENTLASTMOD=$(git log -1 --format=%cI -- content data)" >> "$GITHUB_ENV"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
