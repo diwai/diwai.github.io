@@ -9,6 +9,9 @@ title = "Daisuke Iwai"
 # personal site — no blog taxonomies
 disableKinds = ["taxonomy", "term"]
 
+# generate /robots.txt (points crawlers to the sitemap)
+enableRobotsTXT = true
+
 # --- Languages -------------------------------------------------
 # Japanese is served at "/" (default), English at "/en/".
 defaultContentLanguage = "ja"
