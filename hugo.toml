@@ -95,6 +95,8 @@ defaultContentLanguageInSubdir = false
   # University logo shown in the footer (put the file in static/images/)
   footerLogo = "/images/logo_osaka-u.svg"
   footerLogoUrl = "https://www.osaka-u.ac.jp/"
+  # Google Search Console — HTML-tag verification
+  googleSiteVerification = "KxeePV38XqiIQwi5lahiOH6HYIal3mWFS3rgc0mReiQ"
 
 # Build settings
 [minify]
