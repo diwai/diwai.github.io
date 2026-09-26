@@ -38,8 +38,6 @@ defaultContentLanguageInSubdir = false
     languageCode = "en"
     weight = 1
     title = "Daisuke Iwai"
-    [languages.en.params]
-      description = "Daisuke Iwai — Professor at the University of Osaka. Research on projection mapping, AR/VR, and Shitsukan (material perception) science."
     [[languages.en.menu.main]]
       name = "Home"
       url = "/en/"
@@ -66,8 +64,6 @@ defaultContentLanguageInSubdir = false
     languageCode = "ja"
     weight = 2
     title = "岩井大輔"
-    [languages.ja.params]
-      description = "岩井大輔 — 大阪大学 教授。プロジェクションマッピング・AR/VR・質感科学の研究。"
     [[languages.ja.menu.main]]
       name = "Home"
       url = "/"

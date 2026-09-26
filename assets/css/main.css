@@ -1,7 +1,6 @@
 /* ============================================================
    Daisuke Iwai — clean academic theme
-   Design: quiet grayscale + one cobalt accent + a single
-   "spectral" signature line that nods to projected light.
+   Design: quiet grayscale + one cobalt accent.
    ============================================================ */
 
 :root {
@@ -14,9 +13,6 @@
   --line:    #e8e8ec;
   --accent:  #2743e6;   /* projector-beam cobalt */
   --accent-ink: #1b31b8;
-
-  /* Signature: dispersion of projected light — muted / calm palette */
-  --spectrum: linear-gradient(90deg,#8fb3c4 0%,#8296c9 42%,#9a8ec2 72%,#b892b6 100%);
 
   /* Type — Open Sans everywhere (matches daisukeiwai.org) */
   --sans: "Open Sans", system-ui, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
@@ -83,7 +79,7 @@ a:hover { color: var(--accent-ink); text-decoration: underline; text-underline-o
 .nav a.is-active { color: var(--ink); }
 .nav a.is-active::after {
   content: ""; display: block; height: 2px; margin-top: 3px; border-radius: 2px;
-  background: var(--spectrum);
+  background: var(--accent);
 }
 /* Language: iOS-style segmented toggle — the current language is the filled thumb */
 .lang-switch {
@@ -122,14 +118,6 @@ main.container { padding-block: 2.8rem 3.5rem; }
 .affil { margin: .15rem 0 .55rem; color: var(--muted); }
 .contact { margin: 0; font-size: .9rem; color: var(--muted); }
 .contact .mono { font-family: inherit; font-size: inherit; }
-
-/* ---------- signature spectrum line ---------- */
-.spectrum {
-  height: 2px; border-radius: 2px; margin: 2rem 0 1.8rem;
-  background: var(--spectrum);
-  opacity: .8;
-}
-.spectrum-sm { max-width: 4.5rem; margin: .9rem 0 2rem; }
 
 /* ---------- full-width section bands ---------- */
 /* Content is grouped into full-width bands that alternate white / light grey,
@@ -404,7 +392,6 @@ main.container { padding-block: 2.8rem 3.5rem; }
 
 /* ---------- motion ---------- */
 @media (prefers-reduced-motion: no-preference) {
-  .intro, .spectrum { animation: rise .5s ease both; }
-  .spectrum { animation-delay: .06s; }
+  .intro { animation: rise .5s ease both; }
 }
 @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }

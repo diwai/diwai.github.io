@@ -35,8 +35,7 @@
   {{- else -}}
     <title>{{ $title }} · {{ .Site.Title }}</title>
   {{- end }}
-  {{- $desc := .Description | default .Site.Params.description -}}
-  <meta name="description" content="{{ $desc }}">
+  {{- with .Description }}<meta name="description" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
   <!-- canonical + Open Graph (search engines & link previews) -->
@@ -44,7 +43,7 @@
   <meta property="og:type" content="{{ cond .IsHome "profile" "website" }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ cond .IsHome .Site.Title (printf "%s · %s" $title .Site.Title) }}">
-  <meta property="og:description" content="{{ $desc }}">
+  {{- with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:locale" content="{{ cond (eq .Site.Language.Lang "ja") "ja_JP" "en_US" }}">
   {{ with .Site.Params.ogImage | default "/images/avatar.jpeg" }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}

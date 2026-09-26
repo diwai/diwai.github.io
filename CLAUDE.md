@@ -23,7 +23,7 @@ Hugo 製の個人研究者サイト。**このファイルは Claude Code に前
 - `data/publications.yaml` … 全業績（英文＋和文を統合）。セクションに `ja_only: true` があれば和文ページのみ表示
 - `data/cv.yaml` … 受賞・経歴・講演・特許・学会活動・メディア掲載
 - `data/projects.yaml` … トップのプロジェクトギャラリー
-- `content/_index.{ja,en}.md` … トップの本文、`content/publications/_index.{ja,en}.md` … 業績ページ（`description` で SEO 用説明文を持つ）
+- `content/_index.{ja,en}.md` … トップの本文、`content/publications/_index.{ja,en}.md` … 業績ページ
 
 ### en / ja の表示ルール（重要）
 - 英文ページ: `en` を持つエントリのみ表示
@@ -58,6 +58,8 @@ Hugo 製の個人研究者サイト。**このファイルは Claude Code に前
 - 特許番号を登録番号へ更新する作業（ユーザー判断で中止）
 - Google Analytics・プライバシーポリシー（導入後に撤去）
 - README.md（削除済み。復活させない）
+- `<meta name="description">`／`og:description` の文面を作り込むこと（2026-09 撤去。Google 検索結果のスニペットが「AI が要約整理した文章」に見えるとの判断。`content` の `description` フロントマターも `hugo.toml` の `params.description` も置かない。ページに `.Description` が無ければ head.html はタグ自体を出力しない → 検索エンジン・SNS のクローラーに本文から自動で要約させる）
+- 装飾目的の多色グラデーションバー（旧 `.spectrum`／`--spectrum`。プロフィール下・見出し下にあった「投影光の分散」を模した意匠。AI 生成サイトっぽく見えるとの理由で完全に削除。ナビのアクティブ下線は単色 `--accent` のまま残存）
 
 ## よく使う確認コマンド
 
