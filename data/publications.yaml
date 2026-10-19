@@ -451,6 +451,8 @@ sections:
           - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3283254.3283258" }
           - { icon: "📄", label: "Preprint", url: "https://www.dropbox.com/s/4gfnmzv0t2x005r/SA_2018_FlyingHand_francis.pdf?dl=0" }
           - { icon: "📺", label: "Teaser", url: "https://youtu.be/c_y5MIAgVI8" }
+      - cite: "Takatoshi Sato, **Daisuke Iwai**, and Kosuke Sato, “Flexible FOV and Shadow Removal in Mobile Projection System Using Multiple Pan Projectors,” In Proceedings of International Display Workshops (IDW), pp. 1225-1227, 2018."
+        links: []
       - cite: "**Daisuke Iwai**, “Computational Projection Display for AR/VR,” In IMID 2017 Digest (International Meeting on Information Display), p. 92, 2017."
         links:
       - cite: "Yuta Ueda, Yuki Asai, Ryuichi Enomoto, Kai Wang, **Daisuke Iwai**, and Kosuke Sato, “Body Cyberization by Spatial Augmented Reality for Reaching Unreachable World,” In Proceedings of Augmented Human 2017, in Proceedings of the 8th Augmented Human International Conference, pp. 19:1-19:9, 2017."
@@ -493,11 +495,6 @@ sections:
         links:
           - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/GCCE.2013.6664767" }
       - cite: "Shoichiro Mihara, **Daisuke Iwai**, and Kosuke Sato, “Error Minimization of Radiometric Compensation for Subpixel Reflectance Variation,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 449-450, 2013."
-        links: []
-      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
-        links:
-          - { icon: "🏆", label: "Best Presentation Award (KJMR 2013)", url: "http://ypcex.naist.jp/kjmr2013/" }
-      - cite: "Takayuki Sasaki, Sei Ikeda, **Daisuke Iwai**, and Kosuke Sato, “Rough Scale Estimation in SLAM for Desktop Environments,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
         links: []
       - cite: "Shuhei Ogawa, Kohei Okahara, **Daisuke Iwai** and Kosuke Sato, “A Reachable User Interface by the Graphically Extended Hand,” In Proceedings of IEEE Global Conference on Consumer Electronics (GCCE), pp. 215-216, 2012."
         links:
@@ -633,8 +630,6 @@ sections:
           - { icon: "🎖️", label: "Best Research Demonstration Runner-up (IEEE VR 2019)", url: "http://ieeevr.org/2019/awards/conference_awards.html" }
       - cite: "Yuichi Fujino, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Odor Modulation by Warming/Cooling Nose Based on Cross-modal Effect,” In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), pp. 929-930, 2019."
         links: []
-      - cite: "Takatoshi Sato, **Daisuke Iwai**, and Kosuke Sato, “Flexible FOV and Shadow Removal in Mobile Projection System Using Multiple Pan Projectors,” In Proceedings of International Display Workshops (IDW), pp. 1225-1227, 2018."
-        links: []
       - cite: "Naruki Tanabe, Yuki Asai, Ryuichi Enomoto, Haruka Matsukura, **Daisuke Iwai**, and Kosuke Sato, “Haptic Feedback to Non-Manipulating Hand in Manipulating Virtual Hand,” In Companion Proceedings of IEEE Haptics Symposium 2018, p. 125, 2018."
         links: []
       - cite: "Takumi Kawahara, **Daisuke Iwai**, and Kosuke Sato, “Dynamic Path Planning of Flying Projector Considering Collision Avoidance with Observer and Bright Projection,” In Proceedings of ACM International Conference on Intelligent User Interfaces (ACM IUI) Companion, pp. 62:1-62:2, 2018."
@@ -688,6 +683,11 @@ sections:
       - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Visualization of Viscoelastic Surfaces Deformation using Infrared Vision Technique,” In Proceeding of Thailand-Japan International Academic Conference, pp.172-173, 2013."
         links: []
       - cite: "Hsin-Ni Ho, **Daisuke Iwai**, Yuki Yoshikawa, Junji Watanabe, and Shin’ya Nishida, “Effects of color on perceived temperature,” Perception, Vol. 42 (supplement), p. 167, 2013. (Proceedings of European Conference on Visual Perception (ECVP2013))"
+        links: []
+      - cite: "Parinya Punpongsanon, **Daisuke Iwai**, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
+        links:
+          - { icon: "🏆", label: "Best Presentation Award (KJMR 2013)", url: "http://ypcex.naist.jp/kjmr2013/" }
+      - cite: "Takayuki Sasaki, Sei Ikeda, **Daisuke Iwai**, and Kosuke Sato, “Rough Scale Estimation in SLAM for Desktop Environments,” Korea-Japan Workshop on Mixed Reality (KJMR), 2013. (No publication)"
         links: []
       - cite: "Naoto Hino, **Daisuke Iwai** and Kosuke Sato, “Dynamic Reflectance Control of Photochromic Compounds for 3D High Dynamic Range Display,” CVPR 2012 Workshop for Computational Cameras and Displays, 2012."
         links: []
