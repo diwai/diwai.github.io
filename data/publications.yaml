@@ -14,6 +14,9 @@ sections:
     title_en: "Journal Articles and Letters"
     title_ja: "学術論文・レター"
     entries:
+      - cite: "Keita Ueno, Kazuyuki Niki, Hiroyuki Tanaka, Takeshi Okuda, **Daisuke Iwai**, Kosuke Sato, Yasuo Naito, Toshinori Ito, and Ryouhei Ishii, “Immediate anxiety-reducing effects of multisensory virtual reality reminiscence therapy in older adults with a wide range of cognitive functions: a pilot study using electrophysiological measures,” Frontiers in Aging Neuroscience, Volume 18, Article 1958403, 2026."
+        links:
+          - { icon: "📄", label: "Frontiers (open access)", url: "https://doi.org/10.3389/fnagi.2026.1958403" }
       - cite: "Takahiro Okamoto\\*, Masaki Takeuchi\\*, Masataka Sawayama, and **Daisuke Iwai**, “Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector,” IEEE Transactions on Visualization and Computer Graphics (Proceedings of 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)), Vol. 32, No. 5, pp. 3033-3043, 2026. (\\*equal contribution)"
         links:
           - { icon: "📄", label: "IEEE", url: "https://doi.org/10.1109/TVCG.2026.3679111" }
