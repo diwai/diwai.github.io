@@ -433,6 +433,8 @@ sections:
     title_ja: "基調講演・招待講演・チュートリアル"
     entries:
       - year: "2026"
+        ja: "招待講演, \"明所プロジェクションマッピングのための照明制御と光学技術,\" フォトニクス技術フォーラム 2026年度 第3回研究会「光学素子の進化」, 大阪科学技術センター, 2026年10月27日. [Link](https://photonics.ostec.or.jp/)"
+      - year: "2026"
         en: "**Keynote**, \"When Light Becomes Matter: Perceptual Material Transformation in Projection Mapping,\" Laser Display and Lighting Conference, LDC1-2, Pacifico Yokohama, 21 Apr. 2026. [Link](https://ldc.sakura.ne.jp/2026/)"
         ja: "**基調講演**, \"When Light Becomes Matter: Perceptual Material Transformation in Projection Mapping,\" Laser Display and Lighting Conference, LDC1-2, パシフィコ横浜, 2026年4月21日. [Link](https://ldc.sakura.ne.jp/2026/)"
       - year: "2026"
