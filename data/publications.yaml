@@ -367,9 +367,10 @@ sections:
     title_en: "Conference Papers"
     title_ja: "国際会議論文"
     entries:
-      - cite: "Yusuke Imoto, Takashi Amesaka, and **Daisuke Iwai**, “AeroPixels: Repurposing Ubiquitous Displays as Imperceptible Schlieren Light Sources for Airflow Interaction,” In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), pp. 1-12, 2026."
+      - cite: "Yusuke Imoto, Takashi Amesaka, and **Daisuke Iwai**, “AeroPixels: Repurposing Ubiquitous Displays as Imperceptible Schlieren Light Sources for Airflow Interaction,” In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), Article No. 90, pp. 1-12, 2026."
         links:
           - { icon: "📄", label: "ACM", url: "https://doi.org/10.1145/3830398.3830604" }
+          - { icon: "📺", label: "Teaser", url: "https://youtu.be/ceCwP54D7yg" }
       - cite: "Takumi Kawano, Kohei Miura, **Daisuke Iwai**, “Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras,” CVPR 2026 (oral)"
         links:
           - { icon: "📄", label: "Preprint", url: "https://arxiv.org/abs/2604.24024" }
